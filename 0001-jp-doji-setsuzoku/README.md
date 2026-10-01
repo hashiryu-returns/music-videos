@@ -9,17 +9,25 @@ His side of the year. One room, his home office: he writes for hundreds, streams
 
 ## YouTube
 
+Video language and metadata language are English. Japanese goes in Studio → Subtitles → Title & description, so viewers with a Japanese UI see the Japanese version.
+
 Title:
 
 ```text
-[21st Anniv][JP] 同時接続10人 [Suno][Midjourney][Seedance][Vidu]
+[21st Anniv][JP] 同時接続10人 (About Ten Online) [Suno][Midjourney][Seedance][Vidu]
 ```
 
 Description:
 
 ```text
-Concept
-The husband's side of their 21st year, as near-future anime set in one room: his home office. A self-deprecating portrait of a man who writes for hundreds and streams mahjong for ten, lets AI do the day job, and keeps busy while the family sleeps upstairs. The whole song leads to one decision on October 4th: not going live.
+The husband's side of their 21st year of marriage, as near-future anime set in one room: his home office. A self-deprecating portrait of a man who writes for hundreds and streams mahjong for ten, lets AI do the day job, and keeps busy while the family sleeps upstairs. The whole song leads to one decision on October 4th: not going live.
+
+Lyrics: turn on CC (Japanese, English)
+
+The set
+・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
+・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
+・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
@@ -34,6 +42,39 @@ I started this one by hand: a story plot, stills in Midjourney, a few clips in V
 So I moved to OiiOii and let Seedance 2.0 take the shots that needed several references at once. I wrote the storyboard slot by slot, set every timing myself, and generated 27 clips.
 
 After the French video I came back with more Vidu experience, replaced seven of those scenes with new Vidu Q2 clips, and re-cut the order in iMovie.
+```
+
+Japanese title:
+
+```text
+[結婚21周年][JP] 同時接続10人 [Suno][Midjourney][Seedance][Vidu]
+```
+
+Japanese description:
+
+```text
+夫から見た、結婚21年目の1年。舞台は近未来アニメ風の一室、自宅の仕事部屋だけ。何百人に向けて文章を書き、10人に向けて麻雀を配信し、本業はAIに任せ、家族が2階で寝ている間も手を止めない男の、自虐的な自画像。歌はすべて、10月4日のひとつの決断に向かっていく。今日は配信しない。
+
+歌詞：字幕（日本語・英語）をオンに
+
+3本のMV
+・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
+・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
+・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
+
+🛠️ 使用ツール・AIモデル
+・作詞・コンセプト：Claude Opus 5
+・曲：Suno v6 Pro
+・画像：Midjourney Niji 7
+・動画：Seedance 2.0（OiiOii、20シーン）、Vidu Q2（s7, s8, s12, s14, s20, s23, s24）
+・編集：iMovie 10.4.3
+
+📝 制作メモ
+最初は手作業で始めた。物語の筋を書き、Midjourneyで静止画を作り、Viduで何本か動かした。そこで壁に当たった。Midjourneyは参照画像1枚ならよく守るが、2枚になると崩れる。配信部屋の中にいる夫、夫と娘が同じ画面にいる場面は、どうしてもずれたり壊れたりした。
+
+そこでOiiOiiに移り、複数の参照が必要な場面はSeedance 2.0に任せた。絵コンテはスロットごとに自分で書き、タイミングもすべて手で決めて、27本のクリップを生成した。
+
+フランス語版を作ってViduに慣れてから戻り、そのうち7シーンをVidu Q2の新しいクリップに差し替えて、iMovieで順番を組み直した。
 ```
 
 ## Song

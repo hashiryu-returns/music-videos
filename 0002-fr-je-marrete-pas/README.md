@@ -10,17 +10,25 @@ Her side of the year, as an isekai-style adventure: a medieval French world of s
 
 ## YouTube
 
-Title, unchanged:
+Video language and metadata language are English. Japanese goes in Studio → Subtitles → Title & description.
+
+Title:
 
 ```text
-[21st Anniv][FR] Je m'arrête pas [Suno][Midjourney][Vidu][Seedance]
+[21st Anniv][FR] Je m'arrête pas (I Don't Stop) [Suno][Midjourney][Vidu][Seedance]
 ```
 
 Description:
 
 ```text
-Concept
-The wife's side of the same year, as an isekai-style adventure: a medieval French world of swords and magic that doesn't play by its own rules. She carries a katana, and modern buildings, cars and a bit of comedy break in. Underneath the action are her everyday struggles, and the grief of losing a dog she still hasn't gotten over. It ends on October 4th, when the evening is finally hers.
+The wife's side of their 21st year of marriage, as an isekai-style adventure: a medieval French world of swords and magic that doesn't play by its own rules. She carries a katana, and modern buildings, cars and a bit of comedy break in. Underneath the action are her everyday struggles, and the grief of losing a dog she still hasn't gotten over. It ends on October 4th, when the evening is finally hers.
+
+Lyrics: turn on CC (French, English, Japanese)
+
+The set
+・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
+・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
+・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
@@ -35,6 +43,39 @@ The French video started the same way as the Japanese one and hit the same wall.
 So I threw it out. I rewrote the lyrics and regenerated the song in Suno as fast electro J-rock: the first version was nu-disco for her love of Daft Punk, this one is for her love of anime openings. Then I rebuilt the story as a journey. The same characters keep coming back, but never in the same place twice, which kept almost every shot down to one referenced character. Midjourney V7 and Vidu can carry that: 31 of the 36 scenes are a Midjourney still animated in Vidu.
 
 Near the end I left the storyboard behind. The four scenes that needed more than one character or a fixed room went to Seedance 2.5 with several reference images each. Every cut is timed by hand in iMovie.
+```
+
+Japanese title:
+
+```text
+[結婚21周年][FR] Je m'arrête pas（止まんない）[Suno][Midjourney][Vidu][Seedance]
+```
+
+Japanese description:
+
+```text
+妻から見た、結婚21年目の1年。剣と魔法の中世フランス風の異世界が舞台だが、その世界は自分のルールを守らない。彼女は刀を持ち、現代のビルや車、ちょっとしたコメディが割り込んでくる。冒険活劇の下にあるのは、毎日の苦労と、まだ立ち直れていない愛犬を失った悲しみ。最後は10月4日、ようやく夜が彼女のものになる。
+
+歌詞：字幕（フランス語・英語・日本語）をオンに
+
+3本のMV
+・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
+・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
+・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
+
+🛠️ 使用ツール・AIモデル
+・作詞・コンセプト：Claude Opus 5
+・曲：Suno v6 Pro
+・画像：Midjourney V7（Omni Reference。キャラクターシートはNiji 7で作り始めた）
+・動画：Vidu Q2、Vidu Q3（s14）、Seedance 2.5（s27, s31, s32, s35）
+・編集：iMovie 10.4.3
+
+📝 制作メモ
+フランス語版も日本語版と同じように始まり、同じ壁に当たった。最初の絵コンテは一日じゅう彼女をキッチンに置いていたので、どのカットでも彼女とキッチンの両方を参照する必要があった。それはまさにMidjourneyの苦手なことだ。
+
+だから全部捨てた。歌詞を書き直し、Sunoで速いエレクトロJ-ROCKとして曲を作り直した。最初の版はダフト・パンク好きの彼女に向けたニューディスコで、今回はアニメのオープニング好きの彼女に向けたもの。そのうえで物語を旅に組み直した。同じキャラクターが何度も出てくるが、同じ場所には二度と出てこない。これでほぼすべてのカットが参照キャラクター1人で済み、Midjourney V7とViduで持ちこたえられた。36シーンのうち31シーンは、Midjourneyの静止画をViduで動かしたものだ。
+
+終盤では絵コンテを手放した。複数のキャラクターや決まった部屋が必要な4シーンは、参照画像を何枚も渡してSeedance 2.5に任せた。カットはすべてiMovieで手で合わせている。
 ```
 
 ## Song
@@ -201,16 +242,25 @@ Correction: the Pekingese dog color is Sable with a full black mask. The backgro
 Cinematic 8k, emotional animation style. Inside the ruined cathedral from the reference image, on a gentle summer night under cool blue moonlight and starry sky. A woman (wife) with a calm, reflective expression, gazing diagonally upward, lost in thought. She behaves naturally and humanly: she blinks naturally and moves subtly. When the loyal black dog slowly walks over, she notices it, looks down at the dog with a gentle smile and softly pets it. Beside her on the ground lies the small red Shisa lion pouch, and the dog curls up next to her, resting its head near the pouch. Soft warm night breeze, somber, emotional, touching moment, slow camera push-in, high quality.
 ```
 
-**s35.** The references are @图1 her back, @图2 her front / three-quarter, @图3 the panda, and @图4 the penthouse (still 35).
+**s35**
+
+Upload the references in this order, so `@image1`–`@image4` point at the right file:
+
+1. Her back, `characters/her-back.jpeg`
+2. Her front or three-quarter view. Which file shipped wasn't recorded.
+3. The panda, `characters/panda.png`
+4. The penthouse, `stills/35.png`
 
 ```text
-舞台は@图4（夜のパリのペントハウス室内。床から天井までのガラス窓の外にエッフェル塔とパリの夜景が広がり、室内は柔らかな暖色光、光沢のある石床）。全編この環境・光・床を基準とする。登場人物は、@图2（正面〜3/4アングルの女性武士）と@图1（女性の後ろ姿）を参照する女性キャラクター、および@图3（僧侶姿のジャイアントパンダ）を参照するパンダ。パンダの体型は女性より明らかに大きい。画風は参考画像に限りなく近い、硬朗で力強い線と平塗りによるレトロなコミック・挿絵調とし、アニメ調に寄せない。
+Setting: @image4, a Paris penthouse at night. Floor-to-ceiling windows look out on the Eiffel Tower and the city lights; inside, soft warm light and a glossy stone floor. Use this room, light and floor for the whole shot. Characters: one woman, referenced from @image2 (front / three-quarter) and @image1 (from behind), and one giant panda in monk's robes, referenced from @image3. The panda is clearly bigger than the woman. Match the reference style as closely as possible: a retro comic-illustration look with bold, hard linework and flat colour. Do not drift toward an anime look.
 
-0〜4秒：カメラは女性の正面〜3/4アングル。@图2の女性武士（黒髪を高く結い上げたまとめ髪、黒い和風武術服、背中に二本の刀、腰に赤と金色の帯）がカメラに向かって歩いてくる。片手で@图3のパンダの後ろ首をつかみ、床に座り込んだ姿勢のまま後ろへ引きずって進む。パンダは体を横向きにして進行方向へ横たわり、引きずられる。位置関係により、女性が正面のときはパンダの顔は自然に隠れて見えない。カメラはゆっくりと前進する。
+0–4 s: The camera faces the woman, front to three-quarter. The swordswoman from @image2 (black hair in a high updo, black Japanese martial-arts clothes, two swords on her back, a red and gold sash) walks toward the camera. With one hand she grips the panda from @image3 by the scruff and drags it backwards, still sitting on the floor. The panda lies sideways along the direction of travel as it is dragged. From this angle her body naturally hides the panda's face. The camera pushes in slowly.
 
-4〜7秒：カメラが徐々に180度回転し、女性の背後からの視点へ切り替わる。女性の後ろ姿は@图1（まとめ髪、背中の二本の刀、黒い服）に一致させる。このときパンダは目を閉じている。パンダの表情は一切変えず、閉じた目だけで諦め・降伏の感情を伝える。引きずられる動作はそのまま続く。
+4–7 s: The camera turns gradually through 180 degrees to a view from behind her. Her back matches @image1: the updo, the two swords, the black clothes. The panda now has its eyes closed. Its face does not change at all; the closed eyes alone show that it has given up. The dragging continues.
 
-7〜10秒：引きずりが続き、カメラは背後からの視点を保つ。床は終始清潔なまま。血痕のような跡やシミ、余計なエフェクト、追加の光・パーティクル・飛沫は一切描かない。
+7–10 s: The dragging continues and the camera stays behind her. The floor stays clean throughout: no streaks or stains that could read as blood, no extra effects, light, particles or splashes.
 
-安定性：キャラクターの顔・体型・服装・刀の位置を全編で一貫させ、四肢の破綻や穿模を避ける。地面は@图4の床と一致させ、いかなる痕跡も追加しない。パンダの表情は変えず目を閉じるのみ。全編を通して参考画像のレトロで硬朗な挿絵調の画風・キャラクター・光を一貫させ、画面を安定させ、無駄なエフェクトを加えない。
+Consistency: keep both characters' faces, builds, clothes and the position of the swords the same for the whole shot. No broken limbs and no clipping through bodies or clothes. The floor matches @image4 and gets no marks. The panda's expression never changes; only its eyes close. Keep the retro, hard-lined illustration style, the characters and the lighting from the references throughout, keep the frame stable, and add no unnecessary effects.
 ```
+
+The shipped clip was made from the Japanese version of this prompt, and OiiOii wrote the references as `@图1`–`@图4`.

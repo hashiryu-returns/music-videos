@@ -9,6 +9,8 @@ The parents' side of the year: two small kids who want hamburgers, dinosaurs and
 
 ## YouTube
 
+Video language and metadata language are English. Japanese goes in Studio → Subtitles → Title & description.
+
 Title:
 
 ```text
@@ -18,8 +20,14 @@ Title:
 Description:
 
 ```text
-Concept
-The parents' side of the same year. Two small kids who want hamburgers, dinosaurs and everything within reach, and two parents who keep losing, cheerfully. The only one of the three videos with no grief in it: just the noise, and 21 years of answering it.
+The parents' side of their 21st year of marriage. Two small kids who want hamburgers, dinosaurs and everything within reach, and two parents who keep losing, cheerfully. The only one of the three videos with no grief in it: just the noise, and 21 years of answering it.
+
+Lyrics: turn on CC (English, Japanese)
+
+The set
+・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
+・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
+・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
@@ -28,6 +36,33 @@ The parents' side of the same year. Two small kids who want hamburgers, dinosaur
 
 📝 Behind the Scenes
 This one was an experiment in full automation against the deadline. I made the song in Gemini Music AI, handed the audio file to OiiOii's full-auto mode, and it planned and rendered all 18 scenes with Seedance 2.5. No stills and no storyboard of my own, which puts it at the opposite end from the French video, where almost every shot started as a hand-made still.
+```
+
+Japanese title:
+
+```text
+[結婚21周年][EN] Hamburger Hamburger [Gemini][Seedance]
+```
+
+Japanese description:
+
+```text
+親から見た、結婚21年目の1年。ハンバーガーと恐竜と、手の届くものすべてを欲しがる小さな子供2人と、楽しそうに負け続ける親2人。3本のうち、悲しみがまったく入っていないのはこれだけ。あるのは騒がしさと、それに21年応え続けてきた2人だけだ。
+
+歌詞：字幕（英語・日本語）をオンに
+
+3本のMV
+・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
+・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
+・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
+
+🛠️ 使用ツール・AIモデル
+・作詞・コンセプト：Claude Opus 5
+・曲：Gemini Music AI
+・動画：Seedance 2.5（OiiOii 全自動モード）
+
+📝 制作メモ
+締め切りに追われて、全自動を試した1本。曲はGemini Music AIで作り、その音声ファイルをOiiOiiの全自動モードに渡すと、Seedance 2.5で18シーンすべてを設計して生成した。自分で作った静止画も絵コンテもない。ほぼすべてのカットを手作りの静止画から始めたフランス語版とは、正反対の作り方だ。
 ```
 
 ## Song
