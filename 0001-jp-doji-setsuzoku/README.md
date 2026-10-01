@@ -9,7 +9,11 @@ His side of the year. One room, his home office: he writes for hundreds, streams
 
 ## YouTube
 
-Video language and metadata language are English. Japanese goes in Studio → Subtitles → Title & description, so viewers with a Japanese UI see the Japanese version.
+Each video has one set of metadata in English (the default) and a Japanese translation of it. In YouTube Studio, set the video language and the title/description language to English, then add the Japanese under Subtitles → Add language → Japanese → Title & description. Viewers whose YouTube is in Japanese see the Japanese one; everyone else sees English.
+
+The `[JP]` / `[FR]` / `[EN]` tag in a title is the language the song is sung in, not the language of the metadata.
+
+### English (default)
 
 Title:
 
@@ -25,9 +29,9 @@ The husband's side of their 21st year of marriage, as near-future anime set in o
 Lyrics: turn on CC (Japanese, English)
 
 The set
-・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
-・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
+・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
+・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
@@ -44,13 +48,15 @@ So I moved to OiiOii and let Seedance 2.0 take the shots that needed several ref
 After the French video I came back with more Vidu experience, replaced seven of those scenes with new Vidu Q2 clips, and re-cut the order in iMovie.
 ```
 
-Japanese title:
+### Japanese (translation)
+
+Title:
 
 ```text
 [結婚21周年][JP] 同時接続10人 [Suno][Midjourney][Seedance][Vidu]
 ```
 
-Japanese description:
+Description:
 
 ```text
 夫から見た、結婚21年目の1年。舞台は近未来アニメ風の一室、自宅の仕事部屋だけ。何百人に向けて文章を書き、10人に向けて麻雀を配信し、本業はAIに任せ、家族が2階で寝ている間も手を止めない男の、自虐的な自画像。歌はすべて、10月4日のひとつの決断に向かっていく。今日は配信しない。
@@ -58,9 +64,9 @@ Japanese description:
 歌詞：字幕（日本語・英語）をオンに
 
 3本のMV
-・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
-・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
+・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
+・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
 
 🛠️ 使用ツール・AIモデル
 ・作詞・コンセプト：Claude Opus 5

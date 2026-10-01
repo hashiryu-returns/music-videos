@@ -10,7 +10,11 @@ Her side of the year, as an isekai-style adventure: a medieval French world of s
 
 ## YouTube
 
-Video language and metadata language are English. Japanese goes in Studio → Subtitles → Title & description.
+Each video has one set of metadata in English (the default) and a Japanese translation of it. In YouTube Studio, set the video language and the title/description language to English, then add the Japanese under Subtitles → Add language → Japanese → Title & description. Viewers whose YouTube is in Japanese see the Japanese one; everyone else sees English.
+
+The `[JP]` / `[FR]` / `[EN]` tag in a title is the language the song is sung in, not the language of the metadata.
+
+### English (default)
 
 Title:
 
@@ -26,9 +30,9 @@ The wife's side of their 21st year of marriage, as an isekai-style adventure: a 
 Lyrics: turn on CC (French, English, Japanese)
 
 The set
-・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
-・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
+・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
+・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
@@ -45,13 +49,15 @@ So I threw it out. I rewrote the lyrics and regenerated the song in Suno as fast
 Near the end I left the storyboard behind. The four scenes that needed more than one character or a fixed room went to Seedance 2.5 with several reference images each. Every cut is timed by hand in iMovie.
 ```
 
-Japanese title:
+### Japanese (translation)
+
+Title:
 
 ```text
 [結婚21周年][FR] Je m'arrête pas（止まんない）[Suno][Midjourney][Vidu][Seedance]
 ```
 
-Japanese description:
+Description:
 
 ```text
 妻から見た、結婚21年目の1年。剣と魔法の中世フランス風の異世界が舞台だが、その世界は自分のルールを守らない。彼女は刀を持ち、現代のビルや車、ちょっとしたコメディが割り込んでくる。冒険活劇の下にあるのは、毎日の苦労と、まだ立ち直れていない愛犬を失った悲しみ。最後は10月4日、ようやく夜が彼女のものになる。
@@ -59,9 +65,9 @@ Japanese description:
 歌詞：字幕（フランス語・英語・日本語）をオンに
 
 3本のMV
-・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
-・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
+・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
+・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
 
 🛠️ 使用ツール・AIモデル
 ・作詞・コンセプト：Claude Opus 5

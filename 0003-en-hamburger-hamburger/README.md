@@ -9,7 +9,11 @@ The parents' side of the year: two small kids who want hamburgers, dinosaurs and
 
 ## YouTube
 
-Video language and metadata language are English. Japanese goes in Studio → Subtitles → Title & description.
+Each video has one set of metadata in English (the default) and a Japanese translation of it. In YouTube Studio, set the video language and the title/description language to English, then add the Japanese under Subtitles → Add language → Japanese → Title & description. Viewers whose YouTube is in Japanese see the Japanese one; everyone else sees English.
+
+The `[JP]` / `[FR]` / `[EN]` tag in a title is the language the song is sung in, not the language of the metadata.
+
+### English (default)
 
 Title:
 
@@ -25,9 +29,9 @@ The parents' side of their 21st year of marriage. Two small kids who want hambur
 Lyrics: turn on CC (English, Japanese)
 
 The set
-・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
-・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
+・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
+・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
@@ -38,13 +42,15 @@ The set
 This one was an experiment in full automation against the deadline. I made the song in Gemini Music AI, handed the audio file to OiiOii's full-auto mode, and it planned and rendered all 18 scenes with Seedance 2.5. No stills and no storyboard of my own, which puts it at the opposite end from the French video, where almost every shot started as a hand-made still.
 ```
 
-Japanese title:
+### Japanese (translation)
+
+Title:
 
 ```text
 [結婚21周年][EN] Hamburger Hamburger [Gemini][Seedance]
 ```
 
-Japanese description:
+Description:
 
 ```text
 親から見た、結婚21年目の1年。ハンバーガーと恐竜と、手の届くものすべてを欲しがる小さな子供2人と、楽しそうに負け続ける親2人。3本のうち、悲しみがまったく入っていないのはこれだけ。あるのは騒がしさと、それに21年応え続けてきた2人だけだ。
@@ -52,9 +58,9 @@ Japanese description:
 歌詞：字幕（英語・日本語）をオンに
 
 3本のMV
-・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
-・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
+・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
+・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
 
 🛠️ 使用ツール・AIモデル
 ・作詞・コンセプト：Claude Opus 5
