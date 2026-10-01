@@ -54,7 +54,7 @@ Near the end I left the storyboard behind. The four scenes that needed more than
 Title:
 
 ```text
-[結婚21周年][FR] Je m'arrête pas（止まんない）[Suno][Midjourney][Vidu][Seedance]
+[結婚21周年][FR] Je m'arrête pas（あたし、止まんないから）[Suno][Midjourney][Vidu][Seedance]
 ```
 
 Description:
