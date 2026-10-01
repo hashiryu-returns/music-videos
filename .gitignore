@@ -1,0 +1,18 @@
+.DS_Store
+
+# Video and audio stay local.
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.flac
+
+# External style references and anything private.
+references/
+
+.env
+.env.*

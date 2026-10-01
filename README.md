@@ -1,0 +1,37 @@
+# music-videos
+
+Original music videos. One numbered folder per song, in one language. A later song is the next number, whether it is Japanese, English, or French.
+
+Shared notes on the tools live in [`DESIGN.md`](DESIGN.md).
+
+## Songs
+
+| # | Folder | Title | YouTube |
+| --- | --- | --- | --- |
+| 0001 | [`0001-jp-doji-setsuzoku`](0001-jp-doji-setsuzoku/README.md) | 同時接続10人 | [watch](https://www.youtube.com/watch?v=-LidPJsmBTc) |
+| 0002 | [`0002-fr-je-marrete-pas`](0002-fr-je-marrete-pas/README.md) | Je m'arrête pas | [watch](https://www.youtube.com/watch?v=472scJ16qbg) |
+| 0003 | [`0003-en-hamburger-hamburger`](0003-en-hamburger-hamburger/README.md) | Hamburger Hamburger | [watch](https://www.youtube.com/watch?v=S67cE91-6NI) |
+
+0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. Later songs do not have to belong to a set.
+
+## A song folder
+
+```text
+NNNN-lang-slug/
+├── README.md      title, tools, lyrics, how the picture was made
+├── prompts.md     only if the song was built shot by shot
+├── captions/      sung lyric plus translations, as <lang>.vtt
+├── characters/    plates
+├── stills/
+├── objects/       reference photos of things, never of people
+├── clips/         per-scene video, not committed
+├── audio/         the song and song-only previews, not committed
+├── references/    external or private references, not committed
+└── exports/
+    ├── final/     finished MV and thumbnail
+    └── drafts/
+```
+
+Copy the pieces the song actually has. Video and audio stay out of git. Drawings, stills, object photos, captions, and the thumbnail do not.
+
+Real photos of people do not go in this repo.
