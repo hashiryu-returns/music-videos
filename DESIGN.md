@@ -32,7 +32,10 @@ JP and FR both started as Midjourney → Vidu and both hit the same wall: the hu
 - **A reference reproduces its own crop.** A head-and-shoulders plate pulls every still to head-and-shoulders. A full-body plate keeps the subject at full frame height no matter what the text says. Match the plate's framing to the shot: FR has separate full, back and face plates for this reason.
 - **Geometry beats framing words.** `medium wide` and `a third of frame height` lose to the plate. `the entire two-storey house in frame from the cobbles to the roofline` wins, because the building has to fit.
 - **Midjourney frames to fit every object you name.** Five nouns make a wide shot whatever else the prompt says. To get a tight shot, name one subject and let everything else go out of focus.
+- **Two style references average into neither.** In 0006 a face sheet and a landscape sheet together gave a flat, generic Niji face; the face sheet alone gave its lashes, lips and gaze back. Use one sheet per shot, chosen by what the shot is.
 - **A style reference imports its camera along with its ink.** A close-cropped `--sref` crops close. Lowering `--sw` to fix that drains the ink too.
+- **A face looking up is a face seen from below.** `low angle, looking up at the sky` gave the 0006 soldier a jaw-and-nostrils view in every roll, and `eyes raised` still tilted the head back. `eye level, looking just past the camera` gave the face back. Let Vidu do the looking up.
+- **A distant landscape has no surface for the ink.** An aerial valley came back as flat clip-art green whatever the sheet. Huge cracked stone blocks in the foreground, with the valley behind, carried sheet B's ink.
 
 **What it can't do**
 
@@ -43,7 +46,11 @@ JP and FR both started as Midjourney → Vidu and both hit the same wall: the hu
 **Writing the prompt**
 
 - **Midjourney reads nouns, not negations.** `no face` puts a face in the picture. An absence phrase like `nobody in the street` deletes every figure. Say where things are, never where they aren't.
+- **A shared style block must name no subject.** Every noun in it gets drawn. `detailed eyes, defined lips` in the 0006 block put giant eyes and faces into the rock of every landscape, and `hatching on rock, walls` turned every scene into white cliffs. Subject detail goes into the shots that have that subject.
+- **Colour words in the shared block beat the scene's light.** `vivid saturated colours` in the 0006 block plus a bright sheet B turned `dim grey light` under storm clouds into sunlit lime fields. Dark scenes swap the phrase for `muted dark colours` and add `blue sky, sun, sunlight` to `--no`. Don't name the sun at all: `the sun a faint pale disc` drew a blazing one.
 - **Keep `--no` short.** About eighty exclusions flattened the image and wiped out variety. A long `--no` also suppresses the whole category, not just one instance.
+- **Niji paints backgrounds unless told to ink them.** The 0006 sheets came back with inked figures on soft, outline-free painted rock. Naming the technique in the block (`inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime`) together with `painted background` in `--no` gave inked backgrounds. `pen hatching` in `--no` had been banning the ink texture the targets have; ban `crosshatching` instead. Walls and stacked blocks hold the ink better than a cliff face, which Niji draws as painted background art.
+- **Wide 16:9 rolls letterbox.** Most Niji 7 wide shots of the 0006 B sheet came back with black bars top and bottom. `letterbox, black bars` in `--no` cleared them. A sheet with bars passes them on through `--sref`.
 - **The moderator reads `--no` word by word.** `head only` and `paws out of frame` on a dog read as dismemberment and got the prompt blocked. The dog plates carry no `--no` at all.
 - **Never put a body part in `--no`.** `--no shaved head` killed the undercut. Ban the wrong silhouette instead.
 - **A verb is not a pose.** `running` comes back standing. Name which foot is off the ground. On short-legged animals, though, a lifted paw buys a longer leg. Ask for the silhouette and let Vidu add the motion.
@@ -64,7 +71,9 @@ JP and FR both started as Midjourney → Vidu and both hit the same wall: the hu
 - **Multi-image is for state changes on the same camera.** A→B for a robe tearing into a demon, or a carriage arriving. Two views of one room are two clips and a hard cut. Never morph across two identities.
 - **A still can hide an anatomy error that motion exposes.** A Pekingese that looked right standing walked like a terrier. Check proportions before animating, and hide the hard part (a coat down to the ground).
 - **Let it improvise where nothing specific has to land.** Asked to move a sash, it moved the sash, the arm and the blade, and the take was better for it.
-- **Settings:** Q2, 1080p, Cinematic, one take at a time. Default 4s, trimmed in the editor.
+- **A hand raised near the face lands in the hair.** 0006 #3's `shields her eyes with one gauntleted hand` came back touching her hair. Give the action to the head and eyes, and add `Her hands stay down`.
+- **Settings:** Q2, 1080p, Cinematic, one take at a time. Up to 5s is one price and 6–8s costs double, so generate 5s for anything that uses 5.0s or less, and never pay for 6s to use 5.2s. Move the cut instead.
+- **Q2 over Q3.** Q3 allows longer clips but came out worse in testing. Use it only as a second try on a shot Q2 keeps getting wrong.
 
 ## Seedance and OiiOii
 
