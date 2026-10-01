@@ -11,8 +11,11 @@ Shared notes on the tools live in [`DESIGN.md`](DESIGN.md).
 | 0001 | [`0001-jp-doji-setsuzoku`](0001-jp-doji-setsuzoku/README.md) | 同時接続10人 | [watch](https://www.youtube.com/watch?v=-LidPJsmBTc) |
 | 0002 | [`0002-fr-je-marrete-pas`](0002-fr-je-marrete-pas/README.md) | Je m'arrête pas | [watch](https://www.youtube.com/watch?v=472scJ16qbg) |
 | 0003 | [`0003-en-hamburger-hamburger`](0003-en-hamburger-hamburger/README.md) | Hamburger Hamburger | [watch](https://www.youtube.com/watch?v=S67cE91-6NI) |
+| 0004 | [`0004-en-half-of-everything`](0004-en-half-of-everything/README.md) | Half of Everything (working title) | — |
+| 0005 | [`0005-en-bring-the-morning-home`](0005-en-bring-the-morning-home/README.md) | Bring the Morning Home (working title) | — |
+| 0006 | [`0006-en-not-alone`](0006-en-not-alone/README.md) | Not Alone (working title) | — |
 
-0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. Later songs do not have to belong to a set.
+0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. 0004–0006 are three songs from one story, the first Dragon Quest, each with its own sound. Later songs do not have to belong to a set.
 
 ## A song folder
 
