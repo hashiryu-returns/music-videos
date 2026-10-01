@@ -262,5 +262,3 @@ Setting: @image4, a Paris penthouse at night. Floor-to-ceiling windows look out 
 
 Consistency: keep both characters' faces, builds, clothes and the position of the swords the same for the whole shot. No broken limbs and no clipping through bodies or clothes. The floor matches @image4 and gets no marks. The panda's expression never changes; only its eyes close. Keep the retro, hard-lined illustration style, the characters and the lighting from the references throughout, keep the frame stable, and add no unnecessary effects.
 ```
-
-The shipped clip was made from the Japanese version of this prompt, and OiiOii wrote the references as `@图1`–`@图4`.

@@ -74,7 +74,7 @@ JP and FR both started as Midjourney → Vidu and both hit the same wall: the hu
 - **The storyboard card text must match the video prompt.** If you only update the generation box, the old card text still drives the shot.
 - **Don't write `0–4s / 4–7s` segments on a still scene.** Empty holds get filled with extra angles. On a scene that really moves, timed segments work: FR #35 used three.
 - **What worked on the FR finale (Seedance 2.5):**
-  - Assign each reference image one role, for example `@图4` as the room, `@图2` and `@图1` as her front and back, `@图3` as the panda.
+  - Assign each reference image one role, for example `@image4` as the room, `@image2` and `@image1` as her front and back, `@image3` as the panda.
   - State size relations explicitly.
   - Pin the style to the references and say which style not to drift into ("retro comic, not anime").
   - Close with a stability paragraph: faces, outfits and prop positions consistent, no extra particles, no marks on the floor.
