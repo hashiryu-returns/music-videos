@@ -2,7 +2,7 @@
 
 The quiet side of the same journey. Someone who kept a light for a lifetime and can finally rest, someone carried home, a crown left on the stair, and a second set of footsteps at the gate. Grand and a little sad, then forward. Not a love song.
 
-- **Status:** song rendered (style v2), 3:22. MV in production: style sheets and stills #1–#3 picked
+- **Status:** song rendered (style v2), 3:22. MV in production: style sheets and stills #1–#6 picked
 - **Song:** `audio/song.wav`, 202.4s
 - **Captions:** `captions/en.vtt` (lyrics)
 - **Prompts:** style sheet, every still and every motion line in [`prompts.md`](prompts.md)
@@ -39,8 +39,8 @@ The picture follows the adventure, not the lyric: a darkened world, a light hand
 | | 1:01.5 | 13 | Mage with a lantern staff in the misty forest | 6.0 |
 | Interlude 1 | 1:07.5 | 14 | Bard plays the flute | 4.5 |
 | | 1:12.0 | 15 | The stone golem kneels and sleeps | 7.0 |
-| | 1:19.0 | 16 | Spear warrior crossing the sand-buried town | 7.0 |
-| | 1:26.0 | 17 | Hands pull the old armour from the tree roots | 4.0 |
+| | 1:19.0 | 16 | Ranger walks into the ruins of a fallen town | 7.0 |
+| | 1:26.0 | 17 | Black axe knight guarding the ancient armour | 4.0 |
 | | 1:30.0 | 18 | Knight in the ancient armour, low angle | 3.7 |
 | Verse 3 | 1:33.7 | 19 | Elf bard plays the silver harp | 5.0 |
 | | 1:38.7 | 20 | Old sage calls down the rain | 6.2 |

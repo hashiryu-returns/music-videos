@@ -33,7 +33,7 @@ modern anime illustration, clean digital line art, thin precise black outlines, 
 
 ### Scene stills
 
-One style sheet per scene, never both. Sheet A goes on every scene with a person big enough to see how they're drawn, front or back, whatever the shot size. Sheet B is only for landscapes, objects, hands, silhouettes and people too small to make out. B has no character in it, so a person rolled on B comes out in Niji's default flat style. Drag only that sheet into Style Reference. Paste the prompt as is; it already ends in `--sw 250`. Check `sw 250` shows under the result.
+One style sheet per scene, never both. Sheet A goes on every scene with a person or a monster in it, however small: front, back, silhouette, hands, a tiny figure. Sheet B is only for scenes with nobody in them. B has no character in it, so anything alive rolled on B comes out in Niji's default flat style. Drag only that sheet into Style Reference. Paste the prompt as is; it already ends in `--sw 250`. Check `sw 250` shows under the result.
 
 Sheet A cropped too tight, or a wide A scene pulled into a close-up: change to `--sw 200`.
 
@@ -141,7 +141,7 @@ Reject: chest or lid changes shape; a cut to another shot, the style turning 3D.
 
 **#5** · 0:23.7–0:28.4 · use 4.7s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, extreme close-up, two young open hands in fingerless leather gloves cupped together, holding a small glowing orb of white gold light, tiny sparks in the air, soft dark background --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
@@ -166,7 +166,7 @@ Reject: orb vanishes or splits; a cut to another shot, the style turning 3D.
 Midjourney · sheet A
 
 ```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, low angle medium wide shot inside a dark cave, a woman paladin with a long black braid in white and gold armour holding up a burning torch, facing a huge ancient stone tablet carved with glowing runes, torchlight on wet rock walls, realistic anime face, smooth clean skin, strong eyebrows, sharp eyes with a heavy black upper lash line --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+low angle medium wide shot inside a dark cave, shot from behind over the shoulder of a woman paladin, three-quarter back view, turned away from camera, looking at a massive ancient stone tablet in sharp focus, holding up a burning torch, glowing carved runes on the tablet, torchlight on wet rock walls, modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, vivid saturated colours, inked backgrounds, fine ink detail of cracks, neutral grey shadows, crisp high resolution --no front view, facing viewer, facing camera, looking at viewer, chibi, crosshatching, painted background, letterbox, black bars, sepia, 3d render, text, watermark --sw 250
 ```
 
 Accept: paladin with a torch facing a carved glowing tablet in a dark cave.
@@ -187,10 +187,10 @@ Reject: a second torch appears; a cut to another shot, the style turning 3D.
 
 **#7** · 0:33.1–0:38.1 · use 5.0s · dragon 1 of 4, emerald
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, wide shot inside a vast cavern lair, an emerald green dragon with a long serpentine body coiled around stone pillars, golden eyes glowing in the dark, smoke curling from its nostrils, piles of rubble, green and amber light --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+a magnificent serpentine emerald green dragon coiled tightly around ancient, moss-covered stone pillars deep inside a vast, shadowy cavern lair. wide angle shot, cinematic anime illustration style, thin precise black outlines on every edge, clean digital line art. flat cel shading with soft neutral grey shadows. fine inked details of cracks, chips, and speckled grime on the rock. dramatic, dim atmosphere: golden eyes glowing intensely in the dark, white smoke curling from its nostrils. the environment is defined by low-key, green and amber lighting filtering through the shadows. piles of detailed rubble and treasure on the floor. no chibi, no crosshatching, no painted background, no letterbox, no black bars, no sepia, no 3d render, no text, no watermark, realistic adult proportions, natural full color, vivid saturated colors. --sw 250
 ```
 
 Accept: one green serpent dragon coiled in a dark lair.
@@ -253,7 +253,7 @@ Reject: she floats instead of standing; a cut to another shot, the style turning
 
 **#10** · 0:46.0–0:49.4 · use 3.4s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, wide shot from behind, a princess with long golden hair in a pale lilac gown walking down a red carpet through a grand castle hall, small in the frame, tall stained glass windows, warm lamplight, rows of banners, an empty throne at the far end --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
@@ -277,7 +277,7 @@ Reject: she turns around; a cut to another shot, the style turning 3D.
 
 **#11** · 0:49.4–0:56.5 · use 7.1s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, extreme wide aerial view, three tiny adventurers walking along a high grassy ridge at sunrise, a sea of clouds below, a winding river valley and distant snow mountains, long shadows, golden light --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
@@ -324,12 +324,12 @@ Reject: bow bends. A clip that only draws is fine; a cut to another shot, the st
 Midjourney · sheet A
 
 ```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, low angle wide shot, a young man mage in a deep purple hooded robe walking through an ancient misty forest, holding a tall staff with a glowing lantern at its tip, giant mossy roots, glowing blue mushrooms, shafts of light through the canopy, realistic anime face, smooth clean skin, strong eyebrows, sharp eyes with a heavy black upper lash line --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, low angle wide shot from a distance, a young man mage in a deep purple hooded robe walking through an ancient misty forest, his whole body from hood to boots and the full length of his tall staff in frame, a glowing lantern at the staff's tip, giant mossy roots arching three times his height around him, glowing blue mushrooms on the ground, shafts of light through the canopy --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 200
 ```
 
-Accept: robed mage with a lantern staff in a misty forest.
+Accept: robed mage, whole body and staff in frame, small under giant roots.
 
-Reject: lantern not lit; black bars, painted background.
+Reject: face close-up; lantern not lit; black bars, painted background.
 
 Vidu · 6s
 
@@ -348,12 +348,12 @@ Reject: staff bends; a cut to another shot, the style turning 3D.
 Midjourney · sheet A
 
 ```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, close-up, a young woman bard with short lavender hair and a ribbon headband playing a slender silver flute, eyes closed, flower petals in the wind, warm dusk light, town walls soft in the background, realistic anime face, sharp eyes with a heavy black upper lash line --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, medium shot from the waist up, a young woman bard with short lavender hair and a ribbon headband playing a slender silver flute held sideways, both arms and the whole length of the flute in frame, eyes closed, flower petals in the wind, warm dusk light, a stretch of town wall and sky beside her, realistic anime face, sharp eyes with a heavy black upper lash line --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
 ```
 
-Accept: bard playing a flute, eyes closed, petals in the air.
+Accept: bard from the waist up, the whole flute in frame, eyes closed, petals in the air.
 
-Reject: flute held like a recorder; black bars, painted background.
+Reject: face filling the frame; flute held like a recorder; black bars, painted background.
 
 Vidu · 5s
 
@@ -367,15 +367,15 @@ Reject: flute bends or melts into her fingers; a cut to another shot, the style 
 
 **#15** · 1:12.0–1:19.0 · use 7.0s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, wide shot, low angle, a colossal moss covered stone golem standing guard in front of the gate of a walled town at dusk, glowing amber eyes, arms hanging at its sides, vines across its shoulders, a tiny cloaked figure at its feet for scale, orange sky --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, wide shot, low angle, a colossal moss covered stone golem standing guard in front of a long unbroken stone town wall at dusk, rooftops, chimneys and towers of the town rising behind the wall, glowing amber eyes, arms hanging at its sides, vines across its shoulders, a tiny cloaked figure at its feet for scale, orange sky --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, gate, portcullis, door --sw 250
 ```
 
-Accept: huge standing mossy golem at a town gate, tiny figure at its feet.
+Accept: huge standing mossy golem in front of the town wall, rooftops behind, tiny figure at its feet.
 
-Reject: golem already kneeling; no small figure for scale; black bars, painted background.
+Reject: a gate or door behind it; golem already kneeling; no small figure for scale; black bars, painted background.
 
 Vidu · 7s
 
@@ -389,54 +389,54 @@ Reject: golem stands up or walks; a cut to another shot, the style turning 3D.
 
 **#16** · 1:19.0–1:26.0 · use 7.0s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, extreme wide shot, a ruined desert town of broken towers half buried in sand, a lone woman warrior with a long spear and a hooded sand coloured cloak walking through the ruins, small in the frame, wind blowing sand across, hot hazy sky --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, wide shot, eye level, three quarter front view, a young woman ranger with a short auburn ponytail, a green hooded cloak and a short sword at her hip walking down a cracked stone street through the overgrown ruins of a fallen town, her whole body from head to boots in frame, broken houses with collapsed roofs on both sides, vines and tall grass growing over the walls, a shallow violet swamp pooling across one side of the street, pale grey afternoon sky --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
 ```
 
-Accept: small warrior with a spear walking through sand-buried ruins.
+Accept: ranger walking toward camera down a ruined street, whole body in frame, violet swamp to one side.
 
-Reject: she fills the frame; black bars, painted background.
+Reject: she fills the frame; more than one figure; the street turned into a river; black bars, painted background.
 
 Vidu · 7s
 
 ```text
-Sand blows across the ruins as she walks forward, her cloak streaming.
+She walks forward down the ruined street, her cloak swaying, and the vines stir in the wind.
 ```
 
-Accept: sand blows and she walks.
+Accept: she walks and the vines move.
 
-Reject: spear bends; a cut to another shot, the style turning 3D.
+Reject: she walks backward or turns away; legs tangle; a cut to another shot, the style turning 3D.
 
 **#17** · 1:26.0–1:30.0 · use 4.0s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, extreme close-up at the roots of a huge dead tree, two gauntleted hands pulling an ancient engraved silver breastplate up out of the dry earth, dust and soil falling away, a faint blue gleam on the metal --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, low angle medium wide shot, a hulking knight in black spiked armour with a glowing red eye slit in its helmet raising a huge double bladed battle axe over its head with both hands, its whole body from helmet to boots in frame, standing in front of a stone altar in the overgrown ruins of a fallen town, an ancient engraved blue and silver suit of armour resting on the altar behind it, broken walls and vines, pale grey afternoon sky --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
 ```
 
-Accept: gauntleted hands pulling an engraved breastplate out of the earth.
+Accept: black axe knight raising its axe, the blue armour on the altar behind it.
 
-Reject: a whole person visible; black bars, painted background.
+Reject: the blue armour worn by someone; two axes or two knights; black bars, painted background.
 
 Vidu · 5s
 
 ```text
-The hands lift the breastplate free and soil pours off it.
+The black knight swings the huge axe down toward the camera and dust bursts up from the ground.
 ```
 
-Accept: the breastplate comes free.
+Accept: the axe comes down and dust bursts up.
 
-Reject: breastplate changes shape; a cut to another shot, the style turning 3D.
+Reject: the axe bends or splits; the knight walks away; a cut to another shot, the style turning 3D.
 
 **#18** · 1:30.0–1:33.7 · use 3.7s
 
 Midjourney · sheet A
 
 ```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, heroic low angle full body shot, a woman knight with a high black ponytail in ancient blue and silver armour with an engraved breastplate and a long blue cape, standing in desert ruins, one hand on her sword hilt, the sun behind her, realistic anime face, smooth clean skin, strong eyebrows, sharp eyes with a heavy black upper lash line --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, heroic low angle full body shot, a woman knight with a high black ponytail in ancient blue and silver armour with an engraved breastplate and a long blue cape, standing in the overgrown ruins of a fallen town, one hand on her sword hilt, the sun behind her, realistic anime face, smooth clean skin, strong eyebrows, sharp eyes with a heavy black upper lash line --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
 ```
 
 Accept: full-body knight from a low angle, cape, sun behind.
@@ -569,7 +569,7 @@ Reject: bridge bends or wobbles; a cut to another shot, the style turning 3D.
 
 **#24** · 2:02.8–2:08.8 · use 6.0s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, high angle wide shot from behind, two small figures, a woman knight in silver armour and a man monk in orange robes, walking across a glowing rainbow bridge toward a black castle on an island, dark sea far below, clouds drifting --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
@@ -593,7 +593,7 @@ Reject: a third figure appears; a cut to another shot, the style turning 3D.
 
 **#25** · 2:08.8–2:14.8 · use 6.0s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, high angle shot looking down a vast spiral stone staircase descending into darkness inside a black castle, torches on the walls, a lone woman rogue with a short silver bob and a dark hood descending the stairs, small in the frame --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
@@ -615,7 +615,7 @@ Reject: stairs rotate; a cut to another shot, the style turning 3D.
 
 **#26** · 2:14.8–2:19.3 · use 4.5s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, close-up, an armoured hand pushing open a giant black door carved with dragons, a thin line of violet light spilling through the gap, dust in the air --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
@@ -685,7 +685,7 @@ Reject: sword bends or doubles; a cut to another shot, the style turning 3D.
 
 **#29** · 2:33.2–2:38.8 · use 5.6s · dragon 2 of 4, crimson
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, extreme wide low angle shot, a colossal crimson and black dragon with four horns rising through the collapsing roof of a dark throne room, wings spreading, stone falling, violet fire below, night sky above --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
@@ -709,7 +709,7 @@ Reject: wings multiply; a cut to another shot, the style turning 3D.
 
 **#30** · 2:38.8–2:43.8 · use 5.0s · dragon 3 of 4, white and gold
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, low angle wide shot, a woman knight with long white hair and a greatsword standing small in a ruined starlit hall, facing a towering white and gold dragon rearing up over her, broken columns --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
@@ -777,7 +777,7 @@ Reject: white light covers most of the clip; a cut to another shot, the style tu
 
 **#33** · 2:56.0–3:02.0 · use 6.0s
 
-Midjourney · sheet B
+Midjourney · sheet A
 
 ```text
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, wide shot, the silhouette of a young woman cleric on top of a castle tower raising both arms to the sky, a sphere of light floating above her hands, the first dawn breaking on the horizon, clouds opening --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
