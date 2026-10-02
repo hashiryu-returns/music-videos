@@ -26,7 +26,7 @@ Title:
 Description:
 
 ```text
-The quiet side of the first Dragon Quest. Someone who kept a light for a lifetime and can finally rest, someone carried home, a crown left on the stair, and a second set of footsteps at the gate. An original song inspired by the story, with no names from the game in the lyric.
+An original song inspired by the first Dragon Quest, told from its quiet side. A keeper who guarded a small light for a lifetime and can finally rest. Someone carried home through the dark. A kingdom offered and turned down, a crown left on the stair, and a second set of footsteps at the gate. The lyric uses no names or game terms.
 
 Lyrics: turn on CC (English)
 
@@ -38,7 +38,9 @@ Lyrics: turn on CC (English)
 ・Edit: iMovie
 
 📝 Behind the Scenes
-The opposite experiment to my 21st-anniversary videos. Those took 100 hours, most of it spent keeping the same family looking the same from shot to shot. Here nobody appears twice: 36 stills with a different cast in every shot and four different dragons, each still animated once in Vidu and cut to the song. It took three days.
+Made in three days with one rule: nobody appears twice. Every shot has its own cast, so the hero is a different person each time, and the four dragons are four different dragons. The 36 stills were drawn in Midjourney, animated in Vidu one clip per still, and cut to the song in iMovie with dissolves, fades and Ken Burns moves.
+
+Making-of (Japanese): https://note.com/hashiryu_returns/n/n547364c342fc
 ```
 
 ### Japanese (translation)
@@ -52,7 +54,7 @@ Title:
 Description:
 
 ```text
-初代ドラゴンクエストの、静かな側の物語。一生をかけて灯を守り、ようやく休める者。抱えて連れ帰られた者。階段に置き去りにされた王冠。そして門のところで聞こえる、もう一組の足音。物語から着想したオリジナル曲で、歌詞にゲームの固有名詞は出てこない。
+初代ドラゴンクエストに着想を得たオリジナル曲。冒険の静かな側を歌っている。一生をかけて小さな灯を守り、ようやく休める者。闇の中を抱えて連れ帰られた者。差し出された王国を断り、階段に置いていった王冠。そして門のところで聞こえる、もう一組の足音。歌詞にゲームの固有名詞や用語は出てこない。
 
 歌詞：字幕（英語）をオンに
 
@@ -64,7 +66,9 @@ Description:
 ・編集：iMovie
 
 📝 制作メモ
-結婚21周年のMVとは逆の実験。あちらは100時間かかり、その大半は同じ家族をカットをまたいで同じ顔に保つ作業だった。今回は誰も二度出てこない。36枚の静止画は場面ごとに別の人物で、竜も4頭すべて別の竜。1枚ずつViduで動かし、曲に合わせてつないだ。かかったのは3日だった。
+3日で作った。決めごとは一つだけで、同じ人物を二度出さないこと。カットごとに別の人物を出しているので、勇者も出てくるたびに別人で、4頭の竜もすべて別の竜だ。36枚の静止画をMidjourneyで描き、1枚ずつViduで動かして、iMovieでディゾルブやフェード、Ken Burnsを使いながら曲に合わせてつないだ。
+
+制作記（日本語）：https://note.com/hashiryu_returns/n/n547364c342fc
 ```
 
 ## Picture
