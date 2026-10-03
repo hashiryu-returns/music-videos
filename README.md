@@ -17,6 +17,31 @@ Shared notes on the tools live in [`DESIGN.md`](DESIGN.md).
 
 0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. 0004–0006 are three songs from one story, the first Dragon Quest, each with its own sound. Later songs do not have to belong to a set.
 
+## YouTube metadata
+
+Every video uses the same format. Each song README has the text to paste.
+
+**Title:** `[AI MV][<sung language>] <title as sung> (<English title, if not English>) [<tool>][<tool>]…`
+
+- `[AI MV]` and the language tag lead. The language is the one the song is sung in: `JP`, `FR`, `EN`.
+- The tools go last. Search cuts a title at about 60 characters, so the tools are the part that gets cut off.
+- Anniversary, tribute and every other piece of context goes in the description, not the title.
+- The Japanese translation keeps the same title and swaps only the English title for a Japanese one, if it has one.
+
+**Description**, in this order:
+
+1. What it is and why it exists, in two to four sentences. The first line shows above "more" and in search, so it has to stand on its own.
+2. `Lyrics: turn on CC (…)`.
+3. Related videos.
+4. Tools and models.
+5. Behind the scenes: what was hard and what was done about it, with the time it took.
+6. The note article, in English on the English side (`?hl=en`) and Japanese on the Japanese side.
+7. Three hashtags on the last line. YouTube shows them above the title.
+
+English is the default. In YouTube Studio, set the video language and the title/description language to English, then add the Japanese under Subtitles → Add language → Japanese → Title & description.
+
+**Tags** don't localize, so one list per video covers both languages. Each README lists them.
+
 ## A song folder
 
 ```text

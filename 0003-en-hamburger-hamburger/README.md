@@ -3,35 +3,34 @@
 The parents' side of the year: two small kids who want hamburgers, dinosaurs and anything in reach, and two parents who keep losing. The only one of the three with no grief in it.
 
 - **YouTube:** [watch](https://www.youtube.com/watch?v=S67cE91-6NI), unlisted
-- **File:** `exports/final/[21st Anniv][EN] Hamburger Hamburger [Gemini][Seedance].mp4`, 2:36, 1920×1080
+- **File:** `exports/final/[AI MV][EN] Hamburger Hamburger [Gemini][Seedance].mp4`, 2:36, 1920×1080
 - **Captions:** `captions/en.vtt` (lyrics), `captions/ja.vtt`
 - **Song:** `audio/song.mp3`
 
 ## YouTube
 
-Each video has one set of metadata in English (the default) and a Japanese translation of it. In YouTube Studio, set the video language and the title/description language to English, then add the Japanese under Subtitles → Add language → Japanese → Title & description. Viewers whose YouTube is in Japanese see the Japanese one; everyone else sees English.
-
-The `[JP]` / `[FR]` / `[EN]` tag in a title is the language the song is sung in, not the language of the metadata.
+Format: [YouTube metadata](../README.md#youtube-metadata).
 
 ### English (default)
 
 Title:
 
 ```text
-[21st Anniv][EN] Hamburger Hamburger [Gemini][Seedance]
+[AI MV][EN] Hamburger Hamburger [Gemini][Seedance]
 ```
 
 Description:
 
 ```text
-The parents' side of their 21st year of marriage. Two small kids who want hamburgers, dinosaurs and everything within reach, and two parents who keep losing, cheerfully. The only one of the three videos with no grief in it: just the noise, and 21 years of answering it.
+One of three AI music videos I made for our 21st wedding anniversary on October 4th. Each covers the same year from one side of the family, in its own language. This is the parents': two small kids who want hamburgers, dinosaurs and everything within reach, and two parents who keep losing, cheerfully. The only one of the three with no grief in it. Just the noise, and 21 years of answering it.
 
 Lyrics: turn on CC (English, Japanese)
 
-The set
+The anniversary set
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
+Made after the set, in three days: Not Alone https://youtu.be/NfSWJBB8_Ic
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
@@ -39,7 +38,11 @@ The set
 ・Video: Seedance 2.5 via OiiOii (full-auto mode)
 
 📝 Behind the Scenes
-This one was an experiment in full automation against the deadline. I made the song in Gemini Music AI, handed the audio file to OiiOii's full-auto mode, and it planned and rendered all 18 scenes with Seedance 2.5. No stills and no storyboard of my own, which puts it at the opposite end from the French video, where almost every shot started as a hand-made still.
+The full-automation experiment, made against the deadline. I'd asked Gemini to proofread the lyric and it came back with a whole song, so I kept it. OiiOii's full-auto mode took the audio file and planned and rendered all 18 scenes with Seedance. No stills and no storyboard of my own: the opposite end from the French video. A few hours and about ¥2,000. Not bad, not outstanding, and I still had to watch every second for breakage. As a gift, it's the lightest of the three, because the least of me went into it.
+
+Making-of: https://note.com/hashiryu_returns/n/n1f55bb47375e?hl=en
+
+#AIMusicVideo #Gemini #Seedance
 ```
 
 ### Japanese (translation)
@@ -47,20 +50,21 @@ This one was an experiment in full automation against the deadline. I made the s
 Title:
 
 ```text
-[結婚21周年][EN] Hamburger Hamburger [Gemini][Seedance]
+[AI MV][EN] Hamburger Hamburger [Gemini][Seedance]
 ```
 
 Description:
 
 ```text
-親から見た、結婚21年目の1年。ハンバーガーと恐竜と、手の届くものすべてを欲しがる小さな子供2人と、楽しそうに負け続ける親2人。3本のうち、悲しみがまったく入っていないのはこれだけ。あるのは騒がしさと、それに21年応え続けてきた2人だけだ。
+10月4日の結婚21周年に向けて、AIで作ったMV3本のうちの1本。同じ1年を家族それぞれの側から、別々の言語で歌っている。これは親の側。ハンバーガーと恐竜と、手の届くものすべてを欲しがる小さな子供2人と、楽しそうに負け続ける親2人。3本のうち、悲しみがまったく入っていないのはこれだけ。あるのは騒がしさと、それに21年応え続けてきた2人だけだ。
 
 歌詞：字幕（英語・日本語）をオンに
 
-3本のMV
+結婚記念日の3本
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
+3本のあとに3日で作った1本：Not Alone https://youtu.be/NfSWJBB8_Ic
 
 🛠️ 使用ツール・AIモデル
 ・作詞・コンセプト：Claude Opus 5
@@ -68,7 +72,17 @@ Description:
 ・動画：Seedance 2.5（OiiOii 全自動モード）
 
 📝 制作メモ
-締め切りに追われて、全自動を試した1本。曲はGemini Music AIで作り、その音声ファイルをOiiOiiの全自動モードに渡すと、Seedance 2.5で18シーンすべてを設計して生成した。自分で作った静止画も絵コンテもない。ほぼすべてのカットを手作りの静止画から始めたフランス語版とは、正反対の作り方だ。
+締め切りに追われて、全自動を試した1本。Geminiに歌詞の校正を頼んだら、頼んでもいないのに曲まで作って返してきたので、そのまま使った。OiiOiiの全自動モードに音声ファイルを渡すと、Seedanceで18シーンすべてを設計して生成した。自分で作った静止画も絵コンテもない。フランス語版とは正反対の作り方だ。作業は数時間、費用は約2,000円。悪くはないが飛び抜けて良くもなく、破綻がないかは結局自分で全部見て確かめた。贈り物としては、自分の手がいちばん入っていない分、3本の中でいちばん軽い。
+
+制作記：https://note.com/hashiryu_returns/n/n1f55bb47375e
+
+#AIMusicVideo #Gemini #Seedance
+```
+
+Tags:
+
+```text
+AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, kids song, family song, Gemini, Gemini Music, Seedance, OiiOii, full auto, AI animation, wedding anniversary, 結婚記念日
 ```
 
 ## Song

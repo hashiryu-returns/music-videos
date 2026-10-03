@@ -13,34 +13,41 @@ The quiet side of the same journey. Someone who kept a light for a lifetime and 
 
 ## YouTube
 
-Same setup as 0001–0003: English is the default, Japanese is a translation added under Subtitles → Add language → Japanese → Title & description. The `[EN]` tag is the language the song is sung in.
+Format: [YouTube metadata](../README.md#youtube-metadata).
 
 ### English (default)
 
 Title:
 
 ```text
-[Dragon Quest I Tribute][EN] Not Alone [Suno][Midjourney][Vidu]
+[AI MV][EN] Not Alone [Suno][Midjourney][Vidu]
 ```
 
 Description:
 
 ```text
-An original song inspired by the first Dragon Quest, told from its quiet side. A keeper who guarded a small light for a lifetime and can finally rest. Someone carried home through the dark. A kingdom offered and turned down, a crown left on the stair, and a second set of footsteps at the gate. The lyric uses no names or game terms.
+How fast can an AI music video come together if nobody appears twice? My three anniversary videos took 100 hours, mostly spent keeping the same family looking the same. This one took three days. It's an original song inspired by the first Dragon Quest, told from its quiet side: a keeper who guarded a small light for a lifetime and can finally rest, someone carried home through the dark, a kingdom offered and turned down, a crown left on the stair, and a second set of footsteps at the gate. The lyric uses no names or game terms.
 
 Lyrics: turn on CC (English)
+
+The anniversary set it was made after
+・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
+・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
+・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5.5
 ・Music: Suno v6
 ・Stills: Midjourney Niji 7
-・Video: Vidu Q2 and Q3
-・Edit: iMovie
+・Video: Vidu Q2, with Q3 on shots Q2 kept getting wrong
+・Editing: iMovie
 
 📝 Behind the Scenes
-Made in three days with one rule: nobody appears twice. Every shot has its own cast, so the hero is a different person each time, and the four dragons are four different dragons. The 36 stills were drawn in Midjourney, animated in Vidu one clip per still, and cut to the song in iMovie with dissolves, fades and Ken Burns moves.
+One rule: nobody appears twice. Every shot has its own cast, so the hero is a different person each time, and the four dragons are four different dragons. With nothing to keep consistent but the art style, each still only had to work on its own, and each motion prompt was one English sentence. When a shot kept breaking, I swapped the whole scene: the hand on the giant door became an empty throne room, the martial artist became a woman fighter with long braids, and the final departure through the castle gate became a sea of clouds at sunrise. Day one was the song, day two the art style and two thirds of the shots, day three the rest and the edit. 36 stills, one Vidu clip each, cut in iMovie.
 
-Making-of (Japanese): https://note.com/hashiryu_returns/n/n547364c342fc
+Making-of: https://note.com/hashiryu_returns/n/n547364c342fc?hl=en
+
+#AIMusicVideo #Suno #Midjourney
 ```
 
 ### Japanese (translation)
@@ -48,27 +55,40 @@ Making-of (Japanese): https://note.com/hashiryu_returns/n/n547364c342fc
 Title:
 
 ```text
-[ドラクエ1トリビュート][EN] Not Alone [Suno][Midjourney][Vidu]
+[AI MV][EN] Not Alone [Suno][Midjourney][Vidu]
 ```
 
 Description:
 
 ```text
-初代ドラゴンクエストに着想を得たオリジナル曲。冒険の静かな側を歌っている。一生をかけて小さな灯を守り、ようやく休める者。闇の中を抱えて連れ帰られた者。差し出された王国を断り、階段に置いていった王冠。そして門のところで聞こえる、もう一組の足音。歌詞にゲームの固有名詞や用語は出てこない。
+同じ人物を二度出さなければ、AIのMVはどれだけ速く作れるのか。結婚記念日のMV3本には100時間かかった。そのほとんどは、同じ家族を同じ顔のまま出し続けるための時間だった。これは3日で作った。初代ドラゴンクエストに着想を得たオリジナル曲で、冒険の静かな側を歌っている。一生をかけて小さな灯を守り、ようやく休める者。闇の中を抱えて連れ帰られた者。差し出された王国を断り、階段に置いていった王冠。そして門のところで聞こえる、もう一組の足音。歌詞にゲームの固有名詞や用語は出てこない。
 
 歌詞：字幕（英語）をオンに
+
+この前に作った結婚記念日の3本
+・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
+・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
+・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
 
 🛠️ 使用ツール・AIモデル
 ・作詞・コンセプト：Claude Opus 5.5
 ・曲：Suno v6
 ・静止画：Midjourney Niji 7
-・動画：Vidu Q2・Q3
+・動画：Vidu Q2（うまくいかない場面だけQ3）
 ・編集：iMovie
 
 📝 制作メモ
-3日で作った。決めごとは一つだけで、同じ人物を二度出さないこと。カットごとに別の人物を出しているので、勇者も出てくるたびに別人で、4頭の竜もすべて別の竜だ。36枚の静止画をMidjourneyで描き、1枚ずつViduで動かして、iMovieでディゾルブやフェード、Ken Burnsを使いながら曲に合わせてつないだ。
+決めごとは一つだけ。同じ人物を二度出さないこと。カットごとに別の人物を出しているので、勇者も出てくるたびに別人で、4頭の竜もすべて別の竜だ。揃えるものが画風しかないので、静止画は1枚ずつ単体で成立すればよく、動きの指示は英語1文で済んだ。何度作っても崩れるカットは、場面ごと差し替えた。巨大な扉を押す手のアップは誰もいない玉座の間に、武闘家は長い三つ編みの女武闘家に、城門から旅立つ最後の場面は朝日に輝く雲海に変えた。1日目に曲、2日目に画風決めと動画の3分の2、3日目に残りと編集。36枚の静止画を1枚ずつViduで動かし、iMovieでつないだ。
 
-制作記（日本語）：https://note.com/hashiryu_returns/n/n547364c342fc
+制作記：https://note.com/hashiryu_returns/n/n547364c342fc
+
+#AIMusicVideo #Suno #Midjourney
+```
+
+Tags:
+
+```text
+AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, Dragon Quest, Dragon Quest 1, Dragon Quest tribute, ドラゴンクエスト, ドラクエ, JRPG, fantasy anime, anime song, Suno, Midjourney, Niji 7, Vidu, Vidu Q2
 ```
 
 ## Picture

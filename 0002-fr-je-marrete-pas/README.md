@@ -3,50 +3,49 @@
 Her side of the year, as an isekai-style adventure: a medieval French world of swords and magic that doesn't keep to its own rules. She carries a katana, and modern buildings, cars and some comedy break in. Under the action are her everyday struggles and the grief of losing Daru. It ends on October 4th, when the evening is finally hers.
 
 - **YouTube:** [watch](https://www.youtube.com/watch?v=472scJ16qbg), unlisted
-- **File:** `exports/final/[21st Anniv][FR] Je m'arrête pas [Suno][Midjourney][Vidu][Seedance].mp4`, 2:07, 1920×1080
+- **File:** `exports/final/[AI MV][FR] Je m'arrête pas [Suno][Midjourney][Vidu][Seedance].mp4`, 2:07, 1920×1080
 - **Captions:** `captions/fr.vtt` (lyrics), `en.vtt`, `ja.vtt`
 - **Song:** `audio/song.wav`
 - **Prompts:** plates and per-scene stills in [`prompts.md`](prompts.md)
 
 ## YouTube
 
-Each video has one set of metadata in English (the default) and a Japanese translation of it. In YouTube Studio, set the video language and the title/description language to English, then add the Japanese under Subtitles → Add language → Japanese → Title & description. Viewers whose YouTube is in Japanese see the Japanese one; everyone else sees English.
-
-The `[JP]` / `[FR]` / `[EN]` tag in a title is the language the song is sung in, not the language of the metadata.
+Format: [YouTube metadata](../README.md#youtube-metadata).
 
 ### English (default)
 
 Title:
 
 ```text
-[21st Anniv][FR] Je m'arrête pas (I Don't Stop) [Suno][Midjourney][Vidu][Seedance]
+[AI MV][FR] Je m'arrête pas (I Don't Stop) [Suno][Midjourney][Vidu][Seedance]
 ```
 
 Description:
 
 ```text
-The wife's side of their 21st year of marriage, as an isekai-style adventure: a medieval French world of swords and magic that doesn't play by its own rules. She carries a katana, and modern buildings, cars and a bit of comedy break in. Underneath the action are her everyday struggles, and the grief of losing a dog she still hasn't gotten over. It ends on October 4th, when the evening is finally hers.
+One of three AI music videos I made for our 21st wedding anniversary on October 4th. Each covers the same year from one side of the family, in its own language. This is the wife's, as an isekai adventure: a medieval French world of swords and magic that doesn't keep its own rules. She carries a katana, modern buildings and cars break in, and so does comedy. Underneath are her everyday fights and the grief of losing a dog she still hasn't gotten over. It ends on October 4th, when the evening is finally hers.
 
 Lyrics: turn on CC (French, English, Japanese)
 
-The set
+The anniversary set
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
+Made after the set, in three days: Not Alone https://youtu.be/NfSWJBB8_Ic
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
 ・Music: Suno v6 Pro
 ・Images: Midjourney V7 (Omni Reference; character sheets started on Niji 7)
-・Video: Vidu Q2, Vidu Q3 (s14), Seedance 2.5 (s27, s31, s32, s35)
+・Video: Vidu Q2, Vidu Q3 (1 scene), Seedance 2.5 (4 scenes)
 ・Editing: iMovie 10.4.3
 
 📝 Behind the Scenes
-The French video started the same way as the Japanese one and hit the same wall. The first storyboard kept her in the kitchen all day, which meant referencing her and the kitchen in every shot. That's exactly what Midjourney can't do.
+The first version kept her in the kitchen all day, which would have broken the same way the Japanese video did: AI can't hold one person and one room steady across shots. So I threw it out. I rewrote the lyric around her drive instead of her chores, remade the song as fast J-rock, and turned the story into a journey that never returns to the same place. The rest of the family appear as their animals: a panda, a hedgehog and a fox. 31 of the 36 scenes are a Midjourney still animated in Vidu. The climax, her dragging her husband home from his office, needed two characters in one frame, which Midjourney couldn't draw, so that and three other scenes went to Seedance. Timing French subtitles by ear at 170 BPM took three hours on its own. Over 100 hours in all.
 
-So I threw it out. I rewrote the lyrics and regenerated the song in Suno as fast electro J-rock: the first version was nu-disco for her love of Daft Punk, this one is for her love of anime openings. Then I rebuilt the story as a journey. The same characters keep coming back, but never in the same place twice, which kept almost every shot down to one referenced character. Midjourney V7 and Vidu can carry that: 31 of the 36 scenes are a Midjourney still animated in Vidu.
+Making-of: https://note.com/hashiryu_returns/n/n1f55bb47375e?hl=en
 
-Near the end I left the storyboard behind. The four scenes that needed more than one character or a fixed room went to Seedance 2.5 with several reference images each. Every cut is timed by hand in iMovie.
+#AIMusicVideo #Suno #Midjourney
 ```
 
 ### Japanese (translation)
@@ -54,34 +53,41 @@ Near the end I left the storyboard behind. The four scenes that needed more than
 Title:
 
 ```text
-[結婚21周年][FR] Je m'arrête pas（止めてみな）[Suno][Midjourney][Vidu][Seedance]
+[AI MV][FR] Je m'arrête pas（止めてみな）[Suno][Midjourney][Vidu][Seedance]
 ```
 
 Description:
 
 ```text
-妻から見た、結婚21年目の1年。舞台は剣と魔法の中世フランス風の異世界。ただし、その世界観はまるで守られない。中世なのに彼女は刀を振るい、現代のビルや車が平気で出てきて、コメディまで割り込んでくる。そんな冒険活劇の底にあるのは、毎日の苦労と、愛犬を亡くしてまだ立ち直れていない悲しみだ。最後は10月4日。ようやく、その夜が彼女のものになる。
+10月4日の結婚21周年に向けて、AIで作ったMV3本のうちの1本。同じ1年を家族それぞれの側から、別々の言語で歌っている。これは妻の側で、異世界ものの冒険活劇にした。舞台は剣と魔法の中世フランス風の世界。ただし、その世界のルールはまるで守られない。彼女は刀を振るい、現代のビルや車が平気で出てきて、コメディまで割り込んでくる。その底にあるのは、毎日の戦いと、愛犬を亡くしてまだ立ち直れていない悲しみだ。最後は10月4日。ようやく、その夜が彼女のものになる。
 
 歌詞：字幕（フランス語・英語・日本語）をオンに
 
-3本のMV
+結婚記念日の3本
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
+3本のあとに3日で作った1本：Not Alone https://youtu.be/NfSWJBB8_Ic
 
 🛠️ 使用ツール・AIモデル
 ・作詞・コンセプト：Claude Opus 5
 ・曲：Suno v6 Pro
 ・画像：Midjourney V7（Omni Reference。キャラクターシートはNiji 7で作り始めた）
-・動画：Vidu Q2、Vidu Q3（s14）、Seedance 2.5（s27, s31, s32, s35）
+・動画：Vidu Q2、Vidu Q3（1シーン）、Seedance 2.5（4シーン）
 ・編集：iMovie 10.4.3
 
 📝 制作メモ
-フランス語版も日本語版と同じように始まり、同じ壁に当たった。最初の絵コンテは一日じゅう彼女をキッチンに置いていたので、どのカットでも彼女とキッチンの両方を参照する必要があった。それはまさにMidjourneyの苦手なことだ。
+最初の版は、彼女を一日じゅう台所に置いていた。これでは日本語版と同じ崩れ方をする。AIは同じ人物と同じ部屋を、カットをまたいで保てないからだ。そこで全部捨てた。歌詞を家事ではなく彼女の勢いの話に書き直し、曲を速いJ-ROCKに作り直して、同じ場所に二度と戻らない旅の物語にした。ほかの家族は、それぞれの動物の姿で出てくる。パンダ、ハリネズミ、キツネだ。36シーンのうち31シーンは、Midjourneyの静止画をViduで動かしたもの。クライマックスでオフィスから夫を引きずって帰る場面は、2人を同じ画面に収める絵をMidjourneyがどうしても描けず、ほかの3シーンと一緒にSeedanceに任せた。BPM170のフランス語の字幕を耳で合わせるだけで3時間かかった。全部で100時間以上。
 
-だから全部捨てた。歌詞を書き直し、Sunoで速いエレクトロJ-ROCKとして曲を作り直した。最初の版はダフト・パンク好きの彼女に向けたニューディスコで、今回はアニメのオープニング好きの彼女に向けたもの。そのうえで物語を旅に組み直した。同じキャラクターが何度も出てくるが、同じ場所には二度と出てこない。これでほぼすべてのカットが参照キャラクター1人で済み、Midjourney V7とViduでも十分こなせた。36シーンのうち31シーンは、Midjourneyの静止画をViduで動かしたものだ。
+制作記：https://note.com/hashiryu_returns/n/n1f55bb47375e
 
-終盤では絵コンテを手放した。複数のキャラクターや決まった部屋が必要な4シーンは、参照画像を何枚も渡してSeedance 2.5に任せた。カットはすべてiMovieで手で合わせている。
+#AIMusicVideo #Suno #Midjourney
+```
+
+Tags:
+
+```text
+AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, French song, chanson, J-rock, anime opening, isekai, 異世界, katana, Suno, Midjourney, Midjourney V7, Vidu, Seedance, wedding anniversary, 結婚記念日
 ```
 
 ## Song
