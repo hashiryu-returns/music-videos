@@ -6,7 +6,7 @@ The quiet side of the same journey. Someone who kept a light for a lifetime and 
 - **YouTube:** [watch](https://www.youtube.com/watch?v=NfSWJBB8_Ic). Metadata in [YouTube](#youtube)
 - **Making-of (Japanese):** [note article](https://note.com/hashiryu_returns/n/n547364c342fc)
 - **Song:** `audio/song.wav`, 202.4s
-- **Captions:** `captions/en.vtt` (lyrics)
+- **Captions:** `captions/en.vtt` (lyrics), `captions/ja.vtt`
 - **Prompts:** style sheet, every still and every motion line in [`prompts.md`](prompts.md)
 - **Source:** the story of the first Dragon Quest ([Kamigame spoiler summary](https://kamigame.jp/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A81/%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89/%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC.html)). No names or game terms in the lyric.
 - **Siblings:** [0004](../0004-en-half-of-everything/README.md) and [0005](../0005-en-bring-the-morning-home/README.md).
@@ -28,7 +28,7 @@ Description:
 ```text
 How fast can an AI music video come together if nobody appears twice? My three anniversary videos took 100 hours, mostly spent keeping the same family looking the same. This one took three days. It's an original song inspired by the first Dragon Quest, told from its quiet side: a keeper who guarded a small light for a lifetime and can finally rest, someone carried home through the dark, a kingdom offered and turned down, a crown left on the stair, and a second set of footsteps at the gate. The lyric uses no names or game terms.
 
-Lyrics: turn on CC (English)
+Lyrics: turn on CC (English, Japanese)
 
 The anniversary set it was made after
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
@@ -63,7 +63,7 @@ Description:
 ```text
 同じ人物を二度出さなければ、AIのMVはどれだけ速く作れるのか。結婚記念日のMV3本には100時間かかった。そのほとんどは、同じ家族を同じ顔のまま出し続けるための時間だった。これは3日で作った。初代ドラゴンクエストに着想を得たオリジナル曲で、冒険の静かな側を歌っている。一生をかけて小さな灯を守り、ようやく休める者。闇の中を抱えて連れ帰られた者。差し出された王国を断り、階段に置いていった王冠。そして門のところで聞こえる、もう一組の足音。歌詞にゲームの固有名詞や用語は出てこない。
 
-歌詞：字幕（英語）をオンに
+歌詞：字幕（英語・日本語）をオンに
 
 この前に作った結婚記念日の3本
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
@@ -158,7 +158,7 @@ iMovie, new Movie project, no theme.
 5. Transitions as the cut was made: cross dissolves, fades to black and fades to white between scenes, Ken Burns on many clips, and a fade to black over the end of #36. An iMovie transition overlaps both clips and pulls every later cut early, so re-check step 4 after adding one.
 6. Never change a clip's speed. A clip that's too short gets re-generated, not slowed.
 
-Share → File, 1080p, quality High. Upload `captions/en.vtt` as the subtitle track rather than burning it in.
+Share → File, 1080p, quality High. Upload `captions/en.vtt` and `captions/ja.vtt` as subtitle tracks rather than burning them in.
 
 ## Suno
 
