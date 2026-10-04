@@ -49,7 +49,7 @@ Up to 5s is one price and 6–8s costs double, so every clip uses either 5.0s or
 
 ### Intro
 
-**#1** · 0:00.0–0:08.0 · use 8.0s
+**#1** · 0:00.0–0:07.3 · use 7.3s
 
 Midjourney · sheet B
 
@@ -71,7 +71,7 @@ Accept: clouds move and the camera drifts forward.
 
 Reject: stone or castle melts; a cut to another shot, the style turning 3D.
 
-**#2** · 0:08.0–0:14.0 · use 6.0s
+**#2** · 0:07.3–0:13.3 · use 6.0s
 
 Midjourney · sheet A
 
@@ -93,7 +93,7 @@ Accept: cloak and hair blow hard.
 
 Reject: she turns to camera or falls off the wall; a cut to another shot, the style turning 3D.
 
-**#3** · 0:14.0–0:18.7 · use 4.7s
+**#3** · 0:13.3–0:18.0 · use 4.7s
 
 Midjourney · sheet A
 
@@ -117,7 +117,7 @@ Reject: a hand comes up to her face or hair; a cut to another shot, the style tu
 
 ### Verse 1
 
-**#4** · 0:18.7–0:23.7 · use 5.0s
+**#4** · 0:18.0–0:22.2 · use 4.2s
 
 Midjourney · sheet A
 
@@ -139,7 +139,31 @@ Accept: the lid rises.
 
 Reject: chest or lid changes shape; a cut to another shot, the style turning 3D.
 
-**#5** · 0:23.7–0:28.4 · use 4.7s
+**#5** · 0:22.2–0:25.2 · use 3.0s
+
+Midjourney · sheet B
+
+```text
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, muted dark colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, close-up, an old brass and wood hourglass standing on a cracked stone windowsill, almost all of the sand fallen into the bottom bulb, a thin last trickle of sand running down, thick dust and cobwebs on the brass frame, outside the window a dark valley under heavy black storm clouds, dim grey light --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, person, hands, chest, orb, candle, blue sky, sun, sunlight --sw 250
+```
+
+Accept: dusty hourglass on a stone sill, sand running, dark valley through the window.
+
+Reject: a person or hands; candles or other props; black bars, painted background.
+
+Vidu · 5s
+
+```text
+The last thin trickle of sand runs down through the hourglass as the dust drifts in the grey light and the storm clouds roll slowly outside the window.
+```
+
+Accept: the sand runs and the clouds move.
+
+Reject: the hourglass flips or changes shape; sand flows upward; a cut to another shot, the style turning 3D.
+
+Stands in for "For longer than a life should hold". The chest, the orb and the keeper each have their own shot, so this one shows none of them.
+
+**#6** · 0:25.2–0:28.8 · use 3.6s
 
 Midjourney · sheet A
 
@@ -161,7 +185,7 @@ Accept: the hands close around the orb.
 
 Reject: orb vanishes or splits; a cut to another shot, the style turning 3D.
 
-**#6** · 0:28.4–0:33.1 · use 4.7s
+**#7** · 0:28.8–0:32.4 · use 3.6s
 
 Midjourney · sheet A
 
@@ -185,51 +209,7 @@ Reject: a second torch appears; a cut to another shot, the style turning 3D.
 
 ### Verse 2
 
-**#7** · 0:33.1–0:38.1 · use 5.0s · dragon 1 of 4, emerald
-
-Midjourney · sheet A
-
-```text
-a magnificent serpentine emerald green dragon coiled tightly around ancient, moss-covered stone pillars deep inside a vast, shadowy cavern lair. wide angle shot, cinematic anime illustration style, thin precise black outlines on every edge, clean digital line art. flat cel shading with soft neutral grey shadows. fine inked details of cracks, chips, and speckled grime on the rock. dramatic, dim atmosphere: golden eyes glowing intensely in the dark, white smoke curling from its nostrils. the environment is defined by low-key, green and amber lighting filtering through the shadows. piles of detailed rubble and treasure on the floor. no chibi, no crosshatching, no painted background, no letterbox, no black bars, no sepia, no 3d render, no text, no watermark, realistic adult proportions, natural full color, vivid saturated colors. --sw 250
-```
-
-Accept: one green serpent dragon coiled in a dark lair.
-
-Reject: extra heads; black bars, painted background.
-
-Vidu · 5s
-
-```text
-The dragon lifts its head, opens its jaws in a snarl and smoke pours from its nostrils.
-```
-
-Accept: the head lifts and smoke comes out.
-
-Reject: a second head appears or the jaw melts; a cut to another shot, the style turning 3D.
-
-**#8** · 0:38.1–0:42.5 · use 4.4s
-
-Midjourney · sheet A
-
-```text
-modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, dynamic low angle shot, a young man swordsman with dark brown skin and short black hair in silver armour leaping toward camera through a dark cavern, sword raised over his head in both hands, his left knee forward and both feet off the ground, cape flaring behind him, rocks and embers in the air, realistic anime face, smooth clean skin, strong eyebrows, sharp eyes with a heavy black upper lash line --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
-```
-
-Accept: swordsman mid-leap toward camera, sword overhead.
-
-Reject: standing still; two swords; black bars, painted background.
-
-Vidu · 5s
-
-```text
-He brings the sword down hard in a sweeping strike toward the camera.
-```
-
-Accept: the sword swings down.
-
-Reject: sword bends or doubles; a cut to another shot, the style turning 3D.
-
-**#9** · 0:42.5–0:46.0 · use 3.5s
+**#8** · 0:32.4–0:37.2 · use 4.8s
 
 Midjourney · sheet A
 
@@ -251,7 +231,53 @@ Accept: she gets to her feet.
 
 Reject: she floats instead of standing; a cut to another shot, the style turning 3D.
 
-**#10** · 0:46.0–0:49.4 · use 3.4s
+**#9** · 0:37.2–0:40.8 · use 3.6s · dragon 1 of 5, emerald
+
+Midjourney · sheet A
+
+```text
+a magnificent serpentine emerald green dragon coiled tightly around ancient, moss-covered stone pillars deep inside a vast, shadowy cavern lair. wide angle shot, cinematic anime illustration style, thin precise black outlines on every edge, clean digital line art. flat cel shading with soft neutral grey shadows. fine inked details of cracks, chips, and speckled grime on the rock. dramatic, dim atmosphere: golden eyes glowing intensely in the dark, white smoke curling from its nostrils. the environment is defined by low-key, green and amber lighting filtering through the shadows. piles of detailed rubble and treasure on the floor. no chibi, no crosshatching, no painted background, no letterbox, no black bars, no sepia, no 3d render, no text, no watermark, realistic adult proportions, natural full color, vivid saturated colors. --sw 250
+```
+
+Accept: one green serpent dragon coiled in a dark lair.
+
+Reject: extra heads; black bars, painted background.
+
+Vidu · 5s
+
+```text
+The dragon lifts its head, opens its jaws in a snarl and smoke pours from its nostrils.
+```
+
+Accept: the head lifts and smoke comes out.
+
+Reject: a second head appears or the jaw melts; a cut to another shot, the style turning 3D.
+
+**#10** · 0:40.8–0:44.8 · use 4.0s
+
+Midjourney · sheet A
+
+```text
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, medium wide shot, eye level, a woman hero with a short black bob in steel armour standing in a vast dark throne room, her body from head to knees in frame with the whole length of her sword, holding the sword upright before her in both hands with the blade rising past her face, the blade catching violet light, violet flames and black pillars far behind her --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, scar
+```
+
+Accept: armoured woman with a black bob, sword upright before her face, violet flames behind.
+
+Reject: a scar on her face; sword cut off by the frame; black bars, painted background.
+
+Vidu · 5s
+
+```text
+She brings the sword down hard in a sweeping strike toward the camera.
+```
+
+Accept: the sword sweeps down toward the camera.
+
+Reject: sword bends or doubles; a cut to another shot, the style turning 3D.
+
+Replaces the swordsman's leap. Same prompt as #29, rolled separately, so the two can come out looking like one person; check them side by side before the cut.
+
+**#11** · 0:44.8–0:49.4 · use 4.6s
 
 Midjourney · sheet A
 
@@ -261,7 +287,7 @@ modern anime illustration, clean digital line art, thin precise black outlines, 
 
 Accept: same princess from behind, small, walking down a red carpet.
 
-Reject: face to camera; not the princess from #9; black bars, painted background.
+Reject: face to camera; not the princess from #8; black bars, painted background.
 
 Vidu · 5s
 
@@ -275,7 +301,7 @@ Reject: she turns around; a cut to another shot, the style turning 3D.
 
 ### Chorus 1
 
-**#11** · 0:49.4–0:56.5 · use 7.1s
+**#12** · 0:49.4–0:56.5 · use 7.1s
 
 Midjourney · sheet A
 
@@ -297,7 +323,7 @@ Accept: clouds drift and the camera glides.
 
 Reject: figures vanish; a cut to another shot, the style turning 3D.
 
-**#12** · 0:56.5–1:01.5 · use 5.0s
+**#13** · 0:56.5–1:01.5 · use 5.0s
 
 Midjourney · sheet A
 
@@ -319,7 +345,7 @@ Accept: she draws, and maybe releases.
 
 Reject: bow bends. A clip that only draws is fine; a cut to another shot, the style turning 3D.
 
-**#13** · 1:01.5–1:07.5 · use 6.0s
+**#14** · 1:01.5–1:07.5 · use 6.0s
 
 Midjourney · sheet A
 
@@ -343,7 +369,7 @@ Reject: staff bends; a cut to another shot, the style turning 3D.
 
 ### Interlude 1
 
-**#14** · 1:07.5–1:12.0 · use 4.5s
+**#15** · 1:07.5–1:12.0 · use 4.5s
 
 Midjourney · sheet A
 
@@ -365,7 +391,7 @@ Accept: fingers move and petals drift.
 
 Reject: flute bends or melts into her fingers; a cut to another shot, the style turning 3D.
 
-**#15** · 1:12.0–1:19.0 · use 7.0s
+**#16** · 1:12.0–1:19.0 · use 7.0s
 
 Midjourney · sheet A
 
@@ -387,7 +413,7 @@ Accept: the golem kneels.
 
 Reject: golem stands up or walks; a cut to another shot, the style turning 3D.
 
-**#16** · 1:19.0–1:26.0 · use 7.0s
+**#17** · 1:19.0–1:26.0 · use 7.0s
 
 Midjourney · sheet A
 
@@ -409,7 +435,7 @@ Accept: she walks right and the ruins slide past.
 
 Reject: she turns to the camera or walks backward; legs tangle; a cut to another shot, the style turning 3D.
 
-**#17** · 1:26.0–1:30.0 · use 4.0s
+**#18** · 1:26.0–1:30.0 · use 4.0s
 
 Midjourney · sheet A
 
@@ -431,7 +457,7 @@ Accept: the axe comes down and dust bursts up.
 
 Reject: the axe bends or splits; the knight walks away; a cut to another shot, the style turning 3D.
 
-**#18** · 1:30.0–1:33.7 · use 3.7s
+**#19** · 1:30.0–1:33.7 · use 3.7s
 
 Midjourney · sheet A
 
@@ -455,7 +481,7 @@ Reject: cape turns into wings; a cut to another shot, the style turning 3D.
 
 ### Verse 3
 
-**#19** · 1:33.7–1:38.7 · use 5.0s
+**#20** · 1:33.7–1:38.7 · use 5.0s
 
 Midjourney · sheet A
 
@@ -477,7 +503,7 @@ Accept: his hands move on the strings.
 
 Reject: hands pass through the harp; a cut to another shot, the style turning 3D.
 
-**#20** · 1:38.7–1:44.9 · use 6.2s
+**#21** · 1:38.7–1:44.9 · use 6.2s
 
 Midjourney · sheet A
 
@@ -499,7 +525,7 @@ Accept: the staff goes up and rain falls.
 
 Reject: staff bends; a cut to another shot, the style turning 3D.
 
-**#21** · 1:44.9–1:49.9 · use 5.0s
+**#22** · 1:44.9–1:49.9 · use 5.0s
 
 Midjourney · sheet A
 
@@ -523,7 +549,7 @@ Reject: stone splits in two; a cut to another shot, the style turning 3D.
 
 ### Chorus 2
 
-**#22** · 1:49.9–1:54.9 · use 5.0s
+**#23** · 1:49.9–1:54.9 · use 5.0s
 
 Midjourney · sheet A
 
@@ -545,7 +571,7 @@ Accept: the cape whips.
 
 Reject: crystal vanishes; a cut to another shot, the style turning 3D.
 
-**#23** · 1:54.9–2:02.8 · use 7.9s
+**#24** · 1:54.9–2:02.8 · use 7.9s
 
 Midjourney · sheet B
 
@@ -567,7 +593,7 @@ Accept: clouds part and waves move.
 
 Reject: bridge bends or wobbles; a cut to another shot, the style turning 3D.
 
-**#24** · 2:02.8–2:08.8 · use 6.0s
+**#25** · 2:02.8–2:08.8 · use 6.0s
 
 Midjourney · sheet A
 
@@ -591,7 +617,7 @@ Reject: the hat flies off; the castle warps; a cut to another shot, the style tu
 
 ### Interlude 2
 
-**#25** · 2:08.8–2:14.8 · use 6.0s
+**#26** · 2:08.8–2:14.8 · use 6.0s
 
 Midjourney · sheet A
 
@@ -613,7 +639,7 @@ Accept: she lands on the far ledge and her cloak settles.
 
 Reject: she falls into the chasm or floats; legs tangle; a cut to another shot, the style turning 3D.
 
-**#26** · 2:14.8–2:19.3 · use 4.5s
+**#27** · 2:14.8–2:19.3 · use 4.5s
 
 Midjourney · sheet B
 
@@ -637,7 +663,7 @@ Reject: a pillar moves; the doors close; a cut to another shot, the style turnin
 
 ### Bridge
 
-**#27** · 2:19.3–2:26.0 · use 6.7s
+**#28** · 2:19.3–2:26.0 · use 6.7s
 
 Midjourney · sheet A
 
@@ -659,7 +685,7 @@ Accept: he leans in with the hand out.
 
 Reject: hand grows extra fingers; a cut to another shot, the style turning 3D.
 
-**#28** · 2:26.0–2:33.2 · use 7.2s
+**#29** · 2:26.0–2:33.2 · use 7.2s
 
 Midjourney · sheet A
 
@@ -683,7 +709,7 @@ Reject: sword bends or doubles; a cut to another shot, the style turning 3D.
 
 ### Break
 
-**#29** · 2:33.2–2:38.8 · use 5.6s · dragon 2 of 4, crimson
+**#30** · 2:33.2–2:38.8 · use 5.6s · dragon 2 of 5, crimson
 
 Midjourney · sheet A
 
@@ -707,7 +733,7 @@ Reject: wings multiply; a cut to another shot, the style turning 3D.
 
 ### Final chorus
 
-**#30** · 2:38.8–2:43.8 · use 5.0s · dragon 3 of 4, white and gold
+**#31** · 2:38.8–2:43.8 · use 5.0s · dragon 3 of 5, white and gold
 
 Midjourney · sheet A
 
@@ -729,7 +755,7 @@ Accept: the dragon roars and the fire comes at her.
 
 Reject: the knight vanishes in the fire or fuses with the dragon; dragon merges with the columns; a cut to another shot, the style turning 3D.
 
-**#31** · 2:43.8–2:48.8 · use 5.0s · dragon 4 of 4, storm blue
+**#32** · 2:43.8–2:46.0 · use 2.2s · dragon 4 of 5, storm blue
 
 Midjourney · sheet A
 
@@ -751,7 +777,51 @@ Accept: she crosses the gap and the kick lands on the jaw.
 
 Reject: her leg merges into the dragon; she turns toward the camera; a cut to another shot, the style turning 3D.
 
-**#32** · 2:48.8–2:56.0 · use 7.2s
+**#33** · 2:46.0–2:49.0 · use 3.0s · dragon 5 of 5, black: the sorcerer king's true form
+
+Midjourney · sheet A
+
+```text
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, muted dark colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, extreme low angle extreme wide shot, a colossal obsidian black dragon rearing up inside a vast ruined throne hall, its head near the top of the frame, huge black wings spread wide from wall to wall, cracked black scales with glowing violet seams, a mouth full of violet fire, broken black pillars and falling stone around it, a single tiny warrior with a raised sword in the lower corner of the frame no bigger than its claw --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, blue sky, sun, sunlight --sw 200
+```
+
+Accept: the black dragon fills the frame, wings spread, violet seams; one tiny warrior in a corner.
+
+Reject: the warrior as big as the dragon's head; a second dragon; black bars, painted background.
+
+Vidu · 5s
+
+```text
+The dragon spreads its wings wider and roars, then blasts a torrent of violet fire down toward the tiny warrior, stone exploding around her.
+```
+
+Accept: it roars with wings spread, then breathes fire downward.
+
+Reject: the dragon shrinks or changes shape; the warrior gets bigger; the fire fills the whole screen; a cut to another shot, the style turning 3D.
+
+**#34** · 2:49.0–2:51.0 · use 2.0s · dragon 5 of 5, same fight
+
+Midjourney · sheet A
+
+```text
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, muted dark colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, extreme wide shot, side view, a colossal obsidian black dragon filling the right two thirds of the frame inside a collapsing black throne hall, its huge horned head turned left with jaws wide open and violet fire glowing in its throat, cracked black scales with glowing violet seams, wings half open, on the left a tiny warrior in silver armour in mid air leaping toward its head with a sword raised overhead, falling stone and violet embers everywhere --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, blue sky, sun, sunlight --sw 200
+```
+
+Accept: the dragon's head on the right with jaws open, the small silver warrior leaping at it from the left.
+
+Reject: warrior and dragon merged; the warrior bigger than the head; a tail or extra limb on the warrior; black bars, painted background.
+
+Vidu · 5s
+
+```text
+The tiny warrior flies toward the dragon's head as it lunges forward with a roar, violet fire bursting from its jaws around her as embers swirl through the collapsing hall.
+```
+
+Accept: the warrior flies at it, it lunges, and fire bursts.
+
+Reject: warrior and dragon merge; the warrior gets bigger; a cut to another shot, the style turning 3D.
+
+**#35** · 2:51.0–2:54.6 · use 3.6s
 
 Midjourney · sheet A
 
@@ -775,7 +845,53 @@ Reject: white light covers most of the clip; a cut to another shot, the style tu
 
 ### Outro
 
-**#33** · 2:56.0–3:02.0 · use 6.0s
+**#36** · 2:54.6–2:58.4 · use 3.8s
+
+Midjourney · sheet B
+
+```text
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, muted dark colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, extreme wide shot, a colossal black castle on a rocky island in a dark stormy sea, sheer black walls and jagged towers, huge pillars of orange fire erupting straight up out of the towers into heavy storm clouds, the tallest tower cracking and breaking apart, chunks of black stone falling, fire glowing on the clouds and reflected on the waves --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, blue sky, sun, sunlight, dragon, person, bridge --sw 250
+```
+
+Accept: the black island castle, pillars of fire rising out of it, the sea in front. A pale sky is fine: Vidu darkens it.
+
+Reject: a castle that isn't black and jagged (no longer #24's); fire that hides the whole castle; a dragon; a bridge; black bars, painted background.
+
+Vidu · 5s
+
+```text
+More pillars of fire burst up out of the castle and the tallest tower collapses into the sea, black stone crashing into the waves as the flames light up the storm clouds.
+```
+
+Accept: new fire bursts up and the tower falls.
+
+Reject: the whole castle melts or changes shape; the fire turns to smoke and the castle vanishes; a cut to another shot, the style turning 3D.
+
+**#37** · 2:58.4–3:02.0 · use 3.6s
+
+Someone in the town notices the clouds clearing. Same prompt as #3, rerolled: a different face reads as a different person.
+
+Midjourney · sheet A
+
+```text
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, medium close-up, eye level, three quarter view, a woman soldier with short copper red hair in dented steel armour standing in a town square under a darkened sky, looking just past the camera with a sharp determined gaze, townspeople out of focus behind her, cold grey light, realistic anime face, smooth clean skin, strong eyebrows, sharp eyes with a heavy black upper lash line --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark --sw 250
+```
+
+Accept: a face clearly different from #3's, town and crowd behind.
+
+Reject: the same face as #3; black bars, painted background.
+
+Vidu · 5s
+
+```text
+She looks back over her shoulder and up at the sky as the clouds break apart and light spreads across the square.
+```
+
+Accept: she looks up and the light comes in.
+
+Reject: a hand comes up to her face or hair; a cut to another shot, the style turning 3D.
+
+**#38** · 3:02.0–3:07.6 · use 5.6s
 
 Midjourney · sheet A
 
@@ -797,7 +913,7 @@ Accept: the sphere rises.
 
 Reject: sphere doesn't rise; a cut to another shot, the style turning 3D.
 
-**#34** · 3:02.0–3:10.0 · use 8.0s
+**#39** · 3:07.6–3:11.9 · use 4.3s
 
 Midjourney · sheet B
 
@@ -819,7 +935,7 @@ Accept: clouds clear and birds fly.
 
 Reject: stone or castle melts; a cut to another shot, the style turning 3D.
 
-**#35** · 3:10.0–3:15.0 · use 5.0s
+**#40** · 3:11.9–3:16.6 · use 4.7s
 
 Midjourney · sheet B
 
@@ -841,7 +957,7 @@ Accept: petals drift and the camera pushes in.
 
 Reject: crown changes shape; a cut to another shot, the style turning 3D.
 
-**#36** · 3:15.0–3:22.4 · use 7.4s
+**#41** · 3:16.6–3:22.5 · use 4.9s + 1.0s fade
 
 Midjourney · sheet B
 

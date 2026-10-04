@@ -13,7 +13,7 @@ Shared notes on the tools live in [`DESIGN.md`](DESIGN.md).
 | 0003 | [`0003-en-hamburger-hamburger`](0003-en-hamburger-hamburger/README.md) | Hamburger Hamburger | [watch](https://www.youtube.com/watch?v=S67cE91-6NI) |
 | 0004 | [`0004-en-half-of-everything`](0004-en-half-of-everything/README.md) | Half of Everything (working title) | — |
 | 0005 | [`0005-en-bring-the-morning-home`](0005-en-bring-the-morning-home/README.md) | Bring the Morning Home (working title) | — |
-| 0006 | [`0006-en-not-alone`](0006-en-not-alone/README.md) | Not Alone | [watch](https://www.youtube.com/watch?v=NfSWJBB8_Ic) |
+| 0006 | [`0006-en-not-alone`](0006-en-not-alone/README.md) | Not Alone | [watch](https://www.youtube.com/watch?v=Vqz8Wj4a-Aw) |
 
 0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. 0004–0006 are three songs from one story, the first Dragon Quest, each with its own sound. Later songs do not have to belong to a set.
 
