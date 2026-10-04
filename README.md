@@ -14,8 +14,9 @@ Shared notes on the tools live in [`DESIGN.md`](DESIGN.md).
 | 0004 | [`0004-en-half-of-everything`](0004-en-half-of-everything/README.md) | Half of Everything (working title) | — |
 | 0005 | [`0005-en-bring-the-morning-home`](0005-en-bring-the-morning-home/README.md) | Bring the Morning Home (working title) | — |
 | 0006 | [`0006-en-not-alone`](0006-en-not-alone/README.md) | Not Alone | [watch](https://www.youtube.com/watch?v=_w9ba2ul8fI) |
+| 0007 | [`0007-en-out-of-my-way`](0007-en-out-of-my-way/README.md) | Out of My Way! (working title) | — |
 
-0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. 0004–0006 are three songs from one story, the first Dragon Quest, each with its own sound. Later songs do not have to belong to a set.
+0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. 0004–0006 are three songs from one story, the first Dragon Quest, each with its own sound. 0007 is our daughter's, with the hedgehog from 0002 as the hero. Later songs do not have to belong to a set.
 
 ## YouTube metadata
 

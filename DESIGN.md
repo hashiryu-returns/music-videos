@@ -67,7 +67,7 @@ JP and FR both started as Midjourney → Vidu and both hit the same wall: the hu
 ## Vidu
 
 - **Image to Video, not Reference to Video.** References to Video redraws the frame from the plates.
-- **One positive motion per clip, in English.** Vidu drops negations and keeps the noun. `camera fixed` produced a push-in, and `the sword stays on the stand` launched it off the stand.
+- **One positive motion per 5s clip (two for 8s), in English.** Vidu drops negations and keeps the noun. `camera fixed` produced a push-in, and `the sword stays on the stand` launched it off the stand.
 - **It moves painted mass, not light.** Mist, cloth, hair, steam and smoke work. Dust in a beam, a shadow crossing a shoji or a highlight running along a blade all failed, three times out of three.
 - **A still with nothing soft in it turns into an invented camera move.** Use Ken Burns in the editor for camera-only shots (FR #1).
 - **Leave FX out of the still.** Paint the demon whole and the cathedral intact. Vidu does the burst, the orb and the explosion from the prompt.
@@ -75,9 +75,13 @@ JP and FR both started as Midjourney → Vidu and both hit the same wall: the hu
 - **A still can hide an anatomy error that motion exposes.** A Pekingese that looked right standing walked like a terrier. Check proportions before animating, and hide the hard part (a coat down to the ground).
 - **Let it improvise where nothing specific has to land.** Asked to move a sash, it moved the sash, the arm and the blade, and the take was better for it.
 - **Feet on the ground slide.** Walking and running on 0006's stairs drifted within a second, and Midjourney couldn't draw the stairs either. A jump starts with both feet in the air and ends in a landing, so there's no stride for Vidu to slide. Give a moving figure a leap, a landing or a stand-still action.
+- **Say the body travels, not just the legs.** `lifts one huge leg and plants it down` puts the attention on the foot and the walker steps on the spot. Name the travel and the camera too: 0007 #4's walker `moves steadily forward across the frame as the camera tracks its motion`. Same for anything that should cover ground: say where it goes in the frame (across it, closer, up it) and what the camera or background does.
 - **A hand raised near the face lands in the hair.** 0006 #3's `shields her eyes with one gauntleted hand` came back touching her hair. Give the action to the head and eyes, and add `Her hands stay down`.
-- **Settings:** Q2, 1080p, Cinematic, one take at a time. Up to 5s is one price and 6–8s costs double, so generate 5s for anything that uses 5.0s or less, and never pay for 6s to use 5.2s. Move the cut instead.
-- **Q2 over Q3.** Q3 allows longer clips but came out worse in testing. Use it only as a second try on a shot Q2 keeps getting wrong.
+- **Settings:** Q2, 1080p, Cinematic, one take at a time. In Off-Peak Mode any Q2 length is free, so a take over 5s is generated at 8s and trimmed. Outside Off-Peak, up to 5s is one price and 6–8s costs double.
+- **An 8s take needs two actions.** One action over 8s goes slack: 0007 #2's lightsaber lighting up couldn't hold it. Join two with `then` (light it, then swing it and point). Two lyric lines on the same subject become one 8s take instead of two stills, which also means one less background to match.
+- **Name the thing the model knows.** `lightsaber` got a proper one where `energy sword` didn't. In Midjourney, `hover bike with no wheels` drew a motorbike with its wheels torn off, and `speeder bike` still drew a bike. Describing an object by what it lacks gives a broken version of the thing it isn't. Ask for the thing it is, by the parts it has: 0007 #3's `futuristic hoverbike with large, circular anti-gravity repulsor pads underneath, glowing with blue light` came out right. Keep such words in prompts and out of titles.
+- **Don't change her face in motion.** Putting goggles on, or waking from closed eyes, redraws the face and the plate's look falls apart. Start the still in the end state (goggles already on, eyes already open) and animate the body.
+- **Q2 over Q3.** Q3 allows longer clips but came out worse in testing, and was unusable on 0007 #3's 10.8s hoverbike take. Use it only as a second try on a shot Q2 keeps getting wrong. For a take over 8s, generate 8s on Q2 and Extend from its end with a second motion line.
 
 ## Seedance and OiiOii
 
