@@ -30,7 +30,7 @@ The anniversary set
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
-Made after the set, in three days: Not Alone https://youtu.be/Vqz8Wj4a-Aw
+Made after the set, in three days: Not Alone https://youtu.be/_w9ba2ul8fI
 
 🛠️ Production Tools & AI Models
 ・Lyrics & Concept: Claude Opus 5
@@ -66,7 +66,7 @@ Description:
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
-3本のあとに3日で作った1本：Not Alone https://youtu.be/Vqz8Wj4a-Aw
+3本のあとに3日で作った1本：Not Alone https://youtu.be/_w9ba2ul8fI
 
 🛠️ 使用ツール・AIモデル
 ・作詞・コンセプト：Claude Opus 5

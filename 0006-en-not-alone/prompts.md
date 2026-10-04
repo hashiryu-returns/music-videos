@@ -51,6 +51,7 @@ Up to 5s is one price and 6–8s costs double, so every clip uses either 5.0s or
 
 **#1** · 0:00.0–0:07.3 · use 7.3s
 
+
 Midjourney · sheet B
 
 ```text
@@ -73,6 +74,7 @@ Reject: stone or castle melts; a cut to another shot, the style turning 3D.
 
 **#2** · 0:07.3–0:13.3 · use 6.0s
 
+
 Midjourney · sheet A
 
 ```text
@@ -94,6 +96,7 @@ Accept: cloak and hair blow hard.
 Reject: she turns to camera or falls off the wall; a cut to another shot, the style turning 3D.
 
 **#3** · 0:13.3–0:18.0 · use 4.7s
+
 
 Midjourney · sheet A
 
@@ -119,6 +122,7 @@ Reject: a hand comes up to her face or hair; a cut to another shot, the style tu
 
 **#4** · 0:18.0–0:22.2 · use 4.2s
 
+
 Midjourney · sheet A
 
 ```text
@@ -140,6 +144,7 @@ Accept: the lid rises.
 Reject: chest or lid changes shape; a cut to another shot, the style turning 3D.
 
 **#5** · 0:22.2–0:25.2 · use 3.0s
+
 
 Midjourney · sheet B
 
@@ -165,6 +170,7 @@ Stands in for "For longer than a life should hold". The chest, the orb and the k
 
 **#6** · 0:25.2–0:28.8 · use 3.6s
 
+
 Midjourney · sheet A
 
 ```text
@@ -186,6 +192,7 @@ Accept: the hands close around the orb.
 Reject: orb vanishes or splits; a cut to another shot, the style turning 3D.
 
 **#7** · 0:28.8–0:32.4 · use 3.6s
+
 
 Midjourney · sheet A
 
@@ -211,6 +218,7 @@ Reject: a second torch appears; a cut to another shot, the style turning 3D.
 
 **#8** · 0:32.4–0:37.2 · use 4.8s
 
+
 Midjourney · sheet A
 
 ```text
@@ -231,7 +239,8 @@ Accept: she gets to her feet.
 
 Reject: she floats instead of standing; a cut to another shot, the style turning 3D.
 
-**#9** · 0:37.2–0:40.8 · use 3.6s · dragon 1 of 5, emerald
+**#9** · 0:37.2–0:40.8 · use 3.6s · dragon 1 of 6, emerald
+
 
 Midjourney · sheet A
 
@@ -261,9 +270,11 @@ Midjourney · sheet A
 modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, medium wide shot, eye level, a woman hero with a short black bob in steel armour standing in a vast dark throne room, her body from head to knees in frame with the whole length of her sword, holding the sword upright before her in both hands with the blade rising past her face, the blade catching violet light, violet flames and black pillars far behind her --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, scar
 ```
 
-Accept: armoured woman with a black bob, sword upright before her face, violet flames behind.
+Same prompt as #30 and #35. This roll came back as a knight with short curly hair seen from above, which makes her a different person from both.
 
-Reject: a scar on her face; sword cut off by the frame; black bars, painted background.
+Accept: armoured knight swinging her sword toward the camera, a face that differs from #30 and #35.
+
+Reject: the same face as #30 or #35; a scar on her face; sword cut off by the frame; black bars, painted background.
 
 Vidu · 5s
 
@@ -275,9 +286,8 @@ Accept: the sword sweeps down toward the camera.
 
 Reject: sword bends or doubles; a cut to another shot, the style turning 3D.
 
-Replaces the swordsman's leap. Same prompt as #29, rolled separately, so the two can come out looking like one person; check them side by side before the cut.
-
 **#11** · 0:44.8–0:49.4 · use 4.6s
+
 
 Midjourney · sheet A
 
@@ -301,7 +311,8 @@ Reject: she turns around; a cut to another shot, the style turning 3D.
 
 ### Chorus 1
 
-**#12** · 0:49.4–0:56.5 · use 7.1s
+**#12** · 0:49.4–0:56.7 · use 7.3s
+
 
 Midjourney · sheet A
 
@@ -323,7 +334,8 @@ Accept: clouds drift and the camera glides.
 
 Reject: figures vanish; a cut to another shot, the style turning 3D.
 
-**#13** · 0:56.5–1:01.5 · use 5.0s
+**#13** · 0:56.7–1:01.5 · use 4.8s
+
 
 Midjourney · sheet A
 
@@ -345,7 +357,8 @@ Accept: she draws, and maybe releases.
 
 Reject: bow bends. A clip that only draws is fine; a cut to another shot, the style turning 3D.
 
-**#14** · 1:01.5–1:07.5 · use 6.0s
+**#14** · 1:01.5–1:07.7 · use 6.2s
+
 
 Midjourney · sheet A
 
@@ -369,7 +382,8 @@ Reject: staff bends; a cut to another shot, the style turning 3D.
 
 ### Interlude 1
 
-**#15** · 1:07.5–1:12.0 · use 4.5s
+**#15** · 1:07.7–1:13.7 · use 6.0s
+
 
 Midjourney · sheet A
 
@@ -391,7 +405,8 @@ Accept: fingers move and petals drift.
 
 Reject: flute bends or melts into her fingers; a cut to another shot, the style turning 3D.
 
-**#16** · 1:12.0–1:19.0 · use 7.0s
+**#16** · 1:13.7–1:18.7 · use 5.0s
+
 
 Midjourney · sheet A
 
@@ -413,7 +428,8 @@ Accept: the golem kneels.
 
 Reject: golem stands up or walks; a cut to another shot, the style turning 3D.
 
-**#17** · 1:19.0–1:26.0 · use 7.0s
+**#17** · 1:18.7–1:24.2 · use 5.5s
+
 
 Midjourney · sheet A
 
@@ -435,7 +451,8 @@ Accept: she walks right and the ruins slide past.
 
 Reject: she turns to the camera or walks backward; legs tangle; a cut to another shot, the style turning 3D.
 
-**#18** · 1:26.0–1:30.0 · use 4.0s
+**#18** · 1:24.2–1:29.0 · use 3.8s + 1.0s fade
+
 
 Midjourney · sheet A
 
@@ -457,7 +474,8 @@ Accept: the axe comes down and dust bursts up.
 
 Reject: the axe bends or splits; the knight walks away; a cut to another shot, the style turning 3D.
 
-**#19** · 1:30.0–1:33.7 · use 3.7s
+**#19** · 1:29.0–1:33.1 · use 4.1s
+
 
 Midjourney · sheet A
 
@@ -481,7 +499,8 @@ Reject: cape turns into wings; a cut to another shot, the style turning 3D.
 
 ### Verse 3
 
-**#20** · 1:33.7–1:38.7 · use 5.0s
+**#20** · 1:33.1–1:37.7 · use 3.6s + 1.0s dissolve
+
 
 Midjourney · sheet A
 
@@ -503,7 +522,8 @@ Accept: his hands move on the strings.
 
 Reject: hands pass through the harp; a cut to another shot, the style turning 3D.
 
-**#21** · 1:38.7–1:44.9 · use 6.2s
+**#21** · 1:37.7–1:43.7 · use 5.0s + 1.0s dissolve
+
 
 Midjourney · sheet A
 
@@ -525,7 +545,8 @@ Accept: the staff goes up and rain falls.
 
 Reject: staff bends; a cut to another shot, the style turning 3D.
 
-**#22** · 1:44.9–1:49.9 · use 5.0s
+**#22** · 1:43.7–1:47.5 · use 3.3s + 0.5s dissolve
+
 
 Midjourney · sheet A
 
@@ -549,7 +570,8 @@ Reject: stone splits in two; a cut to another shot, the style turning 3D.
 
 ### Chorus 2
 
-**#23** · 1:49.9–1:54.9 · use 5.0s
+**#23** · 1:47.5–1:54.9 · use 6.4s + 1.0s fade
+
 
 Midjourney · sheet A
 
@@ -571,7 +593,8 @@ Accept: the cape whips.
 
 Reject: crystal vanishes; a cut to another shot, the style turning 3D.
 
-**#24** · 1:54.9–2:02.8 · use 7.9s
+**#24** · 1:54.9–2:01.8 · use 6.9s
+
 
 Midjourney · sheet B
 
@@ -593,7 +616,8 @@ Accept: clouds part and waves move.
 
 Reject: bridge bends or wobbles; a cut to another shot, the style turning 3D.
 
-**#25** · 2:02.8–2:08.8 · use 6.0s
+**#25** · 2:01.8–2:07.3 · use 5.5s
+
 
 Midjourney · sheet A
 
@@ -617,7 +641,32 @@ Reject: the hat flies off; the castle warps; a cut to another shot, the style tu
 
 ### Interlude 2
 
-**#26** · 2:08.8–2:14.8 · use 6.0s
+**#26** · 2:07.3–2:11.3 · use 4.0s · dragon 2 of 6, white
+
+Midjourney · sheet A
+
+```text
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, muted dark colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, wide shot, side view, low angle, on a narrow battlement walkway high on the wall of a black castle at night, a winged stone gargoyle with cracked grey skin and glowing violet eyes diving down from a parapet on the right of the frame with its claws out, on the left a young woman lancer with dark brown skin and short curly black hair in bronze scale armour bracing with a long spear thrust up toward it, her whole body in frame and about a third of the frame height, her short cloak streaming behind her, jagged black towers and heavy storm clouds behind them, the dark sea far below --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, blue sky, sun, sunlight --sw 200
+```
+
+Asked for a gargoyle, got a white dragon, and kept it. `winged` and `diving` read as a dragon.
+
+Accept: the lancer on the castle wall with the white dragon over her, the sea below.
+
+Reject: lancer and dragon merged; black bars, painted background.
+
+Vidu · 5s
+
+```text
+Action scene in anime style. The massive white dragon pushes off the stone castle wall, unfolding its huge wings and soaring into the dark night sky with glowing purple eyes. The female knight smoothly turns and shifts into a low spear combat stance, her cloak snapping dramatically in the heavy wind. Dynamic low-angle camera, epic fantasy aesthetic.
+```
+
+Accept: the dragon takes off from the wall and she drops into a spear stance.
+
+Reject: the dragon stays on the wall; her face changes as she turns; a cut to another shot, the style turning 3D.
+
+**#27** · 2:11.3–2:14.5 · use 3.2s
+
 
 Midjourney · sheet A
 
@@ -639,7 +688,8 @@ Accept: she lands on the far ledge and her cloak settles.
 
 Reject: she falls into the chasm or floats; legs tangle; a cut to another shot, the style turning 3D.
 
-**#27** · 2:14.8–2:19.3 · use 4.5s
+**#28** · 2:14.5–2:18.9 · use 4.4s
+
 
 Midjourney · sheet B
 
@@ -663,7 +713,8 @@ Reject: a pillar moves; the doors close; a cut to another shot, the style turnin
 
 ### Bridge
 
-**#28** · 2:19.3–2:26.0 · use 6.7s
+**#29** · 2:18.9–2:25.7 · use 6.8s
+
 
 Midjourney · sheet A
 
@@ -685,7 +736,8 @@ Accept: he leans in with the hand out.
 
 Reject: hand grows extra fingers; a cut to another shot, the style turning 3D.
 
-**#29** · 2:26.0–2:33.2 · use 7.2s
+**#30** · 2:25.7–2:32.7 · use 7.0s
+
 
 Midjourney · sheet A
 
@@ -709,7 +761,8 @@ Reject: sword bends or doubles; a cut to another shot, the style turning 3D.
 
 ### Break
 
-**#30** · 2:33.2–2:38.8 · use 5.6s · dragon 2 of 5, crimson
+**#31** · 2:32.7–2:38.7 · use 6.0s · dragon 3 of 6, crimson
+
 
 Midjourney · sheet A
 
@@ -733,7 +786,8 @@ Reject: wings multiply; a cut to another shot, the style turning 3D.
 
 ### Final chorus
 
-**#31** · 2:38.8–2:43.8 · use 5.0s · dragon 3 of 5, white and gold
+**#32** · 2:38.7–2:43.7 · use 5.0s · dragon 4 of 6, white and gold
+
 
 Midjourney · sheet A
 
@@ -755,7 +809,8 @@ Accept: the dragon roars and the fire comes at her.
 
 Reject: the knight vanishes in the fire or fuses with the dragon; dragon merges with the columns; a cut to another shot, the style turning 3D.
 
-**#32** · 2:43.8–2:46.0 · use 2.2s · dragon 4 of 5, storm blue
+**#33** · 2:43.7–2:45.9 · use 2.2s · dragon 5 of 6, storm blue
+
 
 Midjourney · sheet A
 
@@ -777,7 +832,8 @@ Accept: she crosses the gap and the kick lands on the jaw.
 
 Reject: her leg merges into the dragon; she turns toward the camera; a cut to another shot, the style turning 3D.
 
-**#33** · 2:46.0–2:49.0 · use 3.0s · dragon 5 of 5, black: the sorcerer king's true form
+**#34** · 2:45.9–2:48.5 · use 2.6s · dragon 6 of 6, black: the sorcerer king's true form
+
 
 Midjourney · sheet A
 
@@ -799,7 +855,33 @@ Accept: it roars with wings spread, then breathes fire downward.
 
 Reject: the dragon shrinks or changes shape; the warrior gets bigger; the fire fills the whole screen; a cut to another shot, the style turning 3D.
 
-**#34** · 2:49.0–2:51.0 · use 2.0s · dragon 5 of 5, same fight
+**#35** · 2:48.5–2:49.6 · use 1.1s
+
+
+Midjourney · sheet A
+
+```text
+modern anime illustration, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, realistic adult proportions, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and speckled grime, neutral grey shadows, crisp high resolution, medium wide shot, eye level, a woman hero with a short black bob in steel armour standing in a vast dark throne room, her body from head to knees in frame with the whole length of her sword, holding the sword upright before her in both hands with the blade rising past her face, the blade catching violet light, violet flames and black pillars far behind her --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, text, watermark, scar
+```
+
+Accept: armoured woman with a black bob, sword upright before her face, violet flames behind.
+
+Reject: a scar on her face; sword cut off by the frame; black bars, painted background.
+
+Vidu · 5s
+
+```text
+She brings the sword down hard in a sweeping strike toward the camera.
+```
+
+Accept: the sword sweeps down toward the camera.
+
+Reject: sword bends or doubles; a cut to another shot, the style turning 3D.
+
+Same prompt as #10 and #30, rolled separately. Cut in as a 1.1s flash after the black dragon reveal, so the two read as different people.
+
+**#36** · 2:49.6–2:51.6 · use 2.0s · dragon 6 of 6, same fight
+
 
 Midjourney · sheet A
 
@@ -821,7 +903,8 @@ Accept: the warrior flies at it, it lunges, and fire bursts.
 
 Reject: warrior and dragon merge; the warrior gets bigger; a cut to another shot, the style turning 3D.
 
-**#35** · 2:51.0–2:54.6 · use 3.6s
+**#37** · 2:51.6–2:54.9 · use 3.3s
+
 
 Midjourney · sheet A
 
@@ -845,7 +928,8 @@ Reject: white light covers most of the clip; a cut to another shot, the style tu
 
 ### Outro
 
-**#36** · 2:54.6–2:58.4 · use 3.8s
+**#38** · 2:54.9–2:57.9 · use 3.0s
+
 
 Midjourney · sheet B
 
@@ -867,7 +951,8 @@ Accept: new fire bursts up and the tower falls.
 
 Reject: the whole castle melts or changes shape; the fire turns to smoke and the castle vanishes; a cut to another shot, the style turning 3D.
 
-**#37** · 2:58.4–3:02.0 · use 3.6s
+**#39** · 2:57.9–3:01.8 · use 3.9s
+
 
 Someone in the town notices the clouds clearing. Same prompt as #3, rerolled: a different face reads as a different person.
 
@@ -891,7 +976,8 @@ Accept: she looks up and the light comes in.
 
 Reject: a hand comes up to her face or hair; a cut to another shot, the style turning 3D.
 
-**#38** · 3:02.0–3:07.6 · use 5.6s
+**#40** · 3:01.8–3:07.4 · use 5.6s
+
 
 Midjourney · sheet A
 
@@ -913,7 +999,8 @@ Accept: the sphere rises.
 
 Reject: sphere doesn't rise; a cut to another shot, the style turning 3D.
 
-**#39** · 3:07.6–3:11.9 · use 4.3s
+**#41** · 3:07.4–3:11.7 · use 4.3s
+
 
 Midjourney · sheet B
 
@@ -935,7 +1022,8 @@ Accept: clouds clear and birds fly.
 
 Reject: stone or castle melts; a cut to another shot, the style turning 3D.
 
-**#40** · 3:11.9–3:16.6 · use 4.7s
+**#42** · 3:11.7–3:16.4 · use 4.7s
+
 
 Midjourney · sheet B
 
@@ -957,7 +1045,8 @@ Accept: petals drift and the camera pushes in.
 
 Reject: crown changes shape; a cut to another shot, the style turning 3D.
 
-**#41** · 3:16.6–3:22.5 · use 4.9s + 1.0s fade
+**#43** · 3:16.4–3:22.3 · use 4.9s + 1.0s fade
+
 
 Midjourney · sheet B
 

@@ -2,8 +2,8 @@
 
 The quiet side of the same journey. Someone who kept a light for a lifetime and can finally rest, someone carried home, a crown left on the stair, and a second set of footsteps at the gate. Grand and a little sad, then forward. Not a love song.
 
-- **Status:** done. Song style v2, 3:22; MV cut from 41 stills, one Vidu clip each
-- **YouTube:** [watch](https://www.youtube.com/watch?v=Vqz8Wj4a-Aw). Metadata in [YouTube](#youtube)
+- **Status:** done. Song style v2, 3:22; MV cut from 43 stills, one Vidu clip each
+- **YouTube:** [watch](https://www.youtube.com/watch?v=_w9ba2ul8fI). Metadata in [YouTube](#youtube)
 - **Making-of (Japanese):** [note article](https://note.com/hashiryu_returns/n/n547364c342fc)
 - **Song:** `audio/song.wav`, 202.4s
 - **Captions:** `captions/en.vtt` (lyrics), `captions/ja.vtt`
@@ -43,7 +43,7 @@ The anniversary set it was made after
 ・Editing: iMovie
 
 📝 Behind the Scenes
-One rule: nobody appears twice. Every shot has its own cast, so the hero is a different person each time, and the five dragons are five different dragons. With nothing to keep consistent but the art style, each still only had to work on its own, and each motion prompt was one English sentence. When a shot kept breaking, I swapped the whole scene: the hand on the giant door became an empty throne room, the martial artist became a woman fighter with long braids, and the final departure through the castle gate became a sea of clouds at sunrise. Day one was the song, day two the art style and two thirds of the shots, day three the rest and the edit. 41 stills, one Vidu clip each, cut in iMovie.
+One rule: nobody appears twice. Every shot has its own cast, so the hero is a different person each time, and the six dragons are six different dragons. With nothing to keep consistent but the art style, each still only had to work on its own, and each motion prompt was one English sentence. When a shot kept breaking, I swapped the whole scene: the hand on the giant door became an empty throne room, the martial artist became a woman fighter with long braids, and the final departure through the castle gate became a sea of clouds at sunrise. Day one was the song, day two the art style and two thirds of the shots, day three the rest and the edit. 43 stills, one Vidu clip each, cut in iMovie.
 
 Making-of: https://note.com/hashiryu_returns/n/n547364c342fc?hl=en
 
@@ -78,7 +78,7 @@ Description:
 ・編集：iMovie
 
 📝 制作メモ
-決めごとは一つだけ。同じ人物を二度出さないこと。カットごとに別の人物を出しているので、勇者も出てくるたびに別人で、5頭の竜もすべて別の竜だ。揃えるものが画風しかないので、静止画は1枚ずつ単体で成立すればよく、動きの指示は英語1文で済んだ。何度作っても崩れるカットは、場面ごと差し替えた。巨大な扉を押す手のアップは誰もいない玉座の間に、武闘家は長い三つ編みの女武闘家に、城門から旅立つ最後の場面は朝日に輝く雲海に変えた。1日目に曲、2日目に画風決めと動画の3分の2、3日目に残りと編集。41枚の静止画を1枚ずつViduで動かし、iMovieでつないだ。
+決めごとは一つだけ。同じ人物を二度出さないこと。カットごとに別の人物を出しているので、勇者も出てくるたびに別人で、6頭の竜もすべて別の竜だ。揃えるものが画風しかないので、静止画は1枚ずつ単体で成立すればよく、動きの指示は英語1文で済んだ。何度作っても崩れるカットは、場面ごと差し替えた。巨大な扉を押す手のアップは誰もいない玉座の間に、武闘家は長い三つ編みの女武闘家に、城門から旅立つ最後の場面は朝日に輝く雲海に変えた。1日目に曲、2日目に画風決めと動画の3分の2、3日目に残りと編集。43枚の静止画を1枚ずつViduで動かし、iMovieでつないだ。
 
 制作記：https://note.com/hashiryu_returns/n/n547364c342fc
 
@@ -93,13 +93,13 @@ AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, D
 
 ## Picture
 
-Modern anime illustration: clean thin outlines, flat cel shading with soft neutral grey shadows, natural full colour, vivid reds and blues, backgrounds inked like the figures rather than painted. JRPG fantasy, not dark fantasy, not Toriyama. Midjourney Niji 7 stills with one of our two style sheets as Style Reference, animated one by one in Vidu image-to-video (Q2, with Q3 as a second try on shots Q2 kept getting wrong), cut in iMovie. 41 stills for 202.4s, one clip each.
+Modern anime illustration: clean thin outlines, flat cel shading with soft neutral grey shadows, natural full colour, vivid reds and blues, backgrounds inked like the figures rather than painted. JRPG fantasy, not dark fantasy, not Toriyama. Midjourney Niji 7 stills with one of our two style sheets as Style Reference, animated one by one in Vidu image-to-video (Q2, with Q3 as a second try on shots Q2 kept getting wrong), cut in iMovie. 43 stills for 202.4s, one clip each.
 
 The picture follows the adventure, not the lyric: a darkened world, a light handed down, a rescue, the road, the sacred items, the rainbow bridge, the offer refused, the dragons, the light returned, a crown left on the stair, the road ahead over a sea of clouds. Cast is disposable and mostly women, a different job in every shot.
 
 1. **Style sheets.** Roll style sheets A and B in Niji 7 with no Style Reference and save one of each as `stills/style-sheet-a.png` and `stills/style-sheet-b.png`.
-2. **Stills.** Roll #1–#41 with the one style sheet each scene names as Style Reference. Save as `stills/01.png` … `stills/41.png`.
-3. **Clips.** Vidu Q2, Image to Video, at each scene's Vidu length; Q3 for a shot Q2 keeps getting wrong. Save as `clips/01.mp4` … `clips/41.mp4` (not committed).
+2. **Stills.** Roll #1–#43 with the one style sheet each scene names as Style Reference. Save as `stills/01.png` … `stills/43.png`.
+3. **Clips.** Vidu Q2, Image to Video, at each scene's Vidu length; Q3 for a shot Q2 keeps getting wrong. Save as `clips/01.mp4` … `clips/43.mp4` (not committed).
 4. **Edit.** See [Edit](#edit).
 
 ## Shot list
@@ -115,54 +115,56 @@ The picture follows the adventure, not the lyric: a darkened world, a light hand
 | | 0:28.8 | 7 | Woman with a torch at the carved cave wall | 3.6 |
 | Verse 2 | 0:32.4 | 8 | Princess in the cell, looking up at the light | 4.8 |
 | | 0:37.2 | 9 | Emerald dragon in its cavern | 3.6 |
-| | 0:40.8 | 10 | Woman knight with a black bob swings her sword at the camera | 4.0 |
+| | 0:40.8 | 10 | Knight with short curly hair swings her sword at the camera, seen from above | 4.0 |
 | | 0:44.8 | 11 | Princess walks into the hall, from behind | 4.6 |
-| Chorus 1 | 0:49.4 | 12 | Three tiny adventurers on a ridge above the clouds | 7.1 |
-| | 0:56.5 | 13 | Archer on a cliff edge | 5.0 |
-| | 1:01.5 | 14 | Mage with a lantern staff in the misty forest | 6.0 |
-| Interlude 1 | 1:07.5 | 15 | Bard plays the flute | 4.5 |
-| | 1:12.0 | 16 | The stone golem kneels and sleeps | 7.0 |
-| | 1:19.0 | 17 | Ranger walks through the ruins of a fallen town, side view | 7.0 |
-| | 1:26.0 | 18 | Black axe knight guarding the ancient armour | 4.0 |
-| | 1:30.0 | 19 | Knight in the ancient armour after the battle, dust on the wasteland, from above | 3.7 |
-| Verse 3 | 1:33.7 | 20 | Elf bard plays the silver harp | 5.0 |
-| | 1:38.7 | 21 | Old sage calls down the rain | 6.2 |
-| | 1:44.9 | 22 | Cleric raises the sun stone | 5.0 |
-| Chorus 2 | 1:49.9 | 23 | Hero raises the crystal toward the island castle | 5.0 |
-| | 1:54.9 | 24 | The rainbow bridge across the sea | 7.9 |
-| | 2:02.8 | 25 | Witch on the island rocks looks up at the black castle | 6.0 |
-| Interlude 2 | 2:08.8 | 26 | Rogue leaps a collapsed chasm in the dark castle | 6.0 |
-| | 2:14.8 | 27 | Vast empty hall, the far doors open on violet light | 4.5 |
-| Bridge | 2:19.3 | 28 | Sorcerer king on his throne offers his hand | 6.7 |
-| | 2:26.0 | 29 | Hero raises her sword: no | 7.2 |
-| Break | 2:33.2 | 30 | Crimson dragon bursts through the roof | 5.6 |
-| Final chorus | 2:38.8 | 31 | White and gold dragon breathes fire at a braced knight | 5.0 |
-| | 2:43.8 | 32 | Martial artist's flying kick at a storm-blue dragon over a mountain peak, side view | 2.2 |
-| | 2:46.0 | 33 | The sorcerer king's true form: a black dragon rears up in the throne hall, a tiny warrior below | 3.0 |
-| | 2:49.0 | 34 | A silver warrior leaps at the black dragon's head | 2.0 |
-| | 2:51.0 | 35 | Mage looses a spear of light | 3.6 |
-| Outro | 2:54.6 | 36 | The island castle torn apart by pillars of fire | 3.8 |
-| | 2:58.4 | 37 | Red-haired knight in the town square looks back as the clouds clear | 3.6 |
-| | 3:02.0 | 38 | Cleric on the tower, the light rises | 5.6 |
-| | 3:07.6 | 39 | Valley at sunrise from the same watchtower, colour back | 4.3 |
-| | 3:11.9 | 40 | The crown left on the stair | 4.7 |
-| | 3:16.6 | 41 | Sea of clouds at sunrise from the ridge, the camera moves out over it | 4.9 + 1.0 fade |
+| Chorus 1 | 0:49.4 | 12 | Three tiny adventurers on a ridge above the clouds | 7.3 |
+| | 0:56.7 | 13 | Archer on a cliff edge | 4.8 |
+| | 1:01.5 | 14 | Mage with a lantern staff in the misty forest | 6.2 |
+| Interlude 1 | 1:07.7 | 15 | Bard plays the flute | 6.0 |
+| | 1:13.7 | 16 | The stone golem kneels and sleeps | 5.0 |
+| | 1:18.7 | 17 | Ranger walks through the ruins of a fallen town, side view | 5.5 |
+| | 1:24.2 | 18 | Black axe knight guarding the ancient armour | 3.8 + 1.0 fade |
+| | 1:29.0 | 19 | Knight in the ancient armour after the battle, dust on the wasteland, from above | 4.1 |
+| Verse 3 | 1:33.1 | 20 | Elf bard plays the silver harp | 3.6 + 1.0 dissolve |
+| | 1:37.7 | 21 | Old sage calls down the rain | 5.0 + 1.0 dissolve |
+| | 1:43.7 | 22 | Cleric raises the sun stone | 3.3 + 0.5 dissolve |
+| Chorus 2 | 1:47.5 | 23 | Hero raises the crystal toward the island castle | 6.4 + 1.0 fade |
+| | 1:54.9 | 24 | The rainbow bridge across the sea | 6.9 |
+| | 2:01.8 | 25 | Witch on the island rocks looks up at the black castle | 5.5 |
+| Interlude 2 | 2:07.3 | 26 | Lancer on the castle wall as a white dragon takes off over the sea | 4.0 |
+| | 2:11.3 | 27 | Rogue leaps a collapsed chasm in the dark castle | 3.2 |
+| | 2:14.5 | 28 | Vast empty hall, the far doors open on violet light | 4.4 |
+| Bridge | 2:18.9 | 29 | Sorcerer king on his throne offers his hand | 6.8 |
+| | 2:25.7 | 30 | Hero raises her sword: no | 7.0 |
+| Break | 2:32.7 | 31 | Crimson dragon bursts through the roof | 6.0 |
+| Final chorus | 2:38.7 | 32 | White and gold dragon breathes fire at a braced knight | 5.0 |
+| | 2:43.7 | 33 | Martial artist's flying kick at a storm-blue dragon over a mountain peak, side view | 2.2 |
+| | 2:45.9 | 34 | The sorcerer king's true form: a black dragon rears up in the throne hall, a tiny warrior below | 2.6 |
+| | 2:48.5 | 35 | Knight with a black bob swings her sword at the camera, one flash | 1.1 |
+| | 2:49.6 | 36 | A silver warrior leaps at the black dragon's head | 2.0 |
+| | 2:51.6 | 37 | Mage looses a spear of light | 3.3 |
+| Outro | 2:54.9 | 38 | The island castle torn apart by pillars of fire | 3.0 |
+| | 2:57.9 | 39 | Red-haired knight in the town square looks back as the clouds clear | 3.9 |
+| | 3:01.8 | 40 | Cleric on the tower, the light rises | 5.6 |
+| | 3:07.4 | 41 | Valley at sunrise from the same watchtower, colour back | 4.3 |
+| | 3:11.7 | 42 | The crown left on the stair | 4.7 |
+| | 3:16.4 | 43 | Sea of clouds at sunrise from the ridge, the camera moves out over it | 4.9 + 1.0 fade |
 
 Section times come from `captions/en.vtt`. The instrumental gaps are 1:07.5–1:33.7, 2:08.8–2:19.3, 2:33.2–2:38.8 and the outro from 2:56.0.
 
-The five dragons are five different dragons on purpose (emerald, crimson, white and gold, storm blue, black), each with a different hero, so no dragon changes design between cuts. The black one is the only dragon in two shots, #33 and #34, back to back as one fight.
+The six dragons are six different dragons on purpose (emerald, white, crimson, white and gold, storm blue, black), each with a different hero, so no dragon changes design between cuts. The black one is the only dragon in more than one shot, #34 and #36, as one fight.
 
-#37 reuses #3's prompt. A different face reads as a different person.
+#39 reuses #3's prompt, and #10 and #35 reuse #30's. A different face reads as a different person; #3 also has Ken Burns and a flip in the edit so it doesn't read as #39.
 
 ## Edit
 
 iMovie, new Movie project, no theme.
 
 1. Drop `audio/song.wav` on the timeline first. It is the clock: every cut lands on the Time column above.
-2. Add `clips/01.mp4` … `41.mp4` in order and mute every clip, in case a Vidu take came with sound.
-3. Trim each clip to its Use length. Cut from the end by default: frame 1 is the still you picked, and Vidu drifts most at the tail. If the action only lands at the end (#13 the arrow, #16 the kneel, #21 the rain, #26 the landing), cut from the start instead.
-4. Check the playhead against the Time column at each section start (0:18.7, 0:33.1, 0:49.4, 1:07.5, 1:33.7, 1:49.9, 2:08.8, 2:19.3, 2:33.2, 2:38.8, 2:54.6). If it's off, the clip before it is the wrong length.
-5. Transitions as the cut was made: cross dissolves, fades to black and fades to white between scenes, Ken Burns on many clips, and a fade to black over the end of #41. An iMovie transition overlaps both clips and pulls every later cut early, so re-check step 4 after adding one.
+2. Add `clips/01.mp4` … `43.mp4` in order and mute every clip, in case a Vidu take came with sound.
+3. Trim each clip to its Use length. Cut from the end by default: frame 1 is the still you picked, and Vidu drifts most at the tail. If the action only lands at the end (#13 the arrow, #16 the kneel, #21 the rain, #27 the landing), cut from the start instead.
+4. Check the playhead against the Time column at each section start (0:18.0, 0:32.4, 0:49.4, 1:07.7, 1:33.1, 1:47.5, 2:07.3, 2:18.9, 2:32.7, 2:38.7, 2:54.9). If it's off, the clip before it is the wrong length.
+5. Transitions as the cut was made: cross dissolves, fades to black and fades to white between scenes, Ken Burns on many clips, and a fade to black over the end of #43. An iMovie transition overlaps both clips and pulls every later cut early, so re-check step 4 after adding one.
 6. Never change a clip's speed. A clip that's too short gets re-generated, not slowed.
 
 Share → File, 1080p, quality High. Upload `captions/en.vtt` and `captions/ja.vtt` as subtitle tracks rather than burning them in.
