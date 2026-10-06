@@ -1,7 +1,5 @@
 # 0002 lyrics — four versions
 
-Restored from `published-works`, where it was `MV/songs/lyrics-fr.md` until the videos moved to this repo (commit `f900b34`). D shipped.
-
 **Locked: D — « Je m'arrête pas ».** C « Debout dans la cuisine » is the saved nu-disco fallback; leave its prompt untouched. A is a retired waltz, B is retired.
 
 Video 3 of 3. **Wife and dogs centric. This is the gift and the highest-priority video.** Year 21 (2025-10-04 → 2026-10-03). Fun, warm, wry. **Not sad, not a love song.**

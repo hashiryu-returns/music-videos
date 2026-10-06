@@ -1,6 +1,6 @@
 # 0003 lyrics — three versions
 
-Restored from `published-works`, where it was `MV/songs/lyrics-en.md` until the videos moved to this repo (commit `f900b34`). B shipped, sung by Gemini Music AI without verse 5 (nori-shio and gyudon); the lyric as sung is in [README.md](README.md#song). The Suno style below made the unused Suno take.
+B shipped, sung by Gemini Music AI without verse 5 (nori-shio and gyudon); the lyric as sung is in [README.md](README.md#song). The Suno style below made the unused Suno take.
 
 Video 2. Family centric — four people, one 15-year-old dog, plus the mess. Year 21 (2025-10-04 → 2026-10-03). **Fun, deadpan, not sad, not a love song.**
 

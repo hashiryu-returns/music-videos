@@ -1,7 +1,5 @@
 # 0001 lyrics — three versions
 
-Restored from `published-works`, where it was `MV/songs/lyrics-jp.md` until the videos moved to this repo (commit `f900b34`). B shipped.
-
 Video 1. Husband-centric, family in frame. Year 21 (2025-10-04 → 2026-10-03). **Fun, self-deprecating, not sad, not a love song.**
 
 The comic thesis all three versions share: **every single thing he did this year happened in one room.** Streaming, trading, AI, writing, raging at mahjong, importing ramen, reading manga — same chair. And he knows it. That's the joke, and it's also what makes videos 2 and 3 land: they're about the people on the other side of the door.
