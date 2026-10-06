@@ -50,7 +50,7 @@ NNNN-lang-slug/
 ├── lyrics.md      versions and sibling songs that weren't shipped
 ├── captions/      sung lyric plus translations, as <lang>.vtt
 ├── characters/    plates
-├── stills/
+├── stills/        thumbnail.* is the thumbnail's background art
 ├── objects/       reference photos of things, never of people
 ├── clips/         per-scene video, not committed
 ├── audio/         the song and song-only previews, not committed
@@ -63,3 +63,5 @@ NNNN-lang-slug/
 Copy the pieces the song actually has. Video and audio stay out of git. Drawings, stills, object photos, captions, and the thumbnail do not.
 
 Real photos of people do not go in this repo.
+
+Thumbnails are built by [`_tools/make_thumbnails.py`](_tools/make_thumbnails.py), one function per song. Run it with the song numbers to rebuild (`python _tools/make_thumbnails.py 0005`). It needs Pillow.
