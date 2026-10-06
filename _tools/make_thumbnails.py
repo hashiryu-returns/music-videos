@@ -7,7 +7,7 @@ Background art is <mv>/stills/thumbnail.* (0002 uses stills/17.png). Output goes
     python _tools/make_thumbnails.py            # all
     python _tools/make_thumbnails.py 0004 0005  # some
 
-Fonts are the macOS system ones. Keep the bottom-right corner clear: YouTube puts the
+Display fonts live in _tools/fonts. Keep the bottom-right corner clear: YouTube puts the
 video length there.
 """
 import math
@@ -169,14 +169,161 @@ def lang_chip(base, lang, accent=(255, 255, 255)):
     place(base, chip, 28, 26)
 
 
+
+# ---------------------------------------------------------------- logo builder
+FONTS = Path(__file__).resolve().parent / "fonts"
+
+
+def gfont(name, size, weight=None):
+    f = ImageFont.truetype(str(FONTS / name), size)
+    if weight:
+        f.set_variation_by_axes([weight])
+    return f
+
+
+def word(text, f, tracking=0):
+    m = text_mask(text, f, tracking=tracking, pad=10)
+    return m.crop(m.getbbox())
+
+
+def fit(text, name, width, tracking=0, weight=None):
+    m = word(text, gfont(name, 200, weight), tracking)
+    return word(text, gfont(name, max(20, round(200 * width / m.width)), weight), tracking)
+
+
+def pad_mask(m, p):
+    out = Image.new("L", (m.width + 2 * p, m.height + 2 * p), 0)
+    out.paste(m, (p, p))
+    return out
+
+
+def grow(m, px):
+    """Dilate by px, in steps so MaxFilter stays cheap."""
+    while px > 0:
+        step = min(px, 6)
+        m = m.filter(ImageFilter.MaxFilter(2 * step + 1))
+        px -= step
+    return m
+
+
+def logo(mask, face, depth=12, d=(1, 1), side=((120, 60, 10), (40, 16, 4)),
+         rim=(4, (30, 14, 4)), outer=(), bevel=True, gloss=0, halo=None, drop=True):
+    """A title that reads as an object: extruded sides, an outline, a lit face.
+
+    face is a colour or an image sized to the mask. outer is [(px, colour), ...] from the
+    inside out, drawn around the whole silhouette including the extrusion.
+    """
+    widest = max([w for w, _ in outer] + [rim[0] if rim else 0])
+    p = depth + widest + 40
+    M = pad_mask(mask, p)
+    sil = M.copy()
+    for i in range(1, depth + 1):
+        sil = ImageChops.lighter(sil, ImageChops.offset(M, i * d[0], i * d[1]))
+    out = Image.new("RGBA", M.size, (0, 0, 0, 0))
+    if halo:
+        col, r, k = halo
+        out.alpha_composite(glow(grow(sil, 4), col, r, k))
+    if drop:
+        out.alpha_composite(fill(ImageChops.offset(sil, 6, 12).filter(ImageFilter.GaussianBlur(12)), (0, 0, 0, 200)))
+    for w, col in reversed(outer):
+        out.alpha_composite(fill(grow(sil, w), col))
+    for i in range(depth, 0, -1):
+        t = (i - 1) / max(1, depth - 1)
+        c0, c1 = side
+        col = tuple(round(c0[k] + (c1[k] - c0[k]) * t) for k in range(3)) + (255,)
+        out.alpha_composite(fill(ImageChops.offset(M, i * d[0], i * d[1]), col))
+    if rim:
+        out.alpha_composite(fill(grow(M, rim[0]), rim[1] + (255,)))
+    if isinstance(face, Image.Image):
+        f_img = Image.new("RGBA", M.size, (0, 0, 0, 0))
+        f_img.paste(face.resize(mask.size), (p, p))
+        out.alpha_composite(fill(M, f_img))
+    else:
+        out.alpha_composite(fill(M, face))
+    if bevel:
+        lit = ImageChops.subtract(M, ImageChops.offset(M, 3, 4))
+        dark = ImageChops.subtract(M, ImageChops.offset(M, -3, -4))
+        out.alpha_composite(fill(lit, (255, 255, 255, 170)))
+        out.alpha_composite(fill(dark, (0, 0, 0, 120)))
+    if gloss:
+        top = Image.new("L", M.size, 0)
+        b = M.getbbox()
+        ImageDraw.Draw(top).rectangle((0, 0, M.width, b[1] + (b[3] - b[1]) * 0.45), fill=gloss)
+        out.alpha_composite(fill(ImageChops.multiply(M, top), (255, 255, 255, 255)))
+    return bbox_crop(out)
+
+
+def scale_to(layer, width):
+    return layer.resize((width, round(layer.height * width / layer.width)), Image.LANCZOS)
+
+
+def sparkle(base, x, y, r, color=(255, 255, 255), a=255):
+    """Four-point star glint."""
+    s = Image.new("RGBA", (r * 4, r * 4), (0, 0, 0, 0))
+    d = ImageDraw.Draw(s)
+    c = r * 2
+    t = max(1, r // 7)
+    d.polygon([(c, c - r * 2 + 2), (c + t, c), (c, c + r * 2 - 2), (c - t, c)], fill=color + (a,))
+    d.polygon([(c - r * 2 + 2, c), (c, c + t), (c + r * 2 - 2, c), (c, c - t)], fill=color + (a,))
+    g = s.filter(ImageFilter.GaussianBlur(r / 3))
+    base.alpha_composite(g, (x - c, y - c))
+    base.alpha_composite(g, (x - c, y - c))
+    base.alpha_composite(s, (x - c, y - c))
+
+
+def embers(base, box, n, colors, seed, rmax=5):
+    rnd = random.Random(seed)
+    layer = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    x0, y0, x1, y1 = box
+    for _ in range(n):
+        x, y = rnd.randint(x0, x1), rnd.randint(y0, y1)
+        r = rnd.uniform(1.2, rmax)
+        col = rnd.choice(colors) + (rnd.randint(150, 255),)
+        d.ellipse((x - r, y - r, x + r, y + r), fill=col)
+    base.alpha_composite(layer.filter(ImageFilter.GaussianBlur(2.2)))
+    base.alpha_composite(layer)
+
+
+def ribbon(text, f, fg, bg, padx=26, pady=10, tracking=6, slant=0.25):
+    m = word(text, f, tracking)
+    w, h = m.width + 2 * padx, m.height + 2 * pady
+    r = Image.new("RGBA", (w, h), bg + (255,))
+    r.alpha_composite(fill(pad_mask(m, 0), fg + (255,)), (padx, pady))
+    return shear(r, slant)
+
+
+def slash(base, p0, p1, width=10, core=(255, 255, 255), bloom=(255, 40, 60)):
+    """A tapered streak: white core, coloured bloom. Used as a sword cut across a title."""
+    layer = Image.new("RGBA", base.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(layer)
+    (x0, y0), (x1, y1) = p0, p1
+    dx, dy = x1 - x0, y1 - y0
+    n = math.hypot(dx, dy)
+    nx, ny = -dy / n * width / 2, dx / n * width / 2
+    mx, my = (x0 + x1) / 2, (y0 + y1) / 2
+    d.polygon([(x0, y0), (mx + nx, my + ny), (x1, y1), (mx - nx, my - ny)], fill=core + (255,))
+    a = layer.split()[3]
+    base.alpha_composite(glow(a, bloom + (255,), 18, 2.2))
+    base.alpha_composite(glow(a, bloom + (255,), 6, 1.5))
+    base.alpha_composite(layer)
+
+
+STEEL = [
+    (0, (255, 255, 255)),
+    (0.35, (200, 208, 220)),
+    (0.5, (110, 118, 132)),
+    (0.56, (235, 240, 248)),
+    (1, (140, 148, 162)),
+]
+
+
 # ---------------------------------------------------------------- 0001 JP
 def jp():
     im = cover(MV / "0001-jp-doji-setsuzoku/stills/thumbnail.jpg")
-    shade(im, linear_mask("down", 0.45, 1.0, 235))
-    shade(im, linear_mask("up", 0.75, 1.0, 120))
+    shade(im, linear_mask("down", 0.42, 1.0, 235))
+    shade(im, linear_mask("up", 0.78, 1.0, 120))
 
-    # stream-overlay HUD: the title is the viewer count
-    d = ImageDraw.Draw(im)
     hf = font(SYS + "ヒラギノ角ゴシック W8.ttc", 26)
     live = Image.new("RGBA", (128, 46), (0, 0, 0, 0))
     ld = ImageDraw.Draw(live)
@@ -189,30 +336,29 @@ def jp():
     pill = Image.new("RGBA", (pill_w, 46), (0, 0, 0, 0))
     pd = ImageDraw.Draw(pill)
     pd.rounded_rectangle((0, 0, pill_w - 1, 45), 6, fill=(0, 0, 0, 170))
-    # person glyph
     pd.ellipse((18, 9, 30, 21), fill="white")
     pd.pieslice((12, 22, 36, 46), 180, 360, fill="white")
     pd.text((46, 8), "10 人が視聴中", font=vf, fill="white")
     place(im, pill, 168, 26)
 
-    tf = font(SYS + "ヒラギノ角ゴシック W9.ttc", 150)
-    nf = font(SYS + "ヒラギノ角ゴシック W9.ttc", 200)
-    a = text_mask("同時接続", tf, pad=60)
-    n = text_mask("10", nf, pad=60)
-    r = text_mask("人", tf, pad=60)
-    cyan = (90, 230, 255, 255)
-    pink = (255, 70, 160, 255)
-    x, base_y = 34, 676
-    layers = []
-    for m, col, dy in ((a, cyan, 0), (n, pink, 0), (r, cyan, 0)):
-        bb = m.getbbox()
-        layers.append((m, col, bb, dy))
-    for m, col, bb, dy in layers:
-        y = base_y - bb[3] + dy
-        place(im, glow(m, col[:3] + (255,), 22, 1.6), x - bb[0], y)
-        place(im, glow(m, col[:3] + (255,), 6, 1.2), x - bb[0], y)
-        place(im, fill(m, (255, 255, 255, 255)), x - bb[0], y)
-        x += bb[2] - bb[0] + 10
+    # one mask, "10" coloured separately so it lands on the same baseline as the kanji
+    f = gfont("DelaGothicOne-Regular.ttf", 200)
+    full = "同時接続10人"
+    m = word(full, f)
+    head = word("同時接続", f)
+    split = head.width + 4
+    tail = word("人", f)
+    face = Image.new("RGBA", m.size)
+    face.paste(grad(m.size, [(0, (255, 255, 255)), (0.45, (190, 245, 255)), (0.55, (90, 210, 255)), (1, (225, 250, 255))]), (0, 0))
+    pink = grad((m.width - split - tail.width, m.height), [(0, (255, 225, 240)), (0.5, (255, 90, 175)), (1, (255, 160, 210))])
+    face.paste(pink, (split, 0))
+    t = logo(m, face, depth=14, d=(1, 2), side=((40, 40, 140), (12, 8, 40)), rim=(5, (8, 10, 40)),
+             outer=[(5, (255, 255, 255))], gloss=0, halo=((60, 200, 255, 255), 28, 1.3))
+    t = scale_to(t, 900)
+    place(im, t, 22, 640, "lb")
+    sub = ribbon("ABOUT TEN ONLINE", font(SYS + "Avenir Next Condensed.ttc", 34, index=8),
+                 (255, 255, 255), (230, 40, 130))
+    place(im, sub, 52, 646)
     return im
 
 
@@ -220,35 +366,21 @@ def jp():
 def fr():
     im = cover(MV / "0002-fr-je-marrete-pas/stills/17.png")
     shade(im, linear_mask("left", 0.35, 1.0, 215))
-    f = font(SYS + "Avenir Next Condensed.ttc", 210, index=9)
-    lines = [("JE", 0), ("M'ARRÊTE", 0), ("PAS.", 0)]
-    block = Image.new("RGBA", (1100, 720), (0, 0, 0, 0))
-    y = 0
-    for i, (t, _) in enumerate(lines):
-        m = text_mask(t, f, pad=30)
-        bb = m.getbbox()
-        m = m.crop((bb[0] - 10, bb[1] - 10, bb[2] + 10, bb[3] + 10))
-        lx = 0
-        if t == "PAS.":
-            # slash bar behind the punchline
-            bar = Image.new("RGBA", (m.width + 70, m.height - 24), (232, 22, 60, 255))
-            place(block, bar, lx - 20, y + 16)
-        place(block, fill(m, (0, 235, 255, 210)), lx - 7, y)
-        place(block, fill(m, (255, 30, 120, 210)), lx + 7, y)
-        place(block, fill(m, (255, 255, 255, 255)), lx, y)
-        y += m.height - 34
-    block = bbox_crop(block)
-    block = block.rotate(5, Image.BICUBIC, expand=True)
-    s = 540 / block.width
-    block = block.resize((540, round(block.height * s)), Image.LANCZOS)
-    top = (H - block.height) // 2 + 20
-    shadow = glow(block.split()[3], (0, 0, 0, 255), 14, 1.3)
-    place(im, shadow, 30, top + 10)
+    rows = []
+    for text, width in (("Je m'arrête", 580), ("pas", 330)):
+        m = fit(text, "PirataOne-Regular.ttf", width, tracking=2)
+        rows.append(logo(m, grad(m.size, STEEL), depth=8, d=(1, 1), side=((60, 64, 74), (14, 14, 18)),
+                         rim=(4, (8, 8, 10)), halo=((220, 20, 50, 255), 22, 0.9)))
+    block = Image.new("RGBA", (900, 600), (0, 0, 0, 0))
+    place(block, rows[0], 0, 0)
+    place(block, rows[1], 220, rows[0].height - 60)
+    block = scale_to(bbox_crop(block), 580)
+    top = (H - block.height) // 2 - 10
     place(im, block, 30, top)
-    d = ImageDraw.Draw(im)
-    for yy, h in ((0.18, 3), (0.37, 2), (0.61, 4), (0.86, 2)):
-        y = top + round(block.height * yy)
-        d.rectangle((0, y, 560, y + h), fill=(255, 255, 255, 60))
+    slash(im, (14, top + block.height - 20), (560, top + 70), width=9)
+    sub = ribbon("I DON'T STOP", font(SYS + "Avenir Next Condensed.ttc", 30, index=8),
+                 (255, 255, 255), (200, 16, 40), slant=0)
+    place(im, sub, 40, top + block.height + 26)
     lang_chip(im, "FR", (232, 22, 60))
     return im
 
@@ -256,74 +388,45 @@ def fr():
 # ---------------------------------------------------------------- 0003 EN Hamburger
 def burger():
     im = cover(MV / "0003-en-hamburger-hamburger/stills/thumbnail.jpg", fy=0.3)
-    shade(im, linear_mask("down", 0.55, 1.0, 150))
-    f = font(SUP + "Arial Black.ttf", 112)
-    palette = [(255, 201, 60), (240, 66, 44)]
-    rows = ["HAMBURGER", "HAMBURGER"]
-    y0 = [408, 522]
-    x0 = [26, 66]
-    for r, word in enumerate(rows):
-        x = x0[r]
-        for i, ch in enumerate(word):
-            m = text_mask(ch, f, pad=30)
-            ring = text_mask(ch, f, stroke=10, pad=30)
-            outer = text_mask(ch, f, stroke=18, pad=30)
-            g = Image.new("RGBA", m.size, (0, 0, 0, 0))
-            g.alpha_composite(fill(outer, (255, 255, 255, 255)))
-            g.alpha_composite(fill(ring, (74, 37, 17, 255)))
-            c = palette[r] if i % 2 == 0 else tuple(min(255, v + 25) for v in palette[r])
-            g.alpha_composite(fill(m, grad(m.size, [(0, c), (0.55, c), (1, tuple(round(v * 0.78) for v in c))])))
-            # glossy highlight
-            hl = Image.new("L", m.size, 0)
-            ImageDraw.Draw(hl).rectangle((0, 0, m.width, m.height * 0.42), fill=70)
-            g.alpha_composite(fill(ImageChops.multiply(m, hl), (255, 255, 255, 255)))
-            ang = (-7, 5, -3, 7, -5, 4, -6, 3, -4)[i] * 0.5
-            g = g.rotate(ang, Image.BICUBIC, expand=True)
-            bounce = (0, -14, 4, -10, 6, -16, 2, -8, 0)[i] // 2
-            sh = glow(g.split()[3], (40, 15, 0, 255), 6, 1.2)
-            place(im, sh, x + 5, y0[r] + bounce + 8)
-            place(im, g, x, y0[r] + bounce)
-            x += f.getlength(ch) * 0.93
+    shade(im, linear_mask("down", 0.6, 1.0, 140))
+    lines = []
+    for text, top, bottom in (("HAMBURGER", (255, 230, 90), (245, 160, 20)),
+                              ("HAMBURGER", (255, 120, 90), (210, 35, 25))):
+        m = fit(text, "LuckiestGuy-Regular.ttf", 700)
+        face = grad(m.size, [(0, top), (0.6, top), (1, bottom)])
+        lines.append(logo(m, face, depth=12, d=(0, 1), side=((120, 60, 20), (70, 30, 8)),
+                          rim=(5, (70, 30, 8)), outer=[(9, (255, 255, 255))], gloss=60))
+    block = Image.new("RGBA", (1000, 500), (0, 0, 0, 0))
+    place(block, lines[0], 0, 0)
+    place(block, lines[1], 40, lines[0].height - 40)
+    block = bbox_crop(block).rotate(3, Image.BICUBIC, expand=True)
+    block = scale_to(block, 720)
+    place(im, block, 18, 712, "lb")
     lang_chip(im, "EN", (255, 201, 60))
     return im
 
 
 # ---------------------------------------------------------------- 0004 EN Not Alone
 def not_alone():
-    im = cover(MV / "0004-en-not-alone/stills/thumbnail.png", fy=0.35)
-    shade(im, linear_mask("down", 0.5, 1.0, 245))
-    shade(im, radial_mask(640, 600, (700, 260), 120))
-    f = font(SUP + "Copperplate.ttc", 140, index=2)
-    m = text_mask("NOT ALONE", f, tracking=18, pad=50)
-    m = m.crop(m.getbbox())
-    pad = 50
-    big = Image.new("L", (m.width + 2 * pad, m.height + 2 * pad), 0)
-    big.paste(m, (pad, pad))
-    m = big
-    gold = grad(m.size, [(0, (255, 248, 210)), (0.42, (247, 214, 120)), (0.5, (196, 140, 40)), (1, (255, 225, 140))])
-    edge = m.filter(ImageFilter.MaxFilter(7))
-    layer = Image.new("RGBA", m.size, (0, 0, 0, 0))
-    layer.alpha_composite(glow(m, (170, 90, 255, 255), 26, 1.8))
-    layer.alpha_composite(fill(edge, (48, 22, 6, 255)))
-    layer.alpha_composite(fill(m, gold))
-    cx = W // 2
-    place(im, layer, cx, 676, "mb")
-    # ornament rules + diamond
-    d = ImageDraw.Draw(im)
-    gy = 676 - layer.height + pad - 30
-    half = m.width // 2 - pad
-    for sx in (-1, 1):
-        x1, x2 = cx + sx * 40, cx + sx * (half)
-        d.line((x1, gy, x2, gy), fill=(240, 205, 120, 230), width=2)
-    d.polygon([(cx, gy - 10), (cx + 10, gy), (cx, gy + 10), (cx - 10, gy)], fill=(255, 230, 150, 255))
-    lang_chip(im, "EN", (240, 205, 120))
+    im = cover(MV / "0004-en-not-alone/stills/thumbnail.png", fy=0.28)
+    shade(im, linear_mask("down", 0.55, 1.0, 200))
+    m = fit("NOT ALONE", "Cinzel[wght].ttf", 1100, tracking=10, weight=900)
+    t = logo(m, grad(m.size, STEEL), depth=16, d=(1, 1), side=((70, 60, 110), (14, 10, 30)), rim=None,
+             halo=((160, 90, 255, 255), 34, 1.5))
+    t = scale_to(t, 1120)
+    bottom = 618
+    place(im, t, W // 2, bottom, "mb")
+    embers(im, (0, 360, W, 700), 80, [(200, 140, 255), (170, 110, 255), (235, 225, 255)], seed=4, rmax=4)
+    top = bottom - t.height
+    for x, y, r in ((300, top + 42, 22), (1010, top + 70, 14)):
+        sparkle(im, x, y, r, (235, 225, 255))
+    lang_chip(im, "EN", (190, 160, 255))
     return im
 
 
 # ---------------------------------------------------------------- 0005 EN Out of My Way
 def out_of_my_way():
     im = cover(MV / "0005-en-out-of-my-way/stills/thumbnail.png", fx=1.0, fy=0.35, zoom=1.22)
-    # speed lines trail behind him, in the open sky only
     lines = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(lines)
     rnd = random.Random(7)
@@ -333,35 +436,22 @@ def out_of_my_way():
         ln = rnd.randint(140, 420)
         d.line((x, y, x + ln, y), fill=(255, 255, 255, rnd.randint(70, 150)), width=rnd.choice((2, 3, 4)))
     im.alpha_composite(lines)
-    shade(im, linear_mask("right", 0.4, 1.0, 140))
-    f = font(SUP + "Arial Black.ttf", 150)
-    words = [("OUT OF", 0.62), ("MY WAY!", 1.0)]
-    block = Image.new("RGBA", (1300, 600), (0, 0, 0, 0))
-    y = 0
-    for word, scale in words:
-        ff = font(SUP + "Arial Black.ttf", round(150 * scale))
-        m = text_mask(word, ff, pad=40)
-        m = m.crop(m.getbbox())
-        p = 30
-        mm = Image.new("L", (m.width + 2 * p, m.height + 2 * p), 0)
-        mm.paste(m, (p, p))
-        m = mm
-        stroke = m.filter(ImageFilter.MaxFilter(17))
-        yellow = grad(m.size, [(0, (255, 244, 120)), (0.55, (255, 210, 40)), (1, (255, 140, 20))])
-        g = Image.new("RGBA", m.size, (0, 0, 0, 0))
-        g.alpha_composite(fill(stroke, (16, 10, 30, 255)))
-        g.alpha_composite(fill(m, yellow))
-        sh = fill(stroke, (220, 30, 50, 255))
-        x = 1300 - g.width
-        place(block, sh, x + 14, y + 14)
-        place(block, g, x, y)
-        y += g.height - 44
-    block = bbox_crop(block)
-    block = shear(block, -0.22)
-    block = block.rotate(7, Image.BICUBIC, expand=True)
-    s = 470 / block.width
-    block = block.resize((470, round(block.height * s)), Image.LANCZOS)
-    place(im, block, W - 24, 300, "rm")
+    shade(im, linear_mask("right", 0.45, 1.0, 120))
+    parts = []
+    for text, width in (("OUT OF", 300), ("MY WAY!", 520)):
+        m = fit(text, "Bangers-Regular.ttf", width, tracking=4)
+        face = grad(m.size, [(0, (255, 250, 170)), (0.5, (255, 214, 40)), (1, (255, 130, 10))])
+        parts.append(logo(m, face, depth=14, d=(1, 1), side=((210, 30, 40), (90, 0, 20)),
+                          rim=(4, (20, 10, 30)), outer=[(7, (255, 255, 255))], gloss=50,
+                          halo=((255, 60, 80, 255), 22, 1.0)))
+    block = Image.new("RGBA", (900, 600), (0, 0, 0, 0))
+    place(block, parts[0], 880, 0, "rt")
+    place(block, parts[1], 880, parts[0].height - 100, "rt")
+    block = bbox_crop(block).rotate(6, Image.BICUBIC, expand=True)
+    block = scale_to(block, 480)
+    place(im, block, W - 22, 300, "rm")
+    sparkle(im, 900, 175, 16, (255, 240, 200))
+    sparkle(im, 1210, 420, 11, (255, 240, 200))
     lang_chip(im, "EN", (255, 210, 40))
     return im
 
@@ -375,9 +465,15 @@ SONGS = {
 }
 
 if __name__ == "__main__":
-    for key in sys.argv[1:] or list(SONGS):
+    args = sys.argv[1:]
+    preview = "--preview" in args
+    keys = [a for a in args if a != "--preview"] or list(SONGS)
+    for key in keys:
         folder, title, build = SONGS[key]
-        out = MV / folder / "exports" / "final" / f"{title} [Thumbnail].jpg"
+        if preview:
+            out = Path("/tmp/yt") / f"{key}.jpg"
+        else:
+            out = MV / folder / "exports" / "final" / f"{title} [Thumbnail].jpg"
         out.parent.mkdir(parents=True, exist_ok=True)
         build().convert("RGB").save(out, quality=92)
-        print("saved", out.relative_to(MV))
+        print("saved", out)
