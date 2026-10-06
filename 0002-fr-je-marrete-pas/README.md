@@ -92,6 +92,8 @@ AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, F
 
 ## Song
 
+Versions A to C, including the nu-disco take C, and notes on D's wording: [`lyrics.md`](lyrics.md).
+
 Suno v6, Custom Mode, Vocal Gender Female, Duration Auto, Weirdness 23, Style Influence 75.
 
 Style:

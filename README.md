@@ -1,6 +1,6 @@
 # music-videos
 
-Original music videos. One numbered folder per song, in one language. A later song is the next number, whether it is Japanese, English, or French.
+Original music videos. One numbered folder per MV, in one language. A song gets the next number when its MV is made, whether it is Japanese, English, or French. Songs that never get an MV live in the `lyrics.md` of the MV they were written alongside.
 
 Shared notes on the tools live in [`DESIGN.md`](DESIGN.md).
 
@@ -11,12 +11,10 @@ Shared notes on the tools live in [`DESIGN.md`](DESIGN.md).
 | 0001 | [`0001-jp-doji-setsuzoku`](0001-jp-doji-setsuzoku/README.md) | 同時接続10人 | [watch](https://www.youtube.com/watch?v=-LidPJsmBTc) |
 | 0002 | [`0002-fr-je-marrete-pas`](0002-fr-je-marrete-pas/README.md) | Je m'arrête pas | [watch](https://www.youtube.com/watch?v=472scJ16qbg) |
 | 0003 | [`0003-en-hamburger-hamburger`](0003-en-hamburger-hamburger/README.md) | Hamburger Hamburger | [watch](https://www.youtube.com/watch?v=S67cE91-6NI) |
-| 0004 | [`0004-en-half-of-everything`](0004-en-half-of-everything/README.md) | Half of Everything (working title) | — |
-| 0005 | [`0005-en-bring-the-morning-home`](0005-en-bring-the-morning-home/README.md) | Bring the Morning Home (working title) | — |
-| 0006 | [`0006-en-not-alone`](0006-en-not-alone/README.md) | Not Alone | [watch](https://www.youtube.com/watch?v=_w9ba2ul8fI) |
-| 0007 | [`0007-en-out-of-my-way`](0007-en-out-of-my-way/README.md) | Out of My Way! (working title) | — |
+| 0004 | [`0004-en-not-alone`](0004-en-not-alone/README.md) | Not Alone | [watch](https://www.youtube.com/watch?v=_w9ba2ul8fI) |
+| 0005 | [`0005-en-out-of-my-way`](0005-en-out-of-my-way/README.md) | Out of My Way! (working title) | — |
 
-0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. 0004–0006 are three songs from one story, the first Dragon Quest, each with its own sound. 0007 is our daughter's, with the hedgehog from 0002 as the hero. Later songs do not have to belong to a set.
+0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. 0004 is one of three songs written on one story, the first Dragon Quest, each with its own sound; the other two are in its [`lyrics.md`](0004-en-not-alone/lyrics.md). 0005 is our daughter's, with the hedgehog from 0002 as the hero. Later songs do not have to belong to a set.
 
 ## YouTube metadata
 
@@ -49,6 +47,7 @@ English is the default. In YouTube Studio, set the video language and the title/
 NNNN-lang-slug/
 ├── README.md      title, tools, lyrics, how the picture was made
 ├── prompts.md     only if the song was built shot by shot
+├── lyrics.md      versions and sibling songs that weren't shipped
 ├── captions/      sung lyric plus translations, as <lang>.vtt
 ├── characters/    plates
 ├── stills/

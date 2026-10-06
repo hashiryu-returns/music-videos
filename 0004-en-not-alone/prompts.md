@@ -1,4 +1,4 @@
-# 0006 prompts
+# 0004 prompts
 
 Shot list and timing: [`README.md`](README.md#shot-list). Tool lessons: [`../DESIGN.md`](../DESIGN.md).
 

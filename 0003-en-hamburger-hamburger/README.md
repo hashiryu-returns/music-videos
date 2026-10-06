@@ -87,6 +87,8 @@ AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, k
 
 ## Song
 
+Versions A and C, and B with its cut fifth verse: [`lyrics.md`](lyrics.md).
+
 Gemini Music AI. A Suno take of the same lyric exists (`audio/preview-suno.mp4`, `exports/drafts/`) and wasn't used.
 
 Lyrics as sung:

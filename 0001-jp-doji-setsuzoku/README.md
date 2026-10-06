@@ -91,6 +91,8 @@ AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, J
 
 ## Song
 
+Versions A and C, why B won, and notes on its wording: [`lyrics.md`](lyrics.md).
+
 Suno v6, Custom Mode, Vocal Gender Male, Duration Auto.
 
 Style:

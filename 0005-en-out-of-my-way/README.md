@@ -6,13 +6,13 @@ Our daughter's own video. The hedgehog from [0002](../0002-fr-je-marrete-pas/REA
 - **Song:** `audio/song.wav` (not committed). The last caption ends at 2:21.8; the shot list runs to there and cut 41 stretches to the real end
 - **Captions:** `captions/en.vtt` (lyrics), `captions/ja.vtt` (Japanese)
 - **Cast:** [`characters/`](characters/), copied from 0002 so this folder stands alone: `hedgehog.png` (the hero, our daughter), and once each `papa-panda.png`, `brother-fox.png` and `mama.png`. Mama has no camel avatar, so she appears as herself, in human form
-- **Sound:** built on the 0004 v2 style (fast J-rock anime opening), retuned for her
+- **Sound:** built on Half of Everything's v2 style (fast J-rock anime opening, in [0004's `lyrics.md`](../0004-en-not-alone/lyrics.md)), retuned for her
 
 ## Picture
 
 Space opera, not Star Wars. No named characters, and no `Star Wars` or `Jedi` anywhere. Prompts say `lightsaber`, because Vidu draws a proper one from that word. Titles and descriptions say `energy sword`.
 
-Rules, the same as 0006:
+Rules, the same as 0004:
 
 - **Never inside a ship.** A cockpit or a corridor becomes a room that has to stay the same. Ships are seen from outside.
 - **The fleet appears once,** in the bridge, with her standing on the hull of the flagship.

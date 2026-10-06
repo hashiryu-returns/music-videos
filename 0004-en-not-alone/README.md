@@ -9,7 +9,7 @@ The quiet side of the same journey. Someone who kept a light for a lifetime and 
 - **Captions:** `captions/en.vtt` (lyrics), `captions/ja.vtt`
 - **Prompts:** style sheet, every still and every motion line in [`prompts.md`](prompts.md)
 - **Source:** the story of the first Dragon Quest ([Kamigame spoiler summary](https://kamigame.jp/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A81/%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89/%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC.html)). No names or game terms in the lyric.
-- **Siblings:** [0004](../0004-en-half-of-everything/README.md) and [0005](../0005-en-bring-the-morning-home/README.md).
+- **Siblings:** Half of Everything and Bring the Morning Home, the same story with a different sound each, never made. Both are in [`lyrics.md`](lyrics.md).
 
 ## YouTube
 
@@ -185,7 +185,7 @@ Exclude:
 chiptune, 8-bit, video game music, gregorian chant, male choir, opera, metal, rap, spoken word, broadway, musical theatre, marching band, brass fanfare, country, lo-fi, horror
 ```
 
-The choir and the airy lead are what carry this one, so test a male lead on 0004 rather than here.
+The choir and the airy lead are what carry this one, so test a male lead on Half of Everything ([`lyrics.md`](lyrics.md)) rather than here.
 
 ## Lyrics
 
