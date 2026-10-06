@@ -1,26 +1,38 @@
-# 0001 lyrics — three versions
+# 0001 同時接続10人 — lyrics
 
-Video 1. Husband-centric, family in frame. Year 21 (2025-10-04 → 2026-10-03). **Fun, self-deprecating, not sad, not a love song.**
+His side of the anniversary year (2025-10-04 to 2026-10-03). Fun and self-deprecating, not sad and not a love song. Three versions were written; B shipped.
 
-The comic thesis all three versions share: **every single thing he did this year happened in one room.** Streaming, trading, AI, writing, raging at mahjong, importing ramen, reading manga — same chair. And he knows it. That's the joke, and it's also what makes videos 2 and 3 land: they're about the people on the other side of the door.
+| Version | Title | Sound | Status |
+| --- | --- | --- | --- |
+| A | 21年目 | narrative folk-rock | not used |
+| B | 同時接続10人 | contemporary J-pop | shipped, lyric in [README.md](README.md#song) |
+| C | 6週間 | driving folk-rock | not used |
 
-**Neither dog appears in the chosen version, and that's deliberate.** This song stays inside one room; a 15-year-old dog barking at 2am pulls the camera out of it and lands abruptly. Aramis belongs to FR, where he's the work of the year, and to one line of EN. The pouch and the shisa are FR's too. Versions A and C still carry them because they were written before B was chosen. **Pictures are anime**, not live plates.
+## What every version shares
 
-**Version B is the chosen one.** A and C are kept for reference only.
+**Every single thing he did this year happened in one room.** Streaming, trading, AI, writing, raging at mahjong, importing ramen, reading manga: same chair. He knows it. That's the joke, and it's what makes the other two songs land: they're about the people on the other side of the door.
 
----
+**No dogs in the shipped version.** The song stays inside one room, and a 15-year-old dog barking at 2am pulls the camera out of it. Aramis belongs to 0002, where he's the work of the year, and to one line of 0003. The pouch and the shisa are 0002's too. A and C still carry them because they were written before B was chosen.
 
-## Version A —「21年目」
+## A — 21年目
 
-**The calendar walk.** The year, month by month, from the chair. Most faithful to the triptych structure; cuts cleanest against the FR and EN videos.
+**The calendar walk.** The year, month by month, from the chair. The most faithful to the three-song structure, and it cuts cleanest against the other two.
 
-**Suno — Style field:**
-```
+B won as the funnier song. A's bridge also carries the dogs and the pouch, which the shipped song leaves to 0002.
+
+Style:
+
+```text
 Japanese narrative folk-rock, male vocal, mid-tempo driving acoustic guitar and drums, talky conversational verses, dry self-deprecating delivery, warm analog production, subtle electric guitar
 ```
-**Exclude field:** `sweeping strings, orchestral swell, gospel choir, ballad piano, key change, romantic`
 
+Exclude:
+
+```text
+sweeping strings, orchestral swell, gospel choir, ballad piano, key change, romantic
 ```
+
+```text
 [Intro: acoustic guitar alone]
 
 [Verse 1]
@@ -80,27 +92,31 @@ Jiraもコードも　全部そう
 [Outro: fade to guitar alone]
 ```
 
----
+## B — 同時接続10人 (shipped)
 
-## Version B —「同時接続10人」
+**The streamer's year, told entirely as an apology to ten strangers.** The funniest of the three and the most self-deprecating; the title alone is the joke. The family arrives late and wins: the last chorus doesn't stream, and he goes upstairs.
 
-**Chosen version.** The streamer's year, told entirely as an apology to ten strangers. Funniest of the three and the most self-deprecating; the title alone is the joke. Family arrives late and wins.
+Lyric and Suno prompt: [README.md](README.md#song).
 
-Lyric and Suno prompt as shipped: [README.md](README.md#song).
+## C — 6週間
 
----
+**The March money thriller.** The fund called 100% of a $1M commitment in six weeks instead of two years, and a $300k distribution from another fund landed just in time. Driving and tense, with the strongest verse-to-verse momentum of the three.
 
-## Version C —「6週間」
+It lost because its hook had to change. The first idea was him hiding the panic at dinner, and he didn't hide it: they share everything. Rewritten as two people watching the same number, it's truer but less of a thriller. B keeps the episode as one verse.
 
-**The March money thriller.** The fund called 100% of a $1mm commitment in six weeks instead of two years, and a $300k distribution landed just in time. Driving and tense, with the strongest verse-to-verse momentum of the three. **Weaker than it was:** the original hook was him hiding the panic at dinner, and he didn't hide it — they share everything. Rewritten as two people watching the same number, which is truer but less of a thriller.
+Style:
 
-**Suno — Style field:**
-```
+```text
 Japanese driving folk-rock, male vocal, urgent strummed acoustic and bass, tense mid-tempo build, talky breathless verses, dry delivery, warm analog production
 ```
-**Exclude field:** `orchestral swell, gospel choir, ballad piano, key change, romantic, triumphant`
 
+Exclude:
+
+```text
+orchestral swell, gospel choir, ballad piano, key change, romantic, triumphant
 ```
+
+```text
 [Intro: single muted guitar, tense]
 
 [Verse 1]
@@ -160,21 +176,16 @@ Japanese driving folk-rock, male vocal, urgent strummed acoustic and bass, tense
 [Outro: guitar resolves, quiet]
 ```
 
----
+## Notes on the shipped lyric
 
-A and C are unused drafts. Production is B. C keeps the precise `6週間` capital-call window; B sings `1ヶ月` on purpose.
-
-## Notes — Version B
-
-- **Sung vocal, not talk-singing.** Exclude `rap, talk-singing, spoken word, monotone vocal`. Genre is `contemporary J-pop`, not city pop — Exclude `city pop, 80s retro, funk revival`. Bare section tags. Every section four lines.
-- **If a take is rushed**, cut verse 6 (writing). Keep verse 5 (ramen).
-- **Rage is at the game**, never the viewers: calm on-stream, then 台パン + 「ロンにゃじゃねーよ」. Keep 「感情むき出し」and the quote. If Suno clips it, Suno field only: `ロンにゃじゃねえよ`.
-- **Suno field kana:** `とんいっきょく` / `なんさんきょく`. If 南三 still fails, sing **and** subtitle `オーラス`. Chorus 1 = 東一局, chorus 2 = 南三局 (オーラス in 三人麻雀). Don't "fix" chorus 2 back.
-- **Floors:** office 1F, family 2F. Last line is 上がっていく.
-- **Bridge:** 上手上手 then 下手くそ — never reverse. `世界に流れる`. No dogs.
-- **Subtitles:** Arabic numerals in the master. Never 十分 → 10分. If digits sing English, kana in Suno only: `ひゃくまんドル`, `さんがつ`, `じゅうにん`, `いっかげつ`, `にじゅういちねんめ`, `じゅうがつよっか`.
-- **`Jira` / `Slack` in Latin.** If *jai-ra*, swap `ジラ` in Suno only.
-- **Verse 4:** finance コミット, 全額請求, `資金ショート`. Sings `1ヶ月` (real window ~6 weeks, kept in unused C). He told her. `ワイフ`, not 妻.
-- **Audience:** live concurrent 10–20 only; writing = hundreds. Don't merge.
-- **Ramen is a flex**, not a health story. 80kg / soda not in B.
-- No dogs, March 8, 愛してる, 運命, 君のために.
+- **Sung, not talked.** Exclude carries `rap, talk-singing, spoken word, monotone vocal`. The genre is `contemporary J-pop`, not city pop, so `city pop, 80s retro, funk revival` are excluded too. Bare section tags, four lines a section.
+- **The rage is at the game, never the viewers.** Calm on stream, then 台パン and 「ロンにゃじゃねーよ」. 「感情むき出し」 and the quote stay together.
+- **Chorus 1 is 東1局, chorus 2 is 南3局**: the first hand and オーラス, the last hand of three-player mahjong. The Suno field spells them `とんいっきょく` and `なんさんきょく` so they're sung right.
+- **Numbers are Arabic in the subtitles.** If Suno sings a digit in English, it goes in kana in the Suno field only: `ひゃくまんドル`, `さんがつ`, `じゅうにん`, `いっかげつ`, `にじゅういちねんめ`, `じゅうがつよっか`. Never write 十分 for 10分.
+- **`Jira` and `Slack` stay in Latin letters.**
+- **The money verse sings `1ヶ月`.** The real window was about six weeks, which C keeps. It uses the finance words コミット, 全額請求 and `資金ショート`. He told her. `ワイフ`, not 妻.
+- **Two audiences, never merged.** Ten to twenty watch the stream live; hundreds read the writing.
+- **The ramen is a flex**, not a health story. His weight and the diet cola stay out.
+- **The office is downstairs and the family upstairs.** The last line is 上がっていく.
+- **The bridge goes 上手上手 then 下手くそ,** never the other way round, and the praise goes out `世界に流れる`.
+- Not in it: dogs, March 8, 愛してる, 運命, 君のために.

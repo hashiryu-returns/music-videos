@@ -1,17 +1,20 @@
-# Not Alone — sibling songs
+# 0004 Not Alone — sibling songs
 
-Not Alone came out of a set of three songs on one story, the first Dragon Quest, each with its own sound. It's the only one that got an MV. The other two are kept here: same source, never rendered past their lyrics.
+Three songs were written on one story, the first Dragon Quest, each with its own sound. Not Alone is the only one that got an MV, and its lyric is in [README.md](README.md#lyrics). The other two are here. Their lyrics are locked and neither v2 style has been rendered. No MV is planned for either.
+
+| Song | Sound | Status |
+| --- | --- | --- |
+| Not Alone | cinematic anime fantasy, female choir | shipped |
+| Half of Everything | anime opening, fast J-rock | not made; its v2 style is the base of [0005](../0005-en-out-of-my-way/README.md)'s sound |
+| Bring the Morning Home | celtic folk rock | not made |
+
+Each one follows the same source ([Kamigame spoiler summary](https://kamigame.jp/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A81/%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89/%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC.html)), with no names or game terms in the lyric. For both songs here, the Suno settings are Custom Mode, model v6, Vocal Gender **Female**, Duration Auto, Weirdness 40, Style Influence 70, and no Persona.
 
 ## Half of Everything
 
 An anime opening. One traveller, a world gone grey, a bridge made of rain and sun, and an offer of half the world refused twice. Fast, cool, and still bright.
 
-- **Status:** lyrics locked, style v2 never rendered. No MV planned
-- **Source:** the story of the first Dragon Quest ([Kamigame spoiler summary](https://kamigame.jp/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A81/%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89/%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC.html)). No names or game terms in the lyric.
-
 ### Suno
-
-Custom Mode, model v6, Vocal Gender **Female**, Duration Auto, Weirdness 40, Style Influence 70, no Persona.
 
 Style:
 
@@ -81,7 +84,7 @@ And I left the crown behind
 [Outro]
 ```
 
-### Style v1 (rejected)
+### Rejected style v1
 
 ```text
 fast driving heroic J-rock, English male vocal, 150 BPM, bright brass hits over distorted-but-clean electric guitar, soaring strings in the chorus, punchy drums, clipped confident verses, a shouted-sung hook that stays major and triumphant, cool defiant energy, polished current production
@@ -93,12 +96,7 @@ It came out dated and lame. Brass hits and `heroic` pull it toward a movie trail
 
 The journey itself. Town lamps, a long road, a warning at a bolted door, a bridge where rain meets sun, and the colour coming back to the fields. Field music you walk to.
 
-- **Status:** lyrics locked, style v2 never rendered. No MV planned
-- **Source:** the story of the first Dragon Quest ([Kamigame spoiler summary](https://kamigame.jp/%E3%83%89%E3%83%A9%E3%82%AF%E3%82%A81/%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89/%E3%83%8D%E3%82%BF%E3%83%90%E3%83%AC.html)). No names or game terms in the lyric.
-
 ### Suno
-
-Custom Mode, model v6, Vocal Gender **Female**, Duration Auto, Weirdness 40, Style Influence 70, no Persona.
 
 Style:
 
@@ -164,7 +162,7 @@ And the color rushes in
 [Outro]
 ```
 
-### Style v1 (rejected)
+### Rejected style v1
 
 ```text
 heroic orchestral adventure, English male vocal, bright marching tempo, soaring strings, bold brass fanfare, woodwinds, snare and timpani, lyrical verses opening into a triumphant sung chorus, hopeful courageous major key, polished cinematic production

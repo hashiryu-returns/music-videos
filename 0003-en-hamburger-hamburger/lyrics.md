@@ -1,36 +1,48 @@
-# 0003 lyrics — three versions
+# 0003 Hamburger Hamburger — lyrics
 
-B shipped, sung by Gemini Music AI without verse 5 (nori-shio and gyudon); the lyric as sung is in [README.md](README.md#song). The Suno style below made the unused Suno take.
+The household's side of the anniversary year (2025-10-04 to 2026-10-03): four people, one 15-year-old dog, and the mess. Fun and deadpan, not sad and not a love song. Three versions were written; B shipped.
 
-Video 2. Family centric — four people, one 15-year-old dog, plus the mess. Year 21 (2025-10-04 → 2026-10-03). **Fun, deadpan, not sad, not a love song.**
+| Version | Title | Sound | Status |
+| --- | --- | --- | --- |
+| A | Five of Us, One Dog | stomp-and-clap rock and roll | not used |
+| B | Hamburger Hamburger | piano pop | shipped, lyric as sung in [README.md](README.md#song) |
+| C | Everybody's Angry (Except Her) | garage punk | not used, the closest contender |
 
-**Count rule for every version below:** the house is **four people + Aramis = five**. Daru is not counted. The chosen version counts people only — 「Two of them, two of us」— so there is nothing to misread; Aramis is present as the dog whose bowl the boy raids, not as a number. Avoid any 「N of us」line that folds the dog into the total: A's 「Five of us, one dog」means five *including* the dog and needs verse 1 standing next to it to survive, and that reading has already gone wrong once.
+B was sung by Gemini Music AI without verse 5 (nori-shio and gyudon). The full lyric and the Suno style below are what made the unused Suno take.
 
-**No scene may appear in two videos.** JP: stream, mahjong rage, imported ramen. FR: 6am kitchen, tea, carrier, ants, one walk, pouch, empty doghouse. **EN: In-N-Out, dog's bowl, dinosaurs, iPads, Kirby / Forgotten Land, nori-shio, gyudon.**
+## What every version shares
 
-**Alternating male and female vocals**, trading lines inside verses rather than one voice per verse. Both parents should be audible in the same breath — it's the household's video.
+**Alternating male and female vocals**, trading lines inside verses rather than one voice per verse. Both parents are audible in the same breath: it's the household's video.
 
-All three versions **end on her**, because the priority order is wife first even in the family song. The kids are the comic engine; she's the point.
+**Every version ends on her.** Wife first, even in the family song. The kids are the comic engine; she's the point.
 
-**Daru is not in the chosen version at all** — not a line, not a number, not a still. The pouch and shisa belong to FR. **This is the one video in the set with no grief in it**, which is the point: something has to be purely funny. Versions A and C still print the subtraction and the pouch because they are retained drafts, not production lyrics. **Pictures are anime**, not live plates.
+**The house is four people and Aramis.** Daru isn't counted. B counts people only, `Two of them, two of us`, so there's nothing to misread; Aramis is there as the dog whose bowl the boy raids, not as a number. A line like `N of us` that folds the dog into the total gets misread: A's `Five of us, one dog` means five *including* the dog and only works with verse 1 next to it.
 
----
+**No scene appears in two videos.** 0001 has the stream, the mahjong rage and the imported ramen. 0002 has the 6am kitchen, tea, the carrier, the ants, the walk, the pouch and the empty doghouse. This one has In-N-Out, the dog's bowl, dinosaurs, the iPads, Kirby and *Forgotten Land*, nori-shio and gyudon.
 
-## Version A — "Five of Us, One Dog" — *alternate*
+**No grief in the shipped version.** Daru isn't in it: not a line, not a number, not a still. The pouch and the shisa are 0002's. Something in the set has to be purely funny. A and C still carry the subtraction and the pouch because they were written before B was chosen.
 
-**The household count.** Opens with six becoming five and asks the audience to do the subtraction. Deadpan list-song.
+## A — Five of Us, One Dog
 
-**Why it isn't the one, even though it has the cleanest overlap profile:** verse 1 is 「there were six of us in twenty twenty-four / now the number on the door says five」. That's Daru's death as arithmetic in the first fifteen seconds of the funny video. Each video is shown independently, so there is no opening piece to absorb or explain that tonal turn.
+**The household count.** A deadpan list-song that opens with six becoming five and leaves the audience to do the subtraction.
 
-「Two of us can't talk at all」— the toddler and the 15-year-old dog — is still the best deadpan line written for EN. If B's verse 2 ever needs replacing, that's where to look.
+That's why it isn't the one, even though it overlaps least with the other two videos: verse 1, `there were six of us in twenty twenty-four / now the number on the door says five`, is Daru's death as arithmetic in the first fifteen seconds of the funny video. Each video is watched on its own, so nothing before it softens the turn.
 
-**Suno — Style field:**
-```
+`Two of us can't talk at all`, the toddler and the 15-year-old dog, is still the best deadpan line written for this song.
+
+Style:
+
+```text
 stomp and clap rock and roll, alternating male and female vocals, gang chant chorus, honky-tonk upright piano, walking upright bass, tambourine, handclaps and foot stomps, wry deadpan delivery, live room mono warmth
 ```
-**Exclude field:** `jangly electric guitar, power pop, organ, saxophone, orchestral strings, romantic duet, gospel choir, key change, sentimental, slow tempo`
 
+Exclude:
+
+```text
+jangly electric guitar, power pop, organ, saxophone, orchestral strings, romantic duet, gospel choir, key change, sentimental, slow tempo
 ```
+
+```text
 [Intro: piano and handclaps, four bars, no vocal]
 
 [Verse 1: male]
@@ -90,19 +102,23 @@ Twenty-one years, and she's still here
 [Outro: piano and handclaps, stop clean]
 ```
 
----
+## B — Hamburger Hamburger (shipped)
 
-## Version B — "Hamburger Hamburger" ← **shipped**
+**The parenting portrait.** The title is the five-year-old's chant. Every verse is a demand, a casualty or a milestone. The parents' own food stays out: ramen is 0001's, gelato is 0002's. The car bridge is his, because she doesn't drive. Piano and handclaps; `rock` and electric guitar stay in Exclude.
 
-**The parenting portrait.** Title is the five-year-old's chant. Every verse is a demand, casualty or milestone. Parents' food stays out (ramen = JP, gelato = FR). Car bridge is his — **she doesn't drive.** Piano + handclaps; `rock` and electric guitar stay in Exclude.
+Style:
 
-**Suno — Style field:**
-```
+```text
 contemporary piano pop, alternating male and female lead vocals trading lines, driving percussive piano, four-on-the-floor live drums, handclaps, deep round bass, big group vocals on the singalong hook, strong natural live-sounding vocals, wry deadpan verses, punchy clean current production
 ```
-**Exclude field:** `electric guitar, distorted guitar, rock drums, garage rock, punk, honky-tonk, ragtime, 50s rock and roll, 60s retro, shouted vocals, children's music, novelty song, romantic duet, power ballad, orchestral strings, gospel choir, sentimental, slow tempo, key change, synth pads, horn section`
 
+Exclude:
+
+```text
+electric guitar, distorted guitar, rock drums, garage rock, punk, honky-tonk, ragtime, 50s rock and roll, 60s retro, shouted vocals, children's music, novelty song, romantic duet, power ballad, orchestral strings, gospel choir, sentimental, slow tempo, key change, synth pads, horn section
 ```
+
+```text
 [Intro]
 
 [Verse 1: male]
@@ -162,25 +178,36 @@ And one of us answers every time
 [Outro]
 ```
 
----
+Notes on the wording:
 
-## Version C — "Everybody's Angry (Except Her)" — *alternate, and the closest contender*
+- **The car is his.** She doesn't drive. *Forgotten Land* has no lyrics, so the daughter invents them.
+- **The son** watches dinosaur YouTube all day and she never gets the screen. He isn't pointing at toys.
+- **The daughter** is angry at Kirby, throws the controller and asks for it back. Her anger isn't explained.
+- **Food:** five years of snacks, then gyudon. The In-N-Out bun and fries is one order, not her diet.
+- **The chorus counts people only**, `two of them, two of us`. No dog in the count.
+- **iPads:** two, he broke both, one repaired for about $1,000, one sold for about $150. Never a third. `Two kids, one iPad.`
+- **No language-history bridge.** No romantic-duet take.
+- Not in it: ramen, gelato, the Switch, mahjong rage, walks, the pouch, Daru, March 8.
 
-**Best structure of the three and the best ending in the project.** *"And she has never once thrown anything"*, after three verses of everyone throwing things, does the wife-first priority without a word of sentiment.
+## C — Everybody's Angry (Except Her)
 
-**What it would cost to use it:** mahjong rage is JP, Switch and 3am milk and pouch are FR. Don't raid those scenes.
+**Three ragers and one who isn't.** The son throws tricycles, the daughter throws controllers at Kirby, he shouts at mahjong at 1am, and she carries all of it without getting angry. The best structure of the three, and the best ending in the set: `and she has never once thrown anything`, after three verses of everyone throwing things, puts her first without a word of sentiment.
 
-**The ending is worth stealing even so.** If B's last chorus ever feels too soft, `and one of us answers every time` is the line to swap, and C's closer is the model for how to land it.
+It lost because it raids the other two videos: the mahjong rage is 0001's, and the Switch, the 3am milk and the pouch are 0002's.
 
-**Three ragers and one who isn't.** The son throws tricycles, the daughter throws controllers at Kirby, he screams at mahjong at 1am — and she's carrying all of it and isn't angry. Best *structure* of the three, and the ending is the whole gift in four lines.
+Style:
 
-**Suno — Style field:**
-```
+```text
 scrappy garage punk, alternating male and female vocals, fast and raw, distorted downstroke guitars, loud bass, blown-out drums, half-shouted delivery, live room sound
 ```
-**Exclude field:** `power pop, polished production, power ballad, orchestral strings, romantic duet, gospel choir, key change, sentimental`
 
+Exclude:
+
+```text
+power pop, polished production, power ballad, orchestral strings, romantic duet, gospel choir, key change, sentimental
 ```
+
+```text
 [Intro: bass and drums, eight bars]
 
 [Verse 1: female]
@@ -241,20 +268,3 @@ And she has never once thrown anything
 
 [Outro: everything drops out except bass]
 ```
-
----
-
-A and C are unused drafts. Production is B. C's closer (`and she has never once thrown anything`) is the swap if B's last chorus lands too soft.
-
-## Notes — Version B
-
-- **No language-history bridge.** Don't reintroduce it.
-- **Car is his.** She doesn't drive. *Forgotten Land*, she invents the words.
-- **Son:** dinosaur YouTube all day; she never gets the screen. Not pointing at toys.
-- **Daughter:** Kirby, throws the controller, asks for it back. Don't explain her anger.
-- **Food:** snacks/junk for five years, then gyudon. In-N-Out bun+fries is one order, not her diet.
-- **Chorus:** people only — `two of them, two of us`. No dog in the count.
-- **iPads:** two, he broke both, one repaired ~$1,000, one sold ~$150, never a third. `Two kids, one iPad.`
-- **EN owns:** In-N-Out chant, dog bowl, dinosaurs, iPads, Kirby + Forgotten Land, nori-shio ban, gyudon.
-- **Not in EN:** ramen, gelato, Switch, mahjong rage, walks, pouch, Daru, March 8.
-- Mess kitchen. No romantic-duet take.
