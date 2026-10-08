@@ -28,15 +28,16 @@ Every video uses the same format. Each song README has the text to paste.
 - Anniversary, tribute and every other piece of context goes in the description, not the title.
 - The Japanese translation keeps the same title and swaps only the English title for a Japanese one, if it has one.
 
-**Description**, in this order:
+**Description**, in this order. A blank line between sections, and none inside a list. YouTube does not render `---`, so sections are not divided with it. Leave a section out when a video has nothing for it.
 
-1. What it is and why it exists, in two to four sentences. The first line shows above "more" and in search, so it has to stand on its own.
-2. `Lyrics: turn on CC (…)`.
-3. Related videos.
-4. Tools and models.
-5. Behind the scenes: what was hard and what was done about it, with the time it took.
-6. The note article, in English on the English side (`?hl=en`) and Japanese on the Japanese side.
-7. Three hashtags on the last line. YouTube shows them above the title.
+1. What it is and why it exists, in two to four sentences. The first line shows above "more" and in search, so it has to stand on its own. The anniversary trilogy shares its first paragraph.
+2. `🎬 Lyrics: turn on CC (…)` / `🎬 歌詞の字幕（…）をオンに`.
+3. Related videos. Each group has a `▼` heading. Each video is `・LANG Title: url` on one line, with a full-width colon on the Japanese side.
+4. `🛠️ Tools` / `🛠️ ツール`. Only the lines that apply, in this order: Lyrics & Concept, Music, Stills, Video, Editing. Japanese: 作詞・コンセプト、楽曲、画像、動画、編集.
+5. `📝 Behind the Scenes` / `📝 制作メモ`. What was hard, what was done about it, and how long it took.
+6. Any block only this video needs, such as a `🗓️` timeline.
+7. The note article, label and URL on one line. English on the English side (`?hl=en`), Japanese on the Japanese side.
+8. Three hashtags on the last line. YouTube shows them above the title.
 
 English is the default. In YouTube Studio, set the video language and the title/description language to English, then add the Japanese under Subtitles → Add language → Japanese → Title & description.
 

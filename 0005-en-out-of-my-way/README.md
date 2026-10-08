@@ -26,12 +26,12 @@ Description:
 ```text
 Our daughter watched the French video over and over, singing and dancing, and kept going back to the opening, where the hedgehog (her) comes in. She likes a fast song, so this one is 172 BPM, with a lyric simple enough for a kid to sing. She's the hero of a space adventure: a red cape, an energy sword she throws and catches, and every robot she beats popping into bubbles.
 
-Lyrics: turn on CC (English, Japanese)
+🎬 Lyrics: turn on CC (English, Japanese)
 
-The video she was dancing to
+▼ The video she was dancing to
 ・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 
-🛠️ Production Tools & AI Models
+🛠️ Tools
 ・Lyrics & Concept: Claude Opus 5.5
 ・Music: Suno v6
 ・Stills: Midjourney V7
@@ -57,17 +57,17 @@ Description:
 ```text
 娘がフランス語版の動画を何度も繰り返し再生しながら、ノリノリで歌って踊っていました。特に冒頭でハリネズミ（娘）が登場するシーンがお気に入りで、何度も見ていました。アップテンポな曲が好きなので、テンポは172BPMに設定。子供でも口ずさみやすいシンプルな歌詞にして、娘が主人公の宇宙大冒険ストーリーに仕上げました。赤いケープをはためかせ、投げたエネルギーソードを空中キャッチ！倒したロボットがみんな泡になって飛んでいく…そんな世界観です。
 
-※歌詞の字幕（英語・日本語）をオンにしてご覧ください。
+🎬 歌詞の字幕（英語・日本語）をオンに
 
 ▼ 娘が夢中で踊っていた動画
 ・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 
-🛠️ 使用ツール・AIモデル
+🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5.5
-・楽曲作成：Suno v6
-・画像生成：Midjourney V7
-・動画生成：Vidu (Q2 / Q3 / Q4 Preview)
-・動画編集：iMovie
+・楽曲：Suno v6
+・画像：Midjourney V7
+・動画：Vidu (Q2 / Q3 / Q4 Preview)
+・編集：iMovie
 
 📝 制作メモ
 今回は子供向けということもあり、サクッと軽めに仕上げました。技術面で深掘りできるポイントは少なく、カット割りも少し単調ですが、そこは課題として認識しつつ次回作で改善する予定です。iMovieでの編集はそろそろ限界を感じたので、次はFinal Cut Proなどの本格的な動画編集ソフトに移行しようと思います。

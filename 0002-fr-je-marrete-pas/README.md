@@ -23,27 +23,37 @@ Title:
 Description:
 
 ```text
-One of three AI music videos I made for our 21st wedding anniversary on October 4th. Each covers the same year from one side of the family, in its own language. This is the wife's, as an isekai adventure: a medieval French world of swords and magic that doesn't keep its own rules. She carries a katana, modern buildings and cars break in, and so does comedy. Underneath are her everyday fights and the grief of losing a dog she still hasn't gotten over. It ends on October 4th, when the evening is finally hers.
+One of three AI music videos I made for our 21st wedding anniversary on October 4th. Each video tells the story of the same year from a different family member's perspective, in a different language.
 
-Lyrics: turn on CC (French, English, Japanese)
+This one belongs to my wife, framed as an isekai adventure: a medieval French world of swords and magic that doesn't keep its own rules. She carries a katana, modern buildings and cars break in, and so does the slapstick. Under that are her everyday fights and the grief of losing our dog, which she still hasn't gotten over. It ends on October 4th, when the evening is finally hers.
 
-The anniversary set
+🎬 Lyrics: turn on CC (French, English, Japanese)
+
+▼ The 21st Anniversary Trilogy
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
-Made after the set, in three days: Not Alone https://youtu.be/_w9ba2ul8fI
 
-🛠️ Production Tools & AI Models
+▼ Made in 3 days, after the trilogy
+・EN Not Alone: https://youtu.be/_w9ba2ul8fI
+
+🛠️ Tools
 ・Lyrics & Concept: Claude Opus 5
 ・Music: Suno v6 Pro
-・Images: Midjourney V7 (Omni Reference; character sheets started on Niji 7)
+・Stills: Midjourney V7 (Omni Reference; character sheets started on Niji 7)
 ・Video: Vidu Q2, Vidu Q3 (1 scene), Seedance 2.5 (4 scenes)
-・Editing: iMovie 10.4.3
+・Editing: iMovie
 
 📝 Behind the Scenes
-The first version kept her in the kitchen all day, which would have broken the same way the Japanese video did: AI can't hold one person and one room steady across shots. So I threw it out. I rewrote the lyric around her drive instead of her chores, remade the song as fast J-rock, and turned the story into a journey that never returns to the same place. The rest of the family appear as their animals: a panda, a hedgehog and a fox. 31 of the 36 scenes are a Midjourney still animated in Vidu. The climax, her dragging her husband home from his office, needed two characters in one frame, which Midjourney couldn't draw, so that and three other scenes went to Seedance. Timing French subtitles by ear at 170 BPM took three hours on its own. Over 100 hours in all.
+The first version kept her in the kitchen all day. That would have broken the same way the Japanese video did: AI can't hold one person and one room steady across shots. So I threw it out.
 
-Making-of: https://note.com/hashiryu_returns/n/n1f55bb47375e?hl=en
+I rewrote the lyrics around her drive instead of the chores, remade the song as fast J-rock, and turned the story into a journey that never returns to the same place.
+
+The rest of the family appear as their animals: a panda, a hedgehog and a fox. 31 of the 36 scenes are a Midjourney still animated in Vidu.
+
+The climax, her dragging her husband home from his office, needed two characters in one frame, which Midjourney couldn't draw, so that scene and three others went to Seedance. Timing the French subtitles by ear at 170 BPM took three hours on its own. Over 100 hours in all.
+
+📖 Making-of (English translation): https://note.com/hashiryu_returns/n/n1f55bb47375e?hl=en
 
 #AIMusicVideo #Suno #Midjourney
 ```
@@ -59,27 +69,35 @@ Title:
 Description:
 
 ```text
-10月4日の結婚21周年に向けて、AIで作ったMV3本のうちの1本。同じ1年を家族それぞれの側から、別々の言語で歌っている。これは妻の側で、異世界ものの冒険活劇にした。舞台は剣と魔法の中世フランス風の世界。ただし、その世界のルールはまるで守られない。彼女は刀を振るい、現代のビルや車が平気で出てきて、コメディまで割り込んでくる。その底にあるのは、毎日の戦いと、愛犬を亡くしてまだ立ち直れていない悲しみだ。最後は10月4日。ようやく、その夜が彼女のものになる。
+10月4日の結婚21周年に向けて、AIで作ったMV3本のうちの1本。同じ1年を家族それぞれの視点から、別々の言語で歌っています。
 
-歌詞：字幕（フランス語・英語・日本語）をオンに
+これは「妻」の側を描いた異世界の冒険活劇です。舞台は剣と魔法の中世フランス風の世界ですが、その世界のルールは守られません。彼女は日本刀を振るい、現代のビルや車が割り込み、ドタバタも入ってきます。その底にあるのは、毎日の戦いと、愛犬を亡くしてまだ立ち直れていない悲しみです。最後は10月4日。ようやく、その夜が彼女のものになります。
 
-結婚記念日の3本
+🎬 歌詞の字幕（フランス語・英語・日本語）をオンに
+
+▼ 結婚21周年トリロジー
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
-3本のあとに3日で作った1本：Not Alone https://youtu.be/_w9ba2ul8fI
 
-🛠️ 使用ツール・AIモデル
+▼ トリロジーのあとに3日で作った1本
+・EN Not Alone：https://youtu.be/_w9ba2ul8fI
+
+🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5
-・曲：Suno v6 Pro
+・楽曲：Suno v6 Pro
 ・画像：Midjourney V7（Omni Reference。キャラクターシートはNiji 7で作り始めた）
 ・動画：Vidu Q2、Vidu Q3（1シーン）、Seedance 2.5（4シーン）
-・編集：iMovie 10.4.3
+・編集：iMovie
 
 📝 制作メモ
-最初の版は、彼女を一日じゅう台所に置いていた。これでは日本語版と同じ崩れ方をする。AIは同じ人物と同じ部屋を、カットをまたいで保てないからだ。そこで全部捨てた。歌詞を家事ではなく彼女の勢いの話に書き直し、曲を速いJ-ROCKに作り直して、同じ場所に二度と戻らない旅の物語にした。ほかの家族は、それぞれの動物の姿で出てくる。パンダ、ハリネズミ、キツネだ。36シーンのうち31シーンは、Midjourneyの静止画をViduで動かしたもの。クライマックスでオフィスから夫を引きずって帰る場面は、2人を同じ画面に収める絵をMidjourneyがどうしても描けず、ほかの3シーンと一緒にSeedanceに任せた。BPM170のフランス語の字幕を耳で合わせるだけで3時間かかった。全部で100時間以上。
+最初の版は、彼女を一日じゅう台所に置いていました。これでは日本語版と同じ崩れ方をします。AIは同じ人物と同じ部屋を、カットをまたいで保てないからです。そこで、その案は全部捨てました。
 
-制作記：https://note.com/hashiryu_returns/n/n1f55bb47375e
+歌詞を家事ではなく彼女の勢いの話に書き直し、曲を速いJ-rockに作り直して、同じ場所に二度と戻らない旅にしました。ほかの家族は、それぞれの動物の姿で出てきます。パンダ、ハリネズミ、キツネです。36シーンのうち31シーンは、Midjourneyの静止画をViduで動かしたものです。
+
+クライマックスでオフィスから夫を引きずって帰る場面は、2人を同じ画面に収める絵をMidjourneyがどうしても描けず、ほかの3シーンと一緒にSeedanceに任せました。170BPMのフランス語の字幕を耳で合わせるだけで3時間かかりました。全部で100時間以上です。
+
+📖 制作記（note）：https://note.com/hashiryu_returns/n/n1f55bb47375e
 
 #AIMusicVideo #Suno #Midjourney
 ```

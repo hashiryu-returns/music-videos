@@ -22,27 +22,35 @@ Title:
 Description:
 
 ```text
-One of three AI music videos I made for our 21st wedding anniversary on October 4th. Each covers the same year from one side of the family, in its own language. This is the husband's: a near-future anime set in a single room, his home office. A man who writes for hundreds, streams mahjong for ten, lets AI do the day job and keeps going while the family sleeps upstairs. The whole song leads to one decision: not going live tonight.
+One of three AI music videos I made for our 21st wedding anniversary on October 4th. Each video tells the story of the same year from a different family member's perspective, in a different language.
 
-Lyrics: turn on CC (Japanese, English)
+This one belongs to the husband: a near-future anime set in a single room, his home office. He writes for hundreds, streams mahjong for ten, lets AI do the day job, and keeps going while the family sleeps upstairs. The song leads to one decision. He doesn't go live tonight. He goes upstairs.
 
-The anniversary set
+🎬 Lyrics: turn on CC (Japanese, English)
+
+▼ The 21st Anniversary Trilogy
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
-Made after the set, in three days: Not Alone https://youtu.be/_w9ba2ul8fI
 
-🛠️ Production Tools & AI Models
+▼ Made in 3 days, after the trilogy
+・EN Not Alone: https://youtu.be/_w9ba2ul8fI
+
+🛠️ Tools
 ・Lyrics & Concept: Claude Opus 5
 ・Music: Suno v6 Pro
-・Images: Midjourney Niji 7
+・Stills: Midjourney Niji 7
 ・Video: Seedance 2.0 on OiiOii (20 scenes), Vidu Q2 (7 scenes)
-・Editing: iMovie 10.4.3
+・Editing: iMovie
 
 📝 Behind the Scenes
-The first of the three, and the hardest for AI. One man in one room for the whole song is exactly what image models are worst at. Every regeneration moved the sofa, changed the number of monitors, and turned the laptop away from him. Him with his daughter on his lap never came out right, which is why there are so many face close-ups: one face and a blurred background is what holds together. The shots that needed several references went to Seedance on OiiOii, and seven scenes were later redone in Vidu. About 20 hours. I'd give it 60 out of 100.
+The first of the three, and the hardest for AI. One man in one room for the whole song is exactly what image models are worst at.
 
-Making-of: https://note.com/hashiryu_returns/n/n1f55bb47375e?hl=en
+Every regeneration moved the sofa, changed the number of monitors, and turned the laptop away from him. Him with his daughter on his lap never came out right, which is why so many shots are a face close-up: one face and a blurred background is what holds together.
+
+The shots that needed several references went to Seedance on OiiOii, and seven scenes were later redone in Vidu. About 20 hours. I'd give it 60 out of 100.
+
+📖 Making-of (English translation): https://note.com/hashiryu_returns/n/n1f55bb47375e?hl=en
 
 #AIMusicVideo #Suno #Midjourney
 ```
@@ -58,27 +66,35 @@ Title:
 Description:
 
 ```text
-10月4日の結婚21周年に向けて、AIで作ったMV3本のうちの1本。同じ1年を家族それぞれの側から、別々の言語で歌っている。これは夫の側。舞台は近未来アニメ風の一室、自宅の仕事部屋だけ。何百人に向けて文章を書き、10人に向けて麻雀を配信し、本業はAIに任せ、家族が2階で寝ている間も手を止めない男。歌は最後に、ひとつの決断にたどり着く。今日は配信しない。
+10月4日の結婚21周年に向けて、AIで作ったMV3本のうちの1本。同じ1年を家族それぞれの視点から、別々の言語で歌っています。
 
-歌詞：字幕（日本語・英語）をオンに
+これは夫の側。舞台は近未来アニメ風の一室、自宅の仕事部屋です。何百人に向けて文章を書き、10人に向けて麻雀を配信し、本業はAIに任せ、家族が2階で寝ている間も手を止めない男。歌は最後に、ひとつの決断にたどり着きます。今日は配信しない。2階に上がっていく。
 
-結婚記念日の3本
+🎬 歌詞の字幕（日本語・英語）をオンに
+
+▼ 結婚21周年トリロジー
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
-3本のあとに3日で作った1本：Not Alone https://youtu.be/_w9ba2ul8fI
 
-🛠️ 使用ツール・AIモデル
+▼ トリロジーのあとに3日で作った1本
+・EN Not Alone：https://youtu.be/_w9ba2ul8fI
+
+🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5
-・曲：Suno v6 Pro
+・楽曲：Suno v6 Pro
 ・画像：Midjourney Niji 7
 ・動画：Seedance 2.0（OiiOii、20シーン）、Vidu Q2（7シーン）
-・編集：iMovie 10.4.3
+・編集：iMovie
 
 📝 制作メモ
-3本のうち最初に作った1本で、AIにとってはいちばん難しい1本だった。同じ男が曲のあいだ中ずっと同じ部屋にいる。これは画像生成AIがいちばん苦手な形だ。生成するたびにソファが動き、モニターの数が変わり、ノートパソコンは本人と逆を向いた。娘を膝に乗せる場面は最後まで描けなかった。顔のアップが多いのはそのためで、顔が1つで背景がぼけていれば崩れずに済む。複数の参照が必要な場面はOiiOiiのSeedanceに任せ、あとから7シーンをViduで作り直した。作業時間は約20時間、自己採点は60点。
+3本のうち最初に作った1本で、AIにとってはいちばん難しい1本でした。同じ男が曲のあいだ中ずっと同じ部屋にいる。これは画像生成AIがいちばん苦手な形です。
 
-制作記：https://note.com/hashiryu_returns/n/n1f55bb47375e
+生成するたびにソファが動き、モニターの数が変わり、ノートパソコンは本人と逆を向きます。娘を膝に乗せる場面は最後まで描けませんでした。顔のアップが多いのはそのためで、顔が1つで背景がぼけていれば崩れずに済みます。
+
+複数の参照が必要な場面はOiiOiiのSeedanceに任せ、あとから7シーンをViduで作り直しました。作業時間は約20時間、自己採点は60点です。
+
+📖 制作記（note）：https://note.com/hashiryu_returns/n/n1f55bb47375e
 
 #AIMusicVideo #Suno #Midjourney
 ```

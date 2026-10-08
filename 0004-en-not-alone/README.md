@@ -37,12 +37,12 @@ How fast can an AI music video come together if no character appears twice? My p
 
 🎬 Lyrics: turn on CC (English, Japanese)
 
-▼ Previous Anniversary Trilogy
+▼ The 21st Anniversary Trilogy
 ・EN Hamburger Hamburger: https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas: https://youtu.be/472scJ16qbg
 ・JP 同時接続10人: https://youtu.be/-LidPJsmBTc
 
-🛠️ Production Tools & AI Models
+🛠️ Tools
 ・Lyrics & Concept: Claude Opus 5.5
 ・Music: Suno v6
 ・Stills: Midjourney Niji 7
@@ -64,7 +64,7 @@ If a shot kept breaking, I pivoted the scene entirely:
 
 43 stills, 43 Vidu animations, stitched together in iMovie.
 
-📖 Full making-of article (English translation): https://note.com/hashiryu_returns/n/n547364c342fc?hl=en
+📖 Making-of (English translation): https://note.com/hashiryu_returns/n/n547364c342fc?hl=en
 
 #AIMusicVideo #Suno #Midjourney
 ```
@@ -89,19 +89,19 @@ Description:
 
 歌詞にはゲームの固有名詞や用語を一切使っていません。
 
-🎬 ぜひ歌詞の字幕（英語・日本語）をオンにしてご覧ください。
+🎬 歌詞の字幕（英語・日本語）をオンに
 
-▼ 前作（結婚記念日トリロジー）
+▼ 結婚21周年トリロジー
 ・EN Hamburger Hamburger：https://youtu.be/S67cE91-6NI
 ・FR Je m'arrête pas：https://youtu.be/472scJ16qbg
 ・JP 同時接続10人：https://youtu.be/-LidPJsmBTc
 
-🛠️ 使用ツール・AIモデル
+🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5.5
-・楽曲作成：Suno v6
-・画像生成：Midjourney Niji 7
-・動画生成：Vidu Q2（難所のみQ3）
-・動画編集：iMovie
+・楽曲：Suno v6
+・画像：Midjourney Niji 7
+・動画：Vidu Q2（難所のみQ3）
+・編集：iMovie
 
 📝 制作メモ
 ルールはたった一つ。「同じ人物を二度出さないこと」。カットごとに登場人物を変えたため、勇者も毎回別人ですし、作中に登場する6頭の竜もすべて異なるデザインです。統一すべき要素が「画風」だけになったことで、静止画は1枚単位で成立させればよく、Viduへの動画プロンプトも英語1文で完結しました。
