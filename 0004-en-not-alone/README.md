@@ -46,7 +46,7 @@ How fast can an AI music video come together if no character appears twice? My p
 ・Lyrics & Concept: Claude Opus 5.5
 ・Music: Suno v6
 ・Stills: Midjourney Niji 7
-・Video: Vidu Q2 (Q3 for shots Q2 kept getting wrong)
+・Clips: Vidu Q2 (Q3 for shots Q2 kept getting wrong)
 ・Editing: iMovie
 
 📝 Behind the Scenes
@@ -99,8 +99,8 @@ Description:
 🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5.5
 ・楽曲：Suno v6
-・画像：Midjourney Niji 7
-・動画：Vidu Q2（難所のみQ3）
+・静止画：Midjourney Niji 7
+・クリップ：Vidu Q2（難所のみQ3）
 ・編集：iMovie
 
 📝 制作メモ

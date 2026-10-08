@@ -41,7 +41,7 @@ This one belongs to my wife, framed as an isekai adventure: a medieval French wo
 ・Lyrics & Concept: Claude Opus 5
 ・Music: Suno v6 Pro
 ・Stills: Midjourney V7 (Omni Reference; character sheets started on Niji 7)
-・Video: Vidu Q2, Vidu Q3 (1 scene), Seedance 2.5 (4 scenes)
+・Clips: Vidu Q2, Vidu Q3 (1 scene), Seedance 2.5 (4 scenes)
 ・Editing: iMovie
 
 📝 Behind the Scenes
@@ -86,8 +86,8 @@ Description:
 🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5
 ・楽曲：Suno v6 Pro
-・画像：Midjourney V7（Omni Reference。キャラクターシートはNiji 7で作り始めた）
-・動画：Vidu Q2、Vidu Q3（1シーン）、Seedance 2.5（4シーン）
+・静止画：Midjourney V7（Omni Reference。キャラクターシートはNiji 7で作り始めた）
+・クリップ：Vidu Q2、Vidu Q3（1シーン）、Seedance 2.5（4シーン）
 ・編集：iMovie
 
 📝 制作メモ

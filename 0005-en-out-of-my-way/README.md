@@ -35,7 +35,7 @@ Our daughter watched the French video over and over, singing and dancing, and ke
 ・Lyrics & Concept: Claude Opus 5.5
 ・Music: Suno v6
 ・Stills: Midjourney V7
-・Video: Vidu (Q2 / Q3 / Q4 Preview)
+・Clips: Vidu (Q2 / Q3 / Q4 Preview)
 ・Editing: iMovie
 
 📝 Behind the Scenes
@@ -65,8 +65,8 @@ Description:
 🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5.5
 ・楽曲：Suno v6
-・画像：Midjourney V7
-・動画：Vidu (Q2 / Q3 / Q4 Preview)
+・静止画：Midjourney V7
+・クリップ：Vidu (Q2 / Q3 / Q4 Preview)
 ・編集：iMovie
 
 📝 制作メモ

@@ -39,7 +39,7 @@ This one belongs to the parents: two young kids obsessed with hamburgers, dinosa
 🛠️ Tools
 ・Lyrics & Concept: Claude Opus 5
 ・Music: Gemini Music AI
-・Video: Seedance 2.5 via OiiOii (full-auto mode)
+・Clips: Seedance 2.5 via OiiOii (full-auto mode)
 
 📝 Behind the Scenes
 This was a full-automation experiment raced against a deadline. I asked Gemini to proofread the lyrics, but it generated a complete song, so I ran with it.
@@ -81,7 +81,7 @@ Description:
 🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5
 ・楽曲：Gemini Music AI
-・動画：Seedance 2.5（OiiOii 全自動モード）
+・クリップ：Seedance 2.5（OiiOii 全自動モード）
 
 📝 制作メモ
 締め切りに追われて、全自動を試した1本です。Geminiに歌詞の校正を頼んだら、曲まで作って返してきたので、そのまま使いました。

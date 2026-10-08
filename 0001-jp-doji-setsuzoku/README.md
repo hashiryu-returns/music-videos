@@ -40,7 +40,7 @@ This one belongs to the husband: a near-future anime set in a single room, his h
 ・Lyrics & Concept: Claude Opus 5
 ・Music: Suno v6 Pro
 ・Stills: Midjourney Niji 7
-・Video: Seedance 2.0 on OiiOii (20 scenes), Vidu Q2 (7 scenes)
+・Clips: Seedance 2.0 on OiiOii (20 scenes), Vidu Q2 (7 scenes)
 ・Editing: iMovie
 
 📝 Behind the Scenes
@@ -83,8 +83,8 @@ Description:
 🛠️ ツール
 ・作詞・コンセプト：Claude Opus 5
 ・楽曲：Suno v6 Pro
-・画像：Midjourney Niji 7
-・動画：Seedance 2.0（OiiOii、20シーン）、Vidu Q2（7シーン）
+・静止画：Midjourney Niji 7
+・クリップ：Seedance 2.0（OiiOii、20シーン）、Vidu Q2（7シーン）
 ・編集：iMovie
 
 📝 制作メモ

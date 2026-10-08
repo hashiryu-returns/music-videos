@@ -33,7 +33,7 @@ Every video uses the same format. Each song README has the text to paste.
 1. What it is and why it exists, in two to four sentences. The first line shows above "more" and in search, so it has to stand on its own. The anniversary trilogy shares its first paragraph.
 2. `🎬 Lyrics: turn on CC (…)` / `🎬 歌詞の字幕（…）をオンに`.
 3. Related videos. Each group has a `▼` heading. Each video is `・LANG Title: url` on one line, with a full-width colon on the Japanese side.
-4. `🛠️ Tools` / `🛠️ ツール`. Only the lines that apply, in this order: Lyrics & Concept, Music, Stills, Video, Editing. Japanese: 作詞・コンセプト、楽曲、画像、動画、編集.
+4. `🛠️ Tools` / `🛠️ ツール`. Only the lines that apply, in this order: Lyrics & Concept, Music, Stills, Clips, Editing. Japanese: 作詞・コンセプト、楽曲、静止画、クリップ、編集.
 5. `📝 Behind the Scenes` / `📝 制作メモ`. What was hard, what was done about it, and how long it took.
 6. Any block only this video needs, such as a `🗓️` timeline.
 7. The note article, label and URL on one line. English on the English side (`?hl=en`), Japanese on the Japanese side.
