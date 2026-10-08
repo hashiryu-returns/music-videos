@@ -82,7 +82,7 @@ Description:
 Tags:
 
 ```text
-AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, kids song, family song, Gemini, Gemini Music, Seedance, OiiOii, full auto, AI animation, wedding anniversary, 結婚記念日
+AI music video, AIミュージックビデオ, 生成AI, Gemini Music
 ```
 
 ## Song

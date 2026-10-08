@@ -86,7 +86,7 @@ Description:
 Tags:
 
 ```text
-AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, Japanese song, J-pop, Suno, Midjourney, Niji 7, Seedance, OiiOii, Vidu, mahjong, 麻雀, streaming, wedding anniversary, 結婚記念日
+AI music video, AIミュージックビデオ, 生成AI
 ```
 
 ## Song

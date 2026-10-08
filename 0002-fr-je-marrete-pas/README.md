@@ -87,7 +87,7 @@ Description:
 Tags:
 
 ```text
-AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, French song, chanson, J-rock, anime opening, isekai, 異世界, katana, Suno, Midjourney, Midjourney V7, Vidu, Seedance, wedding anniversary, 結婚記念日
+AI music video, AIミュージックビデオ, 生成AI
 ```
 
 ## Song

@@ -126,7 +126,7 @@ Description:
 Tags:
 
 ```text
-AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, Dragon Quest, Dragon Quest 1, Dragon Quest tribute, ドラゴンクエスト, ドラクエ, JRPG, fantasy anime, anime song, Suno, Midjourney, Niji 7, Vidu, Vidu Q2
+AI music video, AIミュージックビデオ, 生成AI
 ```
 
 ## Picture

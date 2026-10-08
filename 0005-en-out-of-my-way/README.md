@@ -78,7 +78,7 @@ Description:
 Tags:
 
 ```text
-AI music video, AI MV, AIミュージックビデオ, 生成AI, original song, kids song, family song, hedgehog, Suno, Midjourney, Vidu, Vidu Q2, Vidu Q3, Vidu Q4, Vidu Q4 preview, iMovie
+AI music video, AIミュージックビデオ, 生成AI
 ```
 
 ## Picture
