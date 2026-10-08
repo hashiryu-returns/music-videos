@@ -7,14 +7,14 @@ Shot list and timing: [`README.md`](README.md#shot-list). Tool lessons: [`../DES
 Characters, in [`characters/`](characters/) (copies of the 0002 plates). These go in Omni Reference:
 
 - `hedgehog.png`: her, in every scene she's in
-- `papa-panda.png`: #34 only
-- `brother-fox.png`: #35 only
-- `mama.png`: #36 only
+- `papa-panda.png`: #36 only
+- `brother-fox.png`: #37 only
+- `mama.png`: #38 only
 
 Style sheets, in [`stills/`](stills/). These go in Style Reference:
 
 - `style-character.png`: every scene with anything alive in it, however small. Her, the family, every robot and monster
-- `style-landscape.png`: only the empty scenes, #1, #23, #32, #41
+- `style-landscape.png`: only the empty scenes, #1, #25, #29–#31, #43
 
 ## Midjourney
 
@@ -44,21 +44,22 @@ Every prompt ends its scene with one fixed sky line, word for word the same for 
 
 | Place | Cuts | Sky line |
 | --- | --- | --- |
-| Desert, day | #1–#16 | `late morning on the desert planet, a clear sky deep teal blue at the top fading to pale cream at the horizon, a few small white clouds, bright neutral daylight` |
-| Ice planet | #17, #23–#27 | `evening on the ice planet, a deep violet twilight sky, cold blue light on the snow` |
-| Swamp | #18 | `night on the swamp planet, a dark navy sky full of stars, the only light coming from the glowing plants` |
-| Crystal canyon | #19–#22 | `midday on the crystal planet, a clear pale blue sky, bright white daylight` |
-| Above the clouds | #28–#31 | `late afternoon high above the clouds, a warm golden sky, soft golden light` |
-| Desert, night | #32, #37 | `night on the desert planet, a dark navy sky full of stars` |
-| Desert, sunset | #33–#36 | `sunset on the desert planet, an orange and pink sky, long warm shadows` |
-| Pink sea | #38–#40 | `morning on the ocean planet, a clear pale turquoise sky, bright morning light` |
-| Orbit | #41 | `deep space, a black sky full of stars` |
+| Desert, day | #1–#18, #34 | `late morning on the desert planet, a clear sky deep teal blue at the top fading to pale cream at the horizon, a few small white clouds, bright neutral daylight` |
+| Ice planet, evening | #19 | `evening on the ice planet, a deep violet twilight sky, cold blue light on the snow` |
+| Ice planet, night | #25–#31 | `dark violet night sky, deep purple indigo sky, faint stars` |
+| Swamp | #20 | `night on the swamp planet, a dark navy sky full of stars, the only light coming from the glowing plants` |
+| Crystal canyon | #21–#24 | `midday on the crystal planet, a clear pale blue sky, bright white daylight` |
+| Above the clouds | #32–#33 | `late afternoon high above the clouds, a warm golden sky, soft golden light` |
+| Desert, night | #39 | `night on the desert planet, a dark navy sky full of stars` |
+| Desert, sunset | #35–#38 | `sunset on the desert planet, an orange and pink sky, long warm shadows` |
+| Pink sea | #40–#42 | `morning on the ocean planet, a clear pale turquoise sky, bright morning light` |
+| Orbit | #43 | `deep space, a black sky full of stars` |
 
-#39 swaps in a cloud-bank version of their place's line, because the beam needs clouds to come out of.
+#41 swaps in a cloud-bank version of their place's line, because the beam needs clouds to come out of.
 
-Planets, moons and suns change shape and colour from roll to roll, so they're only in the prompts that need them: the pale planet in #1 and #41, two moons in #17, two suns in #33. One that turns up uninvited is fine unless it takes over the picture.
+Planets, moons and suns change shape and colour from roll to roll, so they're only in the prompts that need them: the pale planet in #1 and #43, two moons in #19, two suns in #35. One that turns up uninvited is fine unless it takes over the picture.
 
-Reject on sight: day turning to night, or night to day, between cuts in the same place; a sunset or pink-cloud look in the daytime desert (#1–#16) or at the pink sea; ground of a clearly different colour.
+Reject on sight: day turning to night, or night to day, between cuts in the same place; a sunset or pink-cloud look in the daytime desert (#1–#18) or at the pink sea; ground of a clearly different colour.
 
 ### Writing a prompt
 
@@ -104,12 +105,12 @@ An 8s take needs two actions, joined with `then`, and so does each part of #3. O
 
 Say `lightsaber`, not `energy sword`. Vidu drew a proper one from that word on #2, so the Midjourney prompts use it too. It stays out of titles and descriptions.
 
-**Split takes.** One clip can play twice, as two cuts with another cut between them: three cuts from two clips, and the halves match because they're the same clip. Cuts 3, 6, 7, 14, 19, 20, 23, 24, 28 and 29 are clips that play twice. The later cut only says which part to use. In iMovie, drop the clip in twice and trim one copy to its first action and the other to its second.
+**Split takes.** One clip can play twice, as two cuts with another cut between them: three cuts from two clips, and the halves match because they're the same clip. Cuts 3, 6, 7, 10, 16, 21 and 25 are clips that play twice. The later cut only says which part to use. In iMovie, drop the clip in twice and trim one copy to its first action and the other to its second.
 
 - The clip needs two clearly separate actions joined with `then`, so the second cut starts on something readable.
-- The insert is a different subject, never her in the same situation: the other side of a fight (her against the walker, the drones, the giant), or the world reacting (#4's winged reptiles, #11's critters). An insert that needs her goggles, bike or set to match defeats the point of splitting.
+- The insert is a different subject, never her in the same situation: the other side of a fight (her against the walker, the drones, the giant), or the world reacting (#4's winged reptiles, #13's critters). An insert that needs her goggles, bike or set to match defeats the point of splitting.
 
-Beams and bursts are never in the still; Vidu adds them from the motion line. Bubbles that are already floating (#13, #15, #40–#41) are painted in.
+Beams and bursts are never in the still; Vidu adds them from the motion line. Bubbles that are already floating (#14, #17, #42–#43) are painted in.
 
 ## Scenes
 
@@ -119,7 +120,7 @@ Numbered by cut, in edit order. A cut that reuses an earlier cut's clip only say
 
 #### Cut 1 · Gas giant over the desert
 
-0:00.0–0:04.0 · use 4.0s
+0:00.0–0:04.2 · use 4.2s
 
 **Midjourney** · Style Reference `style-landscape.png` · no Omni Reference
 
@@ -143,7 +144,7 @@ Re-roll: the planet moves fast or melts; the spires melt; a cut to another shot,
 
 #### Cut 2 · Lightsaber on the ledge
 
-0:04.0–0:12.0 · use 8.0s
+0:04.2–0:12.2 · use 8.0s
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
@@ -169,7 +170,7 @@ The first take with only the lightsaber lighting up was too slow for 8s; the swi
 
 #### Cut 3 · Hoverbike ride
 
-0:12.0–0:15.8 · use the first 3.8s. The rest of this clip is cut 5.
+0:12.2–0:15.8 · use 3.6s. Cut 5 is 3.6s of this clip, flipped.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
@@ -229,11 +230,11 @@ Re-roll: they merge into one creature; the spire moves; a cut to another shot, t
 
 #### Cut 5 · Hoverbike ride, second half
 
-0:19.3–0:22.8 · use the last 3.5s of cut 3's clip.
+0:19.3–0:22.9 · use 3.6s of cut 3's clip, flipped.
 
 #### Cut 6 · Walker robot
 
-0:22.8–0:25.9 · use the first 3.1s. The rest of this clip is cut 8.
+0:22.9–0:25.7 · use 2.8s. Cut 8 is 2.2s of this clip, flipped.
 
 **Midjourney** · Style Reference `style-character.png` · no Omni Reference
 
@@ -259,7 +260,7 @@ The 5s take had only the stride. Re-take at 8s for the stop and turn.
 
 #### Cut 7 · Point, then spin
 
-0:25.9–0:28.4 · use the first 2.5s. The rest of this clip is cut 9.
+0:25.7–0:27.7 · use 2.0s. Cut 9 is 3.5s of this clip.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
@@ -283,39 +284,39 @@ Re-roll: she walks or slides; the blade bends or doubles; a cut to another shot,
 
 #### Cut 8 · Walker robot, second half
 
-0:28.4–0:30.0 · use the last 1.6s of cut 6's clip.
+0:27.7–0:29.9 · use 2.2s of cut 6's clip, flipped.
 
 ### Pre-chorus 1
 
 #### Cut 9 · Point, then spin, second half
 
-0:30.0–0:33.5 · use the last 3.5s of cut 7's clip.
+0:29.9–0:33.4 · use 3.5s of cut 7's clip.
 
-#### Cut 10 · Laser strike
+#### Cut 10 · Laser charge
 
-0:33.5–0:38.9 · use 5.4s. Two clips, `clips/09a.mp4` then `clips/09b.mp4`, both 8.0s. Trim so the laser leaves the barrel on the first "Out of my way!" at 0:35.4; the chorus starts there.
+0:33.4–0:35.4 · use 2.0s. Made, `clips/10.mp4` (8.0s). The first "Out of my way!" lands at 0:35.4, where this cut ends and Chorus 1 starts. Cut 12 is the last 1.9s of this same clip.
 
-Made. The base's laser cannon, white with a red rim, charges until the lens glows solid red (`09a`), then fires from the station's structure (`09b`). The walker isn't in the shot, so nothing has to match cuts 6 and 8.
+The base's laser cannon, white with a red rim, charges until the lens glows solid red. The walker isn't in the shot, so nothing has to match cuts 6 and 8.
 
 A satellite seen from orbit never came out: Midjourney drew it skimming low over the ground every time. A cannon close-up with the planet behind it works.
 
 ### Chorus 1
 
-#### Cut 11 · Critters pop up
+#### Cut 11 · Laser fire
 
-0:38.9–0:40.9 · use 2.0s
+0:35.4–0:36.9 · use 1.5s. Made, `clips/11.mp4` (8.0s). The laser fires from the station's structure.
 
-Made, `clips/11.mp4` (2.1s). On "I'm the little boss today": after the blast, big-eared desert critters pop their heads out of round burrows and sit up, looking out. They don't bow. The boss isn't in the shot.
+#### Cut 12 · The beam hits
 
-#### Cut 12 · Bubbles from the blast
+0:36.9–0:38.8 · use the last 1.9s of cut 10's clip. The beam comes down and hits the desert.
 
-0:40.9–0:42.4 · use 1.5s
+#### Cut 13 · Critters pop up
 
-Made, `clips/12.mp4` (8.0s). On "Pop, pop, pop, they float away": the blast on the dunes throws up a cloud of orange dust and hundreds of soap bubbles drift out of it into the sky. No robot in frame.
+0:38.8–0:40.6 · use 1.8s. Made, `clips/13.mp4` (2.1s). After the blast, big-eared desert critters pop their heads out of round burrows and sit up, looking out. They don't bow. The boss isn't in the shot.
 
-#### Cut 13 · Bubble hopping
+#### Cut 14 · Bubble hop
 
-0:42.4–0:47.0 · use 4.6s
+0:40.6–0:42.4 · use 1.8s. Made, `clips/14.mp4` (8.0s). No still. She bounces from bubble to bubble over the dunes, between the critters and the wide shot of the dust.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
@@ -337,9 +338,13 @@ Keep: a bounce and a pop, then a second bounce.
 
 Re-roll: her feet sink into the bubble or slide; the bubbles turn solid; a cut to another shot, the style turning 3D.
 
-#### Cut 14 · Drone swarm
+#### Cut 15 · Bubbles from the blast
 
-0:47.0–0:49.6 · use the first 2.6s. The rest of this clip is cut 16.
+0:42.4–0:47.0 · use 4.6s. Made, `clips/15.mp4` (8.0s), still [`stills/15.png`](stills/15.png). The blast on the dunes throws up a cloud of orange dust and hundreds of soap bubbles drift out of it into the sky. No robot in frame. The still is the empty desert; Vidu adds the dust and the bubbles.
+
+#### Cut 16 · Drone swarm
+
+0:47.0–0:49.6 · use the first 2.6s. The rest of this clip is cut 18.
 
 **Midjourney** · Style Reference `style-character.png` · no Omni Reference
 
@@ -357,13 +362,13 @@ Re-roll: one big robot instead of many small ones; black bars, painted backgroun
 The swarm of drones pours over the dune and rushes at the camera, growing bigger in the frame as the camera pulls back fast in front of it, then the drones pop one after another into shiny soap bubbles that float up into the sky.
 ```
 
-Keep: the swarm rushes in (cut 14), then pops into bubbles (cut 16). Her spin in #15 sits between, so the pop reads as her doing.
+Keep: the swarm rushes in (cut 16), then pops into bubbles (cut 18). Her spin in #17 sits between, so the pop reads as her doing.
 
 Re-roll: the drones merge into a blob; a cut to another shot, the style turning 3D.
 
-#### Cut 15 · Mid-air spin
+#### Cut 17 · Mid-air spin
 
-0:49.6–0:52.8 · use 3.2s
+0:49.6–0:52.9 · use 3.3s
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
@@ -375,7 +380,7 @@ Keep: her airborne and spinning, lightsaber out, bubbles around her, sky behind.
 
 Re-roll: standing on the ground; robots in frame; shoes; black bars, painted background.
 
-`stills/15.png` shows the ground and she isn't spinning. The clip is the one that counts: she's in the air, seen from behind, lightsaber out, bubbles around her.
+`stills/17.png` shows the ground and she isn't spinning. The clip is the one that counts: she's in the air, seen from behind, lightsaber out, bubbles around her.
 
 **Vidu** · 5s
 
@@ -387,20 +392,20 @@ Keep: she spins and slashes.
 
 Re-roll: the blade doubles; a cut to another shot, the style turning 3D.
 
-#### Cut 16 · Drone swarm, second half
+#### Cut 18 · Drone swarm, second half
 
-0:52.8–0:56.3 · use the last 3.5s of cut 14's clip.
+0:52.9–0:56.3 · use 3.4s of cut 16's clip.
 
 ### Verse 2
 
-#### Cut 17 · Space dragon
+#### Cut 19 · Space dragon
 
-0:56.3–0:59.9 · use 3.6s
+0:56.3–0:59.8 · use 3.5s
 
 **Midjourney** · Style Reference `style-character.png` · no Omni Reference
 
 ```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, low angle wide shot, a long-necked space dragon with pale blue crystal scales, a round goofy face and glowing cyan eyes roaring on top of a snowy ice hill, wings spread, blue ice rocks outlined in black ink, two small pale moons in the sky, evening on the ice planet, a deep violet twilight sky, cold blue light on the snow --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature, person, figure --sw 200
+modern anime illustration, anime opening key visual, low angle wide shot, a long-necked space dragon with pale blue crystal scales, a round goofy face, glowing cyan eyes, head thrown back roaring at the sky, wings spread wide, standing on top of a snowy ice hill, blue ice rocks, deep violet twilight sky, two small pale moons in the sky, evening on the ice planet, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, neutral grey shadows --no red skin, red dragon, chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature, person, figure --sw 100
 ```
 
 Keep: one crystal-blue dragon roaring on an ice hill, violet sky.
@@ -417,9 +422,9 @@ Keep: the head goes back and frost comes out.
 
 Re-roll: a second head appears or the jaw melts; a cut to another shot, the style turning 3D.
 
-#### Cut 18 · Blob alien
+#### Cut 20 · Blob alien
 
-0:59.9–1:03.2 · use 3.3s
+0:59.8–1:03.1 · use 3.3s
 
 **Midjourney** · Style Reference `style-character.png` · no Omni Reference
 
@@ -441,9 +446,9 @@ Keep: the jelly wobbles.
 
 Re-roll: it melts into the water; a cut to another shot, the style turning 3D.
 
-#### Cut 19 · Stone giant
+#### Cut 21 · Stone giant
 
-1:03.2–1:06.4 · use the first 3.2s. The rest of this clip is cut 21.
+1:03.1–1:06.3 · use the first 3.2s. Cut 23 uses another 3.0s of this clip.
 
 **Midjourney** · Style Reference `style-character.png` · no Omni Reference
 
@@ -461,13 +466,13 @@ Re-roll: a human-looking giant; more than one giant; black bars, painted backgro
 The stone giant uncrosses its arms and leans down, scowling at the camera, then it turns around and runs away down the canyon, getting smaller as it goes.
 ```
 
-Keep: the scowl (cut 19), then it turns and runs (cut 21). Her stamp in #20 sits between: "I stamp my foot, he runs away".
+Keep: the scowl (cut 21), then it turns and runs (cut 23). Her stamp in #22 sits between: "I stamp my foot, he runs away".
 
 Re-roll: the boulders fall apart; it runs toward the camera; a cut to another shot, the style turning 3D.
 
-#### Cut 20 · Stamp, then throw
+#### Cut 22 · Stamp
 
-1:06.4–1:08.5 · use the first 2.1s. The rest of this clip is cut 22.
+1:06.3–1:07.4 · use 1.1s. Cut 24 is a second Vidu clip from this same still.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
@@ -479,207 +484,189 @@ Keep: her whole body on crystal ground, one foot up, lightsaber drawn back.
 
 Re-roll: a giant or other creature in frame; shoes; two lightsabers; black bars, painted background.
 
-**Vidu** · 8s
+**Vidu** · 5s
 
 ```text
-She stamps her foot down and cracks shoot across the crystal ground, then she hurls the spinning red lightsaber like a boomerang out of the frame.
+Fast action. The hedgehog girl slams her foot down hard onto the crystal ground. Strong camera shake on impact as bright light cracks spread across the floor. 2D anime animation.
 ```
 
-Keep: the stamp and the cracks (cut 20), then the throw (cut 22).
+Keep: the stamp, the shake, and light cracks across the floor.
 
-Re-roll: she slides forward; the lightsaber doubles or bends; a cut to another shot, the style turning 3D.
+Re-roll: she slides forward; the lightsaber leaves her paw; a cut to another shot, the style turning 3D.
 
-#### Cut 21 · Stone giant, second half
+#### Cut 23 · Stone giant, second half
 
-1:08.5–1:10.6 · use the last 2.1s of cut 19's clip.
+1:07.4–1:10.4 · use 3.0s of cut 21's clip.
 
 ### Pre-chorus 2
 
-#### Cut 22 · Stamp, then throw, second half
+#### Cut 24 · Throw
 
-1:10.6–1:14.0 · use the last 3.4s of cut 20's clip.
+1:10.4–1:13.8 · use 3.4s. Same Midjourney still as cut 22.
 
-#### Cut 23 · The lightsaber flies back
+**Vidu** · 5s
 
-1:14.0–1:19.4 · use the first 5.4s. Trim so the lightsaber comes into frame on "Out of my way!" at 1:15.8; the chorus starts there. The rest of this clip is cut 25.
+```text
+Fast dynamic anime action. The hedgehog girl swings her arm and throws the weapon. The glowing red lightsaber transforms into a rapidly spinning red energy disc flying fast across the frame, leaving a glowing light streak behind. Smooth 2D anime effect.
+```
+
+Keep: she throws, and the lightsaber becomes a spinning disc with a light streak.
+
+Re-roll: it stays a sword in her paw; it doubles or bends; she stamps; a cut to another shot, the style turning 3D.
+
+#### Cut 25 · The lightsaber cuts through the ice
+
+1:13.8–1:15.6 · use 1.8s. Cut 28 uses another 1.8s of this clip. The chorus line lands at 1:15.8, just into the next cut.
 
 **Midjourney** · Style Reference `style-landscape.png` · no Omni Reference
 
 ```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, wide shot, an empty field of snow and tall blue ice spikes stretching to the horizon, every ice edge outlined in black ink, evening on the ice planet, a deep violet twilight sky, cold blue light on the snow --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature, person, figure --sw 200
+modern anime illustration, anime opening key visual, wide shot, dynamic camera angle, empty snow field, pure white snow, tall blue crystal ice spikes stretching to the horizon, cold blue light on the ice, clean digital line art, thin precise black outlines, flat cel shading, dark violet night sky, deep purple indigo sky, faint stars, neutral grey shadows --no red sky, pink sky, red glow, sunset, orange, dragon, creature, monster, person, figure, bubbles, chibi, crosshatching, painted background, letterbox, 3d render, photorealistic --sw 150
 ```
 
-Keep: an empty ice field with tall ice spikes, twilight sky.
+Keep: empty white snow, tall blue ice spikes to the horizon, dark violet night sky.
 
-Re-roll: a creature or figure; a daytime blue sky; black bars, painted background.
+Re-roll: a dragon, creature or figure; a red, pink or orange sky; bubbles in the still; black bars, painted background.
 
 **Vidu** · 8s
 
 ```text
-A spinning red lightsaber whirls in low across the ice field like a glowing disc, slicing through the ice spikes one after another so they shatter and snow bursts up, then thousands of shiny bubbles float up out of the snow.
+Fast intense anime action. A spinning red lightsaber glowing disc zips from the camera toward the background, slicing low through the tall blue ice spikes. The ice spikes dynamically shatter into glowing blue ice shards and spark particles. Shockwaves ripple across the snow field. Smooth 2D anime animation, high frame rate.
 ```
 
-Keep: the spinning lightsaber shatters the spikes (cut 23), then rising bubbles (cut 25).
+Keep: the disc flies away from the camera, the spikes shatter into blue shards, shockwaves cross the snow.
 
-Re-roll: a hand or a figure holds the lightsaber; it flies straight like a spear; the ice melts into mush; a cut to another shot, the style turning 3D.
-
-The lightsaber she threw in cut 22, on its way back to her paw in cut 24. The dragon, the jelly and the giant are beaten by her, not from orbit.
+Re-roll: it flies toward the camera; a hand holds it; the ice melts into mush; a cut to another shot, the style turning 3D.
 
 ### Chorus 2
 
-#### Cut 24 · Catch, then twirl
+1:15.6–1:29.3, cuts 26 to 31, all on the ice planet at night.
 
-1:19.4–1:21.1 · use the first 1.7s. The rest of this clip is cut 26.
+#### Cut 26 · Catch
 
-**Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
+1:15.6–1:18.4 · use 2.8s. Made. Generated as her throwing the lightsaber up, then reversed in the edit, so it reads as a clean catch.
 
-```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, low angle medium shot, the hedgehog girl with one open paw raised high, a red lightsaber spinning in the air just above her paw, nothing behind her but the sky, evening on the ice planet, a deep violet twilight sky, cold blue light on the snow --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature --sw 250 --ow 330
-```
+**Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png` · [`stills/26.png`](stills/26.png)
 
-Keep: her open paw up, the lightsaber spinning just above it, violet sky.
-
-Re-roll: the lightsaber already in her paw; two lightsabers; ground or hills behind; black bars, painted background.
-
-**Vidu** · 8s
+**Vidu** · 5s, played backwards
 
 ```text
-The spinning red lightsaber drops into her raised paw and she catches it, then she grins and twirls it in fast circles over her head.
+Fast anime action. The hedgehog girl throws the glowing red lightsaber upward into the sky. It spins rapidly into a red glowing energy disc as it flies high. Smooth 2D anime animation.
 ```
 
-Keep: the catch (cut 24), then the twirl (cut 26).
+Keep: the lightsaber leaves her paw cleanly and spins into a disc. Reversed, that is the catch.
 
-Re-roll: it passes through her paw; a second one appears; a cut to another shot, the style turning 3D.
+Re-roll: it bends or doubles; her paw deforms; a cut to another shot, the style turning 3D.
 
-#### Cut 25 · The lightsaber flies back, second half
+#### Cut 27 · Spin
 
-1:21.1–1:22.8 · use the last 1.7s of cut 23's clip.
-
-#### Cut 26 · Catch, then twirl, second half
-
-1:22.8–1:26.1 · use the last 3.3s of cut 24's clip.
-
-#### Cut 27 · Leap off the snow
-
-1:26.1–1:29.4 · use 3.3s
-
-**Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
-
-```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, full shot, low angle, the hedgehog girl with bare clawed feet crouched low on flat snow about to jump, knees bent, a red lightsaber in one paw, looking straight up, plenty of empty sky above her, evening on the ice planet, a deep violet twilight sky, cold blue light on the snow --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature --sw 200 --ow 330
-```
-
-Keep: her crouched on snow, looking up, open sky above.
-
-Re-roll: already in the air; standing straight; shoes; black bars, painted background.
+1:18.4–1:20.9 · use 2.5s. Made. Same still as cut 26.
 
 **Vidu** · 5s
 
 ```text
-She springs straight up and shoots out of the top of the frame.
+Fast dynamic 2D anime animation. The hedgehog girl fiercely twirls the glowing red lightsaber over her head in fast glowing circles, then points it straight at the camera with a confident grin.
 ```
 
-Keep: she jumps up and leaves the frame.
+Keep: the twirl, then the point at the camera.
 
-Re-roll: she jumps and floats back down in the same spot; a cut to another shot, the style turning 3D.
+Re-roll: the blade doubles or bends; she walks; a cut to another shot, the style turning 3D.
 
-### Bridge
+#### Cut 28 · The ice, second half
 
-#### Cut 28 · The fleet
+1:20.9–1:22.7 · use 1.8s of cut 25's clip. The spikes still shattering.
 
-1:29.4–1:31.2 · use the first 1.8s. The rest of this clip is cut 30.
+#### Cuts 29–31 · Ice mountain pops
 
-**Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
-
-```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, wide shot above a sea of white clouds, a fleet of dozens of sleek white and red starships flying in rows into the distance, the nearest flagship huge in the foreground with panel lines and rivets outlined in black ink, the hedgehog girl standing tiny on the nose of the flagship with a red lightsaber held down at her side, late afternoon high above the clouds, a warm golden sky, soft golden light --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature, cockpit, interior --sw 200 --ow 330
-```
-
-Keep: rows of ships over the clouds, her small but readable on the flagship's nose.
-
-Re-roll: inside a ship; she's missing or as big as the ship; a ship that copies a famous film design; black bars, painted background.
-
-**Vidu** · 8s
-
-```text
-The whole fleet surges forward into the distance as the clouds stream fast underneath and the camera flies alongside the flagship, then she raises the red lightsaber high over her head on the nose of the flagship, her cape flapping.
-```
-
-Keep: the fleet moves (cut 28), then she raises the lightsaber (cut 30).
-
-Re-roll: ships merge or warp; she falls off; a cut to another shot, the style turning 3D.
-
-#### Cut 29 · Fist pumps
-
-1:31.2–1:32.9 · use the first 1.7s. The rest of this clip is cut 31.
-
-**Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
-
-```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, medium close-up, low angle, the hedgehog girl shouting with her mouth wide open and one fist punched up, nothing behind her but golden clouds and sky, late afternoon high above the clouds, a warm golden sky, soft golden light --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature --sw 250 --ow 330
-```
-
-Keep: her from below, fist up, shouting, golden sky behind.
-
-Re-roll: a ship or hull in frame; a human child; black bars, painted background.
-
-**Vidu** · 8s
-
-```text
-She punches her fist up once and shouts, then she punches it up three more times, shouting each time.
-```
-
-Keep: one punch (cut 29, "Me!"), then three (cut 31, "Me! Me! Me!").
-
-Re-roll: her face melts; a cut to another shot, the style turning 3D.
-
-#### Cut 30 · The fleet, second half
-
-1:32.9–1:36.4 · use the last 3.5s of cut 28's clip.
-
-#### Cut 31 · Fist pumps, second half
-
-1:36.4–1:40.0 · use the last 3.6s of cut 29's clip.
-
-#### Cut 32 · Beam fireworks
-
-1:40.0–1:43.6 · use 3.6s
+Made. Three Vidu clips, one from each still. Cut 29 is 1:22.7–1:24.4 (1.7s), cut 30 is 1:24.4–1:26.1 (1.7s), cut 31 is 1:26.1–1:29.3 (3.2s). Stills: [`stills/29.png`](stills/29.png), [`30.png`](stills/30.png), [`31.png`](stills/31.png). One huge ice mountain bursting per cut, so the chorus hits on each beat.
 
 **Midjourney** · Style Reference `style-landscape.png` · no Omni Reference
 
 ```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, muted dark colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, low angle wide shot from the ground, dark desert dunes, red rock spires as black silhouettes against the stars, night on the desert planet, a dark navy sky full of stars --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature, person, figure, blue sky, sun, sunlight --sw 250
+modern anime illustration, anime opening key visual, dynamic low angle close-up shot, a massive blue crystal ice mountain collapsing and shattering into glowing ice shards, bright blue energy shockwaves bursting out, dark violet night sky background, deep purple indigo sky, faint stars, pure white snow, clean digital line art, thin precise black outlines, flat cel shading with neutral grey shadows --no red sky, pink sky, sunset, orange, person, figure, creature, monster, bubbles, chibi, crosshatching, painted background, letterbox, 3d render, photorealistic --sw 150
 ```
 
-Keep: a starry night sky over dark dunes and spires.
+Keep: one huge ice mountain breaking open, blue glow, violet night sky.
 
-Re-roll: a figure; a daytime sky; ships in the sky; black bars, painted background.
+Re-roll: a red or pink sky; a figure or creature; black bars, painted background.
 
 **Vidu** · 5s
 
 ```text
-Dozens of red beams fan across the night sky like fireworks, the fleet celebrating.
+Extreme dynamic 2D anime effect. The huge blue ice mountain violently shatters from the impact, exploding into thousands of bright glowing ice shards and snow dust that fly directly toward the camera. Smooth 2D anime animation, high frame rate.
 ```
 
-Keep: beams streak across the sky.
+Keep: the mountain bursts and the shards come at the camera.
 
-Re-roll: no beams; the spires melt; a cut to another shot, the style turning 3D.
+Re-roll: it melts instead of shattering; a cut to another shot, the style turning 3D.
 
-### Verse 3
+### Bridge
 
-#### Cut 33 · Two suns setting
+Nothing in the bridge is split. Cut 33 is its own still: the wide back view can't turn into a fist pump.
 
-1:43.6–1:47.3 · use 3.7s
+#### Cut 32 · The fleet
+
+1:29.3–1:36.1 · use 6.8s. "Who's the boss? (Me!)" twice, then "Little spikes and a big red cape".
+
+Made, [`stills/32.png`](stills/32.png). From behind, she stands on a rock above the clouds and the silver grey fleet flies past. A window shot was tried first; the style sheet turned the hull into a crash site, and Omni Reference turned her to face the camera.
+
+**Vidu** · 8s
+
+```text
+Fast dynamic anime camera move. The fleet flies straight ahead, no turning. The camera starts behind her, then swings out to a low side angle as the huge silver battleship rushes past close to the lens, then rises to look down over the whole fleet stretching to the horizon. Her red cape whips in the wind and she stands still on the rock. Clouds rush past. Smooth 2D anime animation, high frame rate.
+```
+
+Keep: the ships fly straight while the camera swings from behind her, to a low side angle, to above the fleet. She stays on the rock.
+
+Re-roll: the ships turn or bank; the ships merge or bend like rubber; she jumps or falls off; a cut to another shot, the style turning 3D.
+
+#### Cut 33 · Fist pumps
+
+1:36.1–1:38.8 · use 2.7s. "Who's the boss? (Me! Me! Me!)". Her own still. She's still on the rock, still facing the fleet, close enough that the fist reads. She does not turn around.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
 ```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, wide shot from behind, the hedgehog girl sitting alone on the crest of a sand dune, small in the frame, her red cape spread on the sand around her, a red lightsaber hilt lying beside her, watching two suns set on the horizon, sunset on the desert planet, an orange and pink sky, long warm shadows --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature, front view, facing camera --sw 200 --ow 330
+modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, neutral grey shadows, crisp high resolution, back view, medium shot from behind, the hedgehog girl with bare clawed feet seen from the back, her back to the camera, her face not visible, standing on a rocky outcrop high above a sea of golden clouds, one fist punched straight up, her other paw at her side, her red cape blowing, ahead of her a fleet of weathered silver grey starships with rounded hulls and glowing pink portholes, late afternoon high above the clouds, a warm golden sky, soft golden light --no front view, facing camera, face, eyes, lightsaber, sword, weapon, hilt, window, cockpit, shoes, trousers, pants, chibi, crosshatching, painted background, letterbox, black bars, 3d render, photorealistic, text, watermark, signature --sw 200 --ow 150
 ```
 
-Keep: her small from behind, sitting on a dune, two suns low.
+`--ow 150`. At 330 she turns to face the camera, because `hedgehog.png` does.
 
-Re-roll: she faces the camera; a house or a vehicle; shoes; black bars, painted background.
+Keep: her back, one fist up, the rock, silver grey ships over golden clouds.
+
+Re-roll: her face showing; no fist; a window or a cockpit; white and red ships; shoes; black bars, painted background.
+
+**Vidu** · 5s
+
+```text
+Seen from behind, she punches her fist up and shouts, then punches it up again and again. She does not turn around. The silver fleet keeps flying straight ahead over the golden clouds. Dynamic 2D anime animation.
+```
+
+Keep: the fist goes up again and again on "Me! Me! Me!", and we never see her face.
+
+Re-roll: she turns toward the camera; she jumps off the rock; the ships bank; a cut to another shot, the style turning 3D.
+
+#### Cut 34 · The blast, again
+
+1:38.8–1:42.6 · use 3.8s, then a 1s circle close. The same explosion as cut 12, the beam hitting the desert, from its own image. Not the tail of `clips/10.mp4`.
+
+### Verse 3
+
+#### Cut 35 · Two suns setting
+
+1:42.6–1:46.1 · use 3.5s, then a 0.3s cross dissolve.
+
+**Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
+
+`--ow 180`. At 330 she turns around, because `hedgehog.png` faces the camera.
+
+```text
+modern anime illustration, anime opening key visual, epic wide shot from behind, cute hedgehog girl seen strictly from behind, rear view of her back and head spikes, wearing her red cape, sitting alone on the crest of a high sand dune, small in frame, looking towards two suns setting on the desert horizon, a lightsaber hilt lying unlit on the sand beside her, orange and pink sunset sky, long warm shadows, clean digital line art, thin black outlines, flat cel shading --no front view, facing camera, face, eyes, snout, mouth, active laser blade, holding weapon, glowing sword, standing, house, vehicle, shoes, chibi, 3d render --sw 250 --ow 350
+```
+
+Keep: her small, strictly from behind, sitting, two suns low, the handle dark on the sand.
+
+Re-roll: her face, even in profile; she stands; the blade is lit; black bars, painted background.
 
 **Vidu** · 5s
 
@@ -691,9 +678,9 @@ Keep: the suns sink and the cape lifts.
 
 Re-roll: she stands up or turns around; a cut to another shot, the style turning 3D.
 
-#### Cut 34 · Papa
+#### Cut 36 · Papa
 
-1:47.3–1:50.8 · use 3.5s
+1:46.1–1:48.2 · use 2.1s, then a 1s cross dissolve.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `papa-panda.png`
 
@@ -715,9 +702,9 @@ Keep: the paw waves.
 
 Re-roll: he walks; his face changes; a cut to another shot, the style turning 3D.
 
-#### Cut 35 · Brother
+#### Cut 37 · Brother
 
-1:50.8–1:54.2 · use 3.4s
+1:48.2–1:50.2 · use 2.0s, then a 1s cross dissolve.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `brother-fox.png`
 
@@ -739,9 +726,9 @@ Keep: he bounces and waves the toy.
 
 Re-roll: he runs; the toy changes; a cut to another shot, the style turning 3D.
 
-#### Cut 36 · Mama
+#### Cut 38 · Mama
 
-1:54.2–1:57.6 · use 3.4s
+1:50.2–1:52.8 · use 2.6s, then a 1s cross dissolve.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `mama.png`
 
@@ -763,19 +750,21 @@ Keep: the blanket opens.
 
 Re-roll: she walks; her face changes; a cut to another shot, the style turning 3D.
 
-#### Cut 37 · Hammock
+#### Cut 39 · Hammock
 
-1:57.6–2:01.2 · use 3.6s
+1:52.8–1:55.8 · use 3.0s, then a 1s wipe up.
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
+`--ow 120`. At 330 she sits up and faces the camera, because `hedgehog.png` does. The hammock and the cape have to be two different cloths or they merge into one red wrap.
+
 ```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, muted dark colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, medium shot, the hedgehog girl lying in a small hammock under her red cape like a blanket, wide awake, eyes open, gazing up at the stars, nothing behind the hammock but the starry sky, night on the desert planet, a dark navy sky full of stars --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature, blue sky, sun, sunlight --sw 250 --ow 330
+modern anime illustration, anime opening key visual, epic wide shot from the side, the hedgehog girl lying flat on her back in a pale tan cloth hammock slung by ropes between two wooden posts, her red cape laid over her like a separate blanket, eyes open looking straight up at the stars, not at the camera, nothing behind the hammock but the sky, night on the desert planet, a dark navy sky full of stars, clean digital line art, thin black outlines, flat cel shading --no sitting up, upright, standing, front view, facing camera, eyes closed, bed, house, shoes, chibi, 3d render --sw 200 --ow 120
 ```
 
-Keep: her lying in a hammock under the cape, eyes open, stars behind.
+Keep: her flat on her back, a pale hammock between two posts, the red cape on top of her, stars behind.
 
-Re-roll: eyes closed; a house or a bed; black bars, painted background.
+Re-roll: she sits up; she faces the camera; the hammock is just the cape; eyes closed; a house or a bed.
 
 **Vidu** · 5s
 
@@ -791,19 +780,21 @@ Eyes open in the still. Asleep-then-waking changes her face and breaks the plate
 
 ### Final chorus
 
-#### Cut 38 · Rise and light up
+#### Cut 40 · Rise and light up
 
-2:01.2–2:04.6 · use 3.4s
+1:55.8–1:58.6 · use 2.8s
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
+Not the hammock and not the dune. She is in the air, morning, turquoise sky. `--ow 200`: at 330 she stands on the ground facing the camera, which is the plate.
+
 ```text
-modern anime illustration, anime opening key visual, clean digital line art, thin precise black outlines, flat cel shading with soft two tone shadows, natural full colour, vivid saturated colours, inked backgrounds with black outlines on every edge, fine ink detail of cracks, chips and grime, neutral grey shadows, crisp high resolution, low angle medium shot, the hedgehog girl rising up into the frame holding an unlit lightsaber hilt with no blade in one paw, her red cape flaring, nothing behind her but the sky, morning on the ocean planet, a clear pale turquoise sky, bright morning light --no chibi, crosshatching, painted background, letterbox, black bars, sepia, painterly, 3d render, photorealistic, text, watermark, signature, sunset --sw 250 --ow 330
+modern anime illustration, anime opening key visual, extreme low angle, the hedgehog girl launched high in mid air, feet off the ground, knees tucked, small against a huge clear pale turquoise sky, holding an unlit lightsaber hilt with no blade, red cape snapping above her, a thin strip of pink sea at the very bottom of the frame, morning on the ocean planet, bright morning light, clean digital line art, thin black outlines, flat cel shading --no hammock, blanket, lying, sitting, standing on ground, desert, dune, sand, night, stars, sunset, orange sky, lit blade, glowing sword, chibi, 3d render --sw 200 --ow 200
 ```
 
-Keep: her from below with an unlit hilt, turquoise sky behind.
+Keep: her in the air, unlit hilt, turquoise sky, a little pink sea at the bottom.
 
-Re-roll: a blade already lit; beach or sea in frame; black bars, painted background.
+Re-roll: she is on the ground; a hammock or a dune; night or a sunset; the blade is already lit.
 
 **Vidu** · 5s
 
@@ -815,9 +806,9 @@ Keep: she rises and the blade comes out.
 
 Re-roll: the blade comes out bent or doubled; a cut to another shot, the style turning 3D.
 
-#### Cut 39 · Robot squid
+#### Cut 41 · Robot squid
 
-2:04.6–2:11.5 · use 6.9s
+1:58.6–2:06.0 · use 7.4s
 
 **Midjourney** · Style Reference `style-character.png` · no Omni Reference
 
@@ -839,13 +830,13 @@ Keep: the squid rises, then the beam hits and it turns to bubbles.
 
 Re-roll: tentacles tangle into mush; a fiery explosion; the squid stays whole; a cut to another shot, the style turning 3D.
 
-The satellite base's second and last shot, from the clouds. The first was cut 10.
+The satellite base's second and last shot, from the clouds. The first was cuts 10 and 11.
 
 ### Outro
 
-#### Cut 40 · Wave goodbye
+#### Cut 42 · Wave goodbye
 
-2:11.5–2:17.2 · use 5.7s
+2:06.0–2:11.2 · use 5.2s
 
 **Midjourney** · Style Reference `style-character.png` · Omni Reference `hedgehog.png`
 
@@ -867,9 +858,9 @@ Keep: the wave, then the hop and spin.
 
 Re-roll: she walks toward camera; her feet slide; a cut to another shot, the style turning 3D.
 
-#### Cut 41 · Planet at night
+#### Cut 43 · Planet at night
 
-2:17.2–end of song · use 4.6s or more, to the end of the song
+2:11.2–2:20.0 · use 8.8s, then a 1s fade. The fade ends at 2:21.0.
 
 **Midjourney** · Style Reference `style-landscape.png` · no Omni Reference
 
