@@ -13,6 +13,7 @@ Shared notes on the tools live in [`DESIGN.md`](DESIGN.md).
 | 0003 | [`0003-en-hamburger-hamburger`](0003-en-hamburger-hamburger/README.md) | Hamburger Hamburger | [watch](https://www.youtube.com/watch?v=S67cE91-6NI) |
 | 0004 | [`0004-en-not-alone`](0004-en-not-alone/README.md) | Not Alone | [watch](https://www.youtube.com/watch?v=_w9ba2ul8fI) |
 | 0005 | [`0005-en-out-of-my-way`](0005-en-out-of-my-way/README.md) | Out of My Way! | [watch](https://www.youtube.com/watch?v=tDfSh5x6Gh8) |
+| 0006 | [`0006-en-two-blades`](0006-en-two-blades/README.md) | Two Blades (working title) | — |
 
 0001–0003 are three songs made for the 21st anniversary, 2026-10-04. They cover the same year from three sides. 0004 is one of three songs written on one story, the first Dragon Quest, each with its own sound; the other two are in its [`lyrics.md`](0004-en-not-alone/lyrics.md). 0005 is our daughter's, with the hedgehog from 0002 as the hero. Later songs do not have to belong to a set.
 
