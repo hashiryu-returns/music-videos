@@ -1,8 +1,8 @@
 # 0006 shot list
 
-The story is built from the techniques, not the lyric. Before the first chorus the video introduces the two women. From the first "Draw!" on it is the fight, and it gets faster each section. Times come from [`captions/en.vtt`](captions/en.vtt) and the WAV. Technique numbers are the ones in [`README.md`](README.md#techniques).
+The edit carries it. Every shot is simple, and the cutting, the speed, the type and the effects make it busy. Excitement first, story second, the lyric only where it helps. The story is in [`README.md`](README.md#story). Times come from [`captions/en.vtt`](captions/en.vtt) and the WAV. Technique numbers are the ones in [`README.md`](README.md#techniques).
 
-The song runs about 192 BPM. One beat is about 0.31s, one bar about 1.25s, and one sung line is two bars, about 2.5s. In the choruses every line is a cut. Final Cut Pro's Beat Detection gives the exact frames.
+The song runs about 192 BPM. One beat is about 0.31s, one bar about 1.25s, and one sung line is two bars, about 2.5s. Final Cut Pro's Beat Detection gives the exact frames.
 
 Loud landmarks in the WAV:
 
@@ -12,73 +12,104 @@ Loud landmarks in the WAV:
 - 3:03–3:09: the first half of the last chorus is pulled back, and the band comes back in at 3:10
 - 3:36.25: the sound drops out for a moment. The last hit is at 3:37.0, and it's silent by 3:37.5
 
+## Rules
+
+- **Cut length.** Verses: a cut a bar, about 1.25s. Choruses and fights: a cut every one or two beats, 0.3–0.6s. Nothing holds longer than 2.5s except the freezes before a drop.
+- **Every cut does something.** A speed ramp, a flash, a shake, an RGB split, a crop punch-in, a split screen, type or an overlay. One at least.
+- **One clip, many cuts.** A clip is cut into three to five pieces and used in different places, cropped, flipped or at another speed. Generate simple shots.
+- **One place per scene, used once.** The bridge is the only Japanese place, and the only scene in the old clothes apart from the tea stall. Everything else is the near-future city in modern clothes.
+- **A costume per scene.** Each scene has its own costume plate, so a scene's cuts match. An extra that only one cut needs (a cap, an earpiece) goes in that cut's prompt. Everyone but the three leads is used once and thrown away. The hair never changes, except in the memories: with a new costume every scene, the hair is how the viewer tells the two apart.
+- **The fight-game layer.** The VS screen, `ROUND 1` and `ROUND 2`, a boss health bar, arrow inputs and a combo counter, `K.O.` Built in Motion (M8).
+
 ## Who goes in each generation
 
-- **Q3C:** Vidu Q3 Cinematic, 8s, one action per clip. Every full-body shot, every wide shot, all the fighting
-- **Q4:** Vidu Q4, 5s. Face close-ups only
-- **Edit:** no generation. Final Cut Pro or Motion on clips that already exist
+- **Q3C:** Vidu Q3 Cinematic, 8s, one action per clip. Full body, wide shots, the fighting, the city
+- **Q4:** Vidu Q4, 5s. Face and hand close-ups
 
-References, in this upload order:
+References, in this upload order: each person's costume front, then their face (`singer-face.png`, `rival-face.png`, `master-face.png`), then blades or props, then one place. Seven at most, Q3's limit. A shot with three people has no room for the blades: name them in the prompt. Guns, bikes, the wooden swords, the flask and the photo have no plates: Vidu invents them. Each is on screen for a cut or two, so they don't have to match from shot to shot, and a plate for each would take a slot from a face.
 
-- singer: `singer-front.png`, `singer-face.png`
-- rival: `rival-front.png`, `rival-face.png`
-- blades: `blade-singer.png`, `blade-rival.png`
-- one place: `bridge.png`, `tea-stall.png` or `street.png`
+The plates are listed in [`prompts.md`](prompts.md#files). Full-body shots stay in rain and city light, never on a bare stage. On an empty stage both models drew a 3D game render. The training room is the one place that look is wanted.
 
-That's seven, Q3's limit. A shot with one woman leaves the other out and the other blade out.
-
-`tea-stall.png` (a tea stall under an elevated highway at dawn) and `street.png` (a narrow neon street at night) are Midjourney V8.2 without Style Reference, which drained the neon. Full-body shots stay at night in rain and lantern light, never on a bare stage. On an empty stage both models drew a 3D game render.
-
-## Intro · 0:00–0:26 · the title
+## Intro · 0:00–0:26 · the hook
 
 | # | Time | Shot | Gen | Technique |
 | --- | --- | --- | --- | --- |
-| 1 | 0:00–0:06 | Black. Rain on the lens, then focus pulls through it to the singer's eye | Q4 | G6 |
-| 2 | 0:06 | "(Ha!)": white flash, the title slams in, and the bridge plays inside the letters | Edit | F4, M7, F14 |
-| 3 | 0:08–0:17 | FPV dive from the top of the towers down onto the empty bridge in the rain | Q3C, bridge | G5 |
-| 4 | 0:17–0:26 | The two katanas, one each, lifted off the grey onto black, slow push-in. A flare runs along each edge on the beat | Edit, the blade plates | F22 |
+| 1 | 0:00–0:06 | The singer's eye in the rain, cut on the beat against 1b and one-frame flashes of what's coming: the master's red eye (36b), a muzzle flash, crossed blades (22). Faster and faster into "(Ha!)" | Q4, made | G6, F1, F19 |
+| 1b | 0:00–0:06 | The rival's eye under a hood, harbour lights behind | Q4, rival hood, harbour | G6 |
+| 2 | 0:06 | "(Ha!)": white flash, the title slams in, the dive plays inside the letters | Edit | F4, M7, F14 |
+| 3 | 0:08–0:17 | FPV dive down the towers into the city, following an agency drone. Lower third types out the place and the year | Q3C, rooftop | G5, F2, M1 |
+| 4 | 0:17–0:26 | VS screen. The two front plates slide in, `AGENT` under one, `SMUGGLER` under the other, `VS` slams on the beat, then the back plates as each turns away | Edit, the plates | M8, M2 |
 
-## Verse 1 · 0:26–0:46 · the singer
+## Verse 1 · 0:26–0:46 · the case, and the message
 
-| # | Time | Shot | Gen | Technique |
-| --- | --- | --- | --- | --- |
-| 5 | 0:26–0:31 | Dawn, the tea stall under the highway, steam rising. The singer walks in, wide. The first line types itself out, one character at a time | Q3C, singer, stall | F1, M1 |
-| 6 | 0:31–0:36 | Two cups on the counter, close, steam | Q3C, stall | F24 |
-| 7 | 0:36–0:41 | The rival's hand pours the singer's cup first. Framed so the hand sits where a hand on a hilt will sit later | Q3C, rival, stall | G1, first half |
-| 8 | 0:41–0:46 | The singer looks up from the cup. Freeze, and her intro card builds over it | Q4 | M3, F3 |
-
-## Verse 2 · 0:46–0:56 · the rival
+The two are never in one place. The singer is at the agency at night, the rival at the tea stall at dawn, alone, and the edit cuts between them. She still sets out two cups and pours the singer's first. Two women in one frame with a small exchange came out robotic in every roll, so the talk at the stall became a message.
 
 | # | Time | Shot | Gen | Technique |
 | --- | --- | --- | --- | --- |
-| 9 | 0:46–0:49 | Night. The rival walks down the neon street, coat moving, petals on the wet stone. Her first line types itself out the same way | Q3C, rival, street | F21, M1 |
-| 10 | 0:49–0:52 | Split screen. Each woman runs a whetstone along her blade, one per side | Q3C ×2, one woman, her blade and the street each | F9 |
-| 11 | 0:52–0:54 | The rival's face over the singer's dawn stall | Edit, shots 12 and 5 | F15 |
-| 12 | 0:54–0:56 | The rival turns to camera. Freeze, and her intro card builds | Q4 | M3, F3, F25 out |
+| 5 | 0:26–0:31 | "Morning steam above the stall": the stall wide (first half of 6-2), the singer at the agency with her back to us (5), the hologram in her sunglasses (5b) | Q3C 5, Q4 5b, made | F1, M1 |
+| 6 | 0:31–0:36 | "Two cups waiting by the wall": two cups (6), the cups again (second half of 6-2), the rival's file on the agency screens, with a glowing green mochi turning, `CONTRABAND`, and the drone's feed from shot 3 | Q3C, made, plus edit | F24, M4 |
+| 7 | 0:36–0:41 | "You pour mine before your own": the rival's hand pours the singer's cup first. Framed to match the flipped 17. Then her eyes on her tea (8b) | Q3C, rival, stall, plus 8b made | G1, first half |
+| 8 | 0:41–0:46 | "Same as every day we've known": the message lands as a hologram over her cup, an old photo of the two apprentices and their master. She doesn't look at it. Split screen, the agency and the stall, then the singer turns to camera (the end of 5). Freeze, and her intro card builds | Edit, from 5, 8b and the plates | F9, M4, M3, F3 |
 
-## Pre-chorus · 0:56–1:08 · the street goes still
+The photo is built in the edit from `singer-gi.png`, `rival-gi.png` and `master-front.png`, with grain and a film burn so it reads as old.
 
-| # | Time | Shot | Gen | Technique |
-| --- | --- | --- | --- | --- |
-| 13 | 0:56.01–0:58.56 | "One more bell": a red lantern on the bridge, swinging in the rain | Q3C, bridge | F21 |
-| 14 | 0:58.56–1:01.14 | "One more breath": the singer breathes out, rain on her face | Q4 | F24 |
-| 15 | 1:01.14–1:06.86 | "Then the street goes still": the singer on the bridge, waist up, lifts her eyes to the camera. The edit slows the clip to a stop, rain and lanterns with it. The frame closes to 2.39:1 | Q3C, singer, bridge | F2, F8 |
-| 16 | 1:06.86–1:08.78 | Freeze on the last frame of 15. No movement until the drop | Edit | F3 |
-
-## Chorus 1 · 1:08.8–1:32 · the first draw
+## Verse 2 · 0:46–0:56 · the deal
 
 | # | Time | Shot | Gen | Technique |
 | --- | --- | --- | --- | --- |
-| 17 | from 1:08.78, up to about 1s | "Draw!": match cut from the pouring hand of shot 7 to the same hand gripping the hilt and easing the blade out. White flash, negative frame | Q3C, rival, her blade, bridge | G1, F4, M2 |
-| 18 | to 1:11.28 | "Steel in bloom" in big type behind the singer, blade raised | Q3C, singer, her blade, bridge | F12 |
-| 19 | 1:11.28–1:13.70 | "Red against the rain": all grey except the red | Q3C, singer, bridge | F11 |
-| 20 | 1:13.70–1:18.75 | Both at opposite ends of the bridge, wide. The clip's own slow push-in | Q3C, both, bridge | |
-| 21 | 1:18.75–1:21.16 | "Draw!": the rival draws | Q3C, rival, her blade, bridge | F4 |
-| 22 | 1:21.16–1:23.67 | "Faster than the light": both charge in from the two edges, an afterimage on the swing. The blades meet in a white flash, then the two of them face to face over the locked blades through "light" | Q3C, both, bridge: one clip, charge to lock | F4, F16 |
-| 23 | 1:23.67–1:26.13 | "Smile at me": the rival, the start of a smile | Q4 | F24 |
-| 24 | 1:26.13–1:32.1 | "Then cut me down tonight": a short lock, then the singer backflips away and comes back cutting up from below, and the rival blocks it from above. The two swap sides during the attack. The hit is on "tonight," and the clip's own slow motion follows | Q3C, both, bridge | F2, F7, F21 |
+| 9 | 0:46–0:49 | "Petals stick": the harbour at night, the rival in a hood hands a case to two thugs | Q3C, rival hood, harbour | F21, M1 |
+| 9b | 0:46–0:49 | The open case: rows of glowing green mochi, a flash on the cut | Q3C, case, harbour | F21 |
+| 10 | 0:49–0:52 | "Whetstones": split screen, the singer on a crane watching through a scope, and the scope's view of the rival | Q3C, singer suit, harbour | F9, M4 |
+| 11 | 0:52–0:54 | "Neither of us says the word": the rival's face over the harbour | Edit, 12 and 9 | F15 |
+| 12 | 0:54–0:56 | "Both of us already heard": the rival turns and looks straight up at the scope. Freeze, and her intro card builds | Q4, rival hood, harbour | M3, F3, F25 out |
 
-From 21 to 24 it is one exchange in order: she draws, they charge, the blades meet, they hold the lock, the rival smiles inside it, and the singer breaks it with a backflip and a rising cut.
+### Edit notes for 1–12
+
+What the clips need on the timeline, worked out when they were picked. The step-by-step comes at the edit.
+
+- **1 and 1b.** Alternate on the beat, faster towards "(Ha!)". Rain on the lens and the focus pull (Gaussian Blur, full to zero) on 1.
+- **3.** The drone rises from the foot of the tower into frame: a flash or a type hit there. Speed up the dive back down (about 150%), and ease back to 100% as it levels out over the street.
+- **5.** Ends facing the camera, centred. Freeze the last frame (`Option+F`) for about 1.5s to 0:46.6, and the intro card slides in from the left: her name big, `AGENT` under it, the last letter on the beat.
+- **5b.** `5b-2.mp4` has bigger glasses than the plate. A one-frame flash at most.
+- **6-2.** Vidu cut inside the clip, from the stall wide to the cups. Blade it at the change (`Cmd+B`): the first half is the wide, the second half a second angle on the cups.
+- **7.** If it came out mirrored against 17, flip it (Effects → Distortion → Flipped). The cut to 17 lands on "Draw!", on the hand gripping the handle.
+- **8.** No clip. The old photo is built from `singer-gi.png`, `rival-gi.png` and `master-front.png`, with grain and a film burn, and floats over the cup in 8b as a hologram.
+- **9.** Use from 3s on; the case warps before that. `9-2.mp4` has her hood down, so the tufts say who it is: one bar after a hooded cut.
+- **9b.** Only the last three seconds. Put a white flash on the first frame used, so the warp just before it doesn't show.
+- **10.** The suit shines like rubber. Half size in the split screen, a grain overlay, lowered highlights. `10-2.mp4` is the wide on the crane, one bar before the split.
+- **12.** `12-2.mp4` first (her face hidden in the hood), then `12.mp4` (she looks up, the eyes catch the light), jump cut on the beat. Freeze the last frame of 12 and her intro card builds. Check the eyes are amber, not red.
+
+## Pre-chorus · 0:56–1:08 · the ambush on the bridge
+
+The one slow stretch, and it stays slow: the stillness is what makes the drop hit.
+
+| # | Time | Shot | Gen | Technique |
+| --- | --- | --- | --- | --- |
+| 13 | 0:56.01–0:58.56 | "One more bell": a red lantern on the bridge, swinging in the rain | Q3C, made | F21 |
+| 14 | 0:58.56–1:01.14 | "One more breath": the singer breathes out, rain on her face | Q4, made | F24 |
+| 15 | 1:01.14–1:06.86 | "Then the street goes still": waist up, she lifts her eyes. Slowed to a stop, the frame closes to 2.39:1 | Q3C, made | F2, F8 |
+| 16 | 1:06.86–1:08.78 | Freeze on 15. Two health bars slide in and fill, `ROUND 1` | Edit | F3, M8 |
+
+## Chorus 1 · 1:08.8–1:32 · the duel
+
+| # | Time | Shot | Gen | Technique |
+| --- | --- | --- | --- | --- |
+| 17 | from 1:08.78, up to about 1s | "Draw!": match cut from the pouring hand of 7 to the hand on the hilt. Negative frames, white flash | Q3C, made | G1, F4, M2 |
+| 18 | to 1:11.28 | "Steel in bloom" in big type behind the singer | Q3C, made | F12 |
+| 19 | 1:11.28–1:13.70 | "Red against the rain": all grey except the red | Q3C, made | F11 |
+| 20 | 1:13.70–1:18.75 | "Only one walks off… Only one goes home": eight cuts, not one wide. The wide, crops of each woman, flipped crops, i1 and i2, 1-frame tower cutaways, `ONLY` and `ONE` slamming in | Q3C, made, plus inserts | F1, M2, F5 |
+| 21 | 1:18.75–1:21.16 | "Draw!": the rival draws. After the draw, i3: her grip tightens on the drawn blade, about 0.5s, into the charge | Q3C, made, plus i3 | F4, F2 |
+| 22 | 1:21.16–1:23.67 | "Faster than the light": the charge, afterimage, flash on the hit, sparks. Already full, so no insert | Q3C, made | F4, F16, F20, F7 |
+| 23 | 1:23.67–1:26.13 | "Smile at me": the lock, held. A crop of 22's crossed blades, the rival's face (i2-2), the singer's eyes (i1), a punch-in on the blades. No smile: she is still the smuggler here, and her smile is kept for the reveal in 34 | Edit, from 22, i1, i2-2 | F5, F24, F20 |
+| 24 | 1:26.13–1:32.1 | "Then cut me down tonight": the backflip and the rising cut. Strobe on the hit, sparks, a crop punch-in on each speed change | Q3C, made | F2, F7, F18, F20, F21 |
+
+Inserts for the chorus 1 re-edit, made:
+
+| # | Shot | Gen |
+| --- | --- | --- |
+| i1 | The singer's eyes narrowing, rain, lanterns behind | Q4, singer, bridge |
+| i2 | The rival's eyes narrowing | Q4, rival, bridge |
+| i3 | Her hand tightening on the green-wrapped hilt of the drawn blade, extreme close-up | Q4, rival, her blade, bridge |
 
 ### Cutting 0:56–1:32
 
@@ -113,87 +144,86 @@ The times above are the caption starts in [`captions/en.vtt`](captions/en.vtt), 
 - **20 · "Only one walks off this bridge / Only one goes home again".** Cut on the first "Only." The shot runs under both lines, with no gap between them. The clip pushes in slowly by itself, and nothing is added. A zoom punch on top of a moving camera reads as a bad cut, so it was taken out.
 - **21 · "Draw!".** Cut on the second "Draw!" Her right hand goes to the hilt and the draw starts on the word. The bit of steel showing in 17 is ignored. In 20 her blade is sheathed and her hand is off it, so 21 starts from there. The line goes on to "Steel in bloom" and the shot runs under all of it.
 - **22 · "Faster than the light".** One clip, no cut inside it. It starts on "Faster" with the two running in; the clip's first second, an empty bridge, is cut. The blades hit about a second before "light." Moving the hit onto "light" would need that empty second back or a slowed run, so the hit stays where it falls. The afterimage covers the 8 frames before the hit, and the white flash starts on the hit frame. The lock runs on through "light" until "Smile."
-- **23 · "Smile at me the way you do".** Cut on "Smile." Still inside the lock, the rival smiles. It starts on "Smile" and finishes by "do." Vignette (not Vignette Mask): Darken 0.65, Falloff 0.3, Size 1.03, Blur 0. The shot is dark already, so a lower Darken does not show, and a high Falloff pushes the dark ring outside the frame. Judge it with the viewer at Fit, not zoomed in.
+- **23 · "Smile at me the way you do".** Cut on "Smile." The lock, four cuts of about 0.6s: a crop of 22's crossed blades with sparks, i2-2, i1, a punch-in on the blades, into 24. `23.mp4`, the rival's smile, is out: at this point she is the smuggler, and the smile belongs to the reveal in 34. The vignette moves to i2-2: Vignette (not Vignette Mask), Darken 0.65, Falloff 0.3, Size 1.03, Blur 0. Judge it with the viewer at Fit.
 - **24 · "Then cut me down tonight".** Cut on "Then," during the short lock. The rising cut lands on the rival's block on "tonight," at 1:29:00 on the timeline. Putting it on "down" would need the run-up at 224%, which reads as fast-forward. With the hit on "tonight," everything before it plays at 160%. The clip already goes into slow motion after the blades cross, but at 100% it runs out at 1:31:02, so the rest is slowed further to 68% with Optical Flow to reach 1:32:01. The two swap sides during the attack, so from 25 on the singer is on the right and the rival on the left. Camera shake on that hit, the only shake in 13–24: Scale 104% on the whole clip, then Position keyframes over the 6 frames after the hit, X/Y 18/−12, −14/10, 10/−6, −6/4, 3/−2, 0/0. The picture ends at 1:32.1, where the instrumental starts.
 
-## Instrumental · 1:32–1:44 · the first exchange
+The cutting above is the rough cut, and the effects on 15–24 stay. The re-edit cuts into it: 20 becomes eight cuts, and i1 and i2 go into 20 and i3 into 21.
+
+## Instrumental · 1:32–1:44 · the chase
 
 | # | Time | Shot | Gen | Technique |
 | --- | --- | --- | --- | --- |
-| 25 | 1:32–1:44 | Four cuts, one blow each, 2–3s apiece: thrust, parry, a sweep at the legs, a jump over it. Sparks added | Q3C ×4, both, bridge | F1, F2, F7, F20, F26 |
+| 25a | 1:32–1:44 | The rival on a motorbike down the empty highway | Q3C, rival hood, highway | F2, F1 |
+| 25b | | The singer on a bike behind her, firing a pistol one-handed | Q3C, singer suit, highway | F7, F20 |
+| 25c | | The rival turns in the saddle and knocks a bullet away with her blade, sparks | Q3C, rival hood, her blade, highway | F2, F18 |
 
-## Verse 3 · 1:44–2:06 · it gets ugly
-
-| # | Time | Shot | Gen | Technique |
-| --- | --- | --- | --- | --- |
-| 26 | 1:44–1:49 | "Sleeves torn open, sandals gone": three manga panels. A sleeve rips, a sandal flies off, a bare foot lands on the wet planks | Q3C ×3, close | F10 |
-| 27 | 1:49–1:54 | "Lanterns swinging, steel on stone": a blade hits the stone railing, then a whip pan to the other woman | Q3C ×2, the whip made in the edit | G2, F7 |
-| 28 | 1:54–1:59 | "Every step we ever trained": footwork close, two feet moving in step, slowed | Q3C, both, bridge | F2 |
-| 29 | 1:59–2:06 | "Every scar we never named": the two faces, cutting faster back and forth | Q4 ×2 | F24, F1 |
-
-## Chorus 2 · 2:06–2:30 · one step further
+## Verse 3 · 1:44–2:06 · the master
 
 | # | Time | Shot | Gen | Technique |
 | --- | --- | --- | --- | --- |
-| 30 | 2:06.5 | "Draw!": the singer crosses the lens, and her body wipes to the next shot | Q3C, singer, bridge | F13, F4 |
-| 31 | 2:09–2:11 | The camera orbits the locked blades, time nearly stopped | Q3C, both, bridge | G3 |
-| 32 | 2:11–2:16 | "Only one walks off this bridge": a run down the bridge and a clash in the middle | Q3C, both, bridge | F2, F7 |
-| 33 | 2:16–2:21 | "Draw!", "Faster than the light": one fast swing with trails behind it | Q3C, singer, bridge | F16 |
-| 34 | 2:21–2:24 | "Smile at me": the singer smiles now | Q4 | F24 |
-| 35 | 2:24–2:30 | "Cut me down": the biggest strike so far, crash zoom on the hit | Q3C, both, bridge | F6, F7, F21 |
-## Bridge · 2:30–2:42 · left, right, low, high
+| 26 | 1:44–1:49 | "Sleeves torn open, sandals gone": three manga panels. The singer's torn sleeve, her pistol on the wet road, a tail light vanishing | Q3C ×2 and a crop of 25a, highway | F10 |
+| 27 | 1:49–1:54 | "Lanterns swinging, steel on stone": memory. The two as apprentices with wooden swords in the white training room, laughing, the master watching. Their hair is the old hair: the singer's long and loose, the rival's in two low pigtails. 4:3, grain, film burn | Q3C, both in training clothes, master, training room | F8, F20 |
+| 28 | 1:54–1:59 | "Every step we ever trained": the master shows a stance, the two copy her. Her eye flashes red for one frame | Q3C, the same | F2, F11 |
+| 29 | 1:59–2:06 | "Every scar we never named": now. The singer alone at the agency at night, the rival alone on a rooftop looking at a photo of the three of them. Cut faster and faster | Q4 ×2 | F24, F1 |
+
+## Chorus 2 · 2:06–2:30 · the raid
 
 | # | Time | Shot | Gen | Technique |
 | --- | --- | --- | --- | --- |
-| 36 | 2:30–2:32 | The dip: both step back. Silhouettes against a neon sign | Q3C, both, street | G7 |
-| 37 | 2:32–2:35 | "Left, right, low, high": four cuts, one per word, on twos. The HUD calls each one | Q3C ×2, cut into four | F17, M4 |
-| 38 | 2:35–2:37 | "Blade on blade, steel on steel" | Q3C, both, street | F7, F21 |
-| 39 | 2:36.6 | "(Ha!)": white flash, negative frame | Edit | F4 |
-| 40 | 2:37–2:39 | "Left, right, low, high" again, faster | From shot 37 | F17, M4 |
-| 41 | 2:39.7–2:42 | "Draw it like you mean it": both raise their blades. Crash zoom | Q3C, both, bridge | F6 |
+| 30 | 2:06.5 | `ROUND 2`, then "Draw!": the warehouse doors blow in, the singer in tactical gear comes through gun first, and her body wipes to the next shot | Q3C, singer tactical, warehouse | M8, F13, F4 |
+| 31 | 2:09–2:11 | "Red against the rain": red alarm lights over stacks of glowing crates, muzzle flashes | Q3C, singer tactical, warehouse | F11, F20 |
+| 32 | 2:11–2:16 | "Only one walks off": the two face to face between the crates, her gun at the rival, the rival's blade at her | Q3C, both, warehouse | F5, F2 |
+| 33 | 2:16–2:21 | "Draw!", "Faster than the light": the rival swings at her and cuts down the thug behind her. Trails | Q3C, both, warehouse | F16, F7 |
+| 34 | 2:21–2:24 | "Smile at me": the rival smiles and flips open a badge. On the VS card, `SMUGGLER` is struck out and `UNDERCOVER` slams in | Q4, rival hood, warehouse | F24, M8, M2 |
+| 35 | 2:24–2:30 | "Then cut me down tonight": back to back, the two of them cut and shoot their way through the thugs, crash zoom on the last | Q3C, both, warehouse | F6, F7, F21 |
 
-## Break · 2:42–3:01 · the fight at full speed
-
-| # | Time | Shot | Gen | Technique |
-| --- | --- | --- | --- | --- |
-| 42 | 2:42.25–2:59 | One fake take across the bridge. Four 8s clips, joined where a blade crosses the lens or a sheet of rain hits it. Strobe on the hardest hits | Q3C ×4, both, bridge | G8, F18, F20 |
-| 43 | 2:59–3:01.6 | RGB split builds, then one frame of black before the last chorus | Edit | F19, F26 |
-
-## Last chorus · 3:01.6–3:26.7 · a draw
+## Bridge · 2:30–2:42 · the boss
 
 | # | Time | Shot | Gen | Technique |
 | --- | --- | --- | --- | --- |
-| 44 | 3:01.6 | "Draw!": the type tears and re-forms | Edit, over shot 45 | M5, F4 |
-| 45 | 3:01.6–3:06.7 | "Petals in the rain": both in the air, slowed almost to a stop, petals overlaid. The band is pulled back here | Q3C, both, bridge | F2, F20 |
-| 46 | 3:06.7–3:09 | "Both of us still on the bridge": wide. Each holds her blade at the other's throat | Q3C, both, bridge | F21 |
-| 47 | 3:09–3:11.6 | "Both of us the same": the band is back in. A glowing outline traces both of them | Edit, over shot 46 | M6 |
-| 48 | 3:11.6–3:16.6 | "Draw!", "Breathing in the light": the two faces, the sky behind them going pale | Q4 ×2 | F24 |
-| 49 | 3:16.6–3:19 | "Pour me tea tomorrow": a hand sheathing a blade cuts to a hand pouring tea, same framing | Q3C ×2, bridge then stall | G1, reversed |
-| 50 | 3:19–3:26.7 | "We'll draw again at night": dawn at the stall, both sitting side by side, steam from two cups | Q3C, both, stall | F23 |
+| 36 | 2:30–2:32 | The dip: on the rooftop, the master steps out of the dark. The koi hologram behind her turns from cyan to red. A boss health bar fills the top of the frame | Q3C, master, rooftop | G7, M8 |
+| 36b | 2:30–2:32 | Her eyes glow red, a dark red aura rises off her | Q4, master, rooftop | F21 |
+| 37 | 2:32–2:35 | "Left, right, low, high": four strikes, one a word, on twos. The two block. Arrow inputs on screen | Q3C ×2, all three, rooftop | F17, M4, M8 |
+| 38 | 2:35–2:37 | "Blade on blade": the clash, sparks | Q3C, all three, rooftop | F7, F21 |
+| 39 | 2:36.6 | "(Ha!)": she throws a wave of red energy and both are thrown back. White flash, negative frame | Q3C, master, rooftop | F4 |
+| 40 | 2:37–2:39 | "Left, right, low, high" again, faster | From 37 | F17, M4 |
+| 41 | 2:39.7–2:42 | "Draw it like you mean it": the two get up side by side, blade and gun raised. Crash zoom | Q3C, both, rooftop | F6 |
+
+## Break · 2:42–3:01 · two against one
+
+| # | Time | Shot | Gen | Technique |
+| --- | --- | --- | --- | --- |
+| 42 | 2:42.25–2:59 | The team-up at full speed: she shoots while the rival cuts in, a combo counter climbing, strobe on the hardest hits, one fake take through the joins | Q3C ×4, all three, rooftop | G8, F18, F20, M8 |
+| 43 | 2:59–3:01.6 | RGB split builds, then one frame of black | Edit | F19, F26 |
+
+## Last chorus · 3:01.6–3:26.7 · K.O., and tea
+
+| # | Time | Shot | Gen | Technique |
+| --- | --- | --- | --- | --- |
+| 44 | 3:01.6 | "Draw!": the type tears and re-forms | Edit, over 45 | M5, F4 |
+| 45 | 3:01.6–3:06.7 | "Petals in the rain": both leap at her together, slowed almost to a stop, petals overlaid | Q3C, all three, rooftop | F2, F20 |
+| 46 | 3:06.7–3:09 | "Both of us still…": two slashes cross through her | Q3C, all three, rooftop | F21, F4 |
+| 47 | 3:09–3:11.6 | "Both of us the same": the band is back. She falls, a glowing outline traces the two, `K.O.` | Edit, over 46 | M6, M8 |
+| 48 | 3:11.6–3:16.6 | "Breathing in the light": dawn on the roof, the two faces | Q4 ×2, rooftop dawn | F24 |
+| 49 | 3:16.6–3:19 | "Pour me tea tomorrow": a hand sheathing a blade cuts to a hand pouring tea, same framing | Q3C ×2, rooftop dawn | G1, reversed |
+| 50 | 3:19–3:26.7 | "We'll draw again at night": both on the roof edge with tea and the confiscated case, eating the evidence | Q3C, both, case, rooftop dawn | F23 |
 
 ## Outro · 3:26.7–3:38 · the last hit
 
 | # | Time | Shot | Gen | Technique |
 | --- | --- | --- | --- | --- |
-| 51 | 3:26.7–3:36.25 | The empty bridge at dawn, rain stopping. End card | Q3C, bridge | M7 |
+| 51 | 3:26.7–3:36.25 | The dive of shot 3 in reverse, up from the two of them into the dawn sky. End card | Q3C, both, rooftop dawn | M7, G5 |
 | 52 | 3:36.25 | The sound drops out: black | Edit | |
-| 53 | 3:37.0 | The last hit: one frame, a single slash of light across black, then the title | Edit | F4, F22 |
+| 53 | 3:37.0 | The last hit: `CONFISCATED` stamps down on one mochi, then the title | Edit, a frame of 50 | F4, M2 |
 
 ## What gets generated
 
-Every source clip, once per roll:
-
-- Q3C: 46 clips
-- Q4: 10 clips
-- Made and cut: shots 13–24, in `clips/`
-
-Plan on two or three rolls each, and pick one. A draw or a two-woman shot can take seven.
-
-Everywhere: F1 beat cuts, F23 one grade over the whole song, F24 on every close-up, F26 at each section change.
+Outside 1 and 13–24, the shot list needs 35 Q3C clips and 13 Q4 clips, the made ones included. Made so far: 1b, 3, 5b, 6, 6-2, 8b, 9, 9b, 10 and 12.
 
 ## Order
 
-1. `tea-stall.png` and `street.png` in Midjourney. Done
-2. Pre-chorus through chorus 1 first, shots 13–24. Done, edited except the grade
-3. The intro and verses, shots 1–12. Next
-4. The second half in song order, shots 25–53
+1. Midjourney: the master, the costumes, the case and the places, in that order
+2. Shots 1–12 and the inserts i1–i3. Done. Next: the chorus 1 re-edit, to test the busy cut before the second half is generated
+3. The second half in song order, shots 25–53
+
+Everywhere: F1 beat cuts, F23 one grade over the whole song, F24 on every close-up, F26 at each section change.

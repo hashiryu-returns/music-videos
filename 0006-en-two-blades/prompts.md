@@ -25,7 +25,7 @@ The lyric's "sleeves torn open, sandals gone" needs a damaged set of plates late
 
 ## Files
 
-Plates go in [`references/`](references/):
+Plates go in [`characters/`](characters/):
 
 | File | What | Made from |
 | --- | --- | --- |
@@ -39,13 +39,27 @@ Plates go in [`references/`](references/):
 | `blade-rival.png` | the rival's katana alone | text |
 | `bridge.png` | the footbridge at night, empty | text |
 | `tea-stall.png` | the tea stall under the highway at dawn, empty | text |
-| `street.png` | the neon street at night, empty | text |
+| `master-front.png` | the master, a woman, full body, front | text, V8.2, styled on `singer-front.png` |
+| `master-face.png` | the master, head and shoulders | `master-front.png` via Quick Edit |
+| `singer-suit.png` | the singer in a black suit and sunglasses: HQ, harbour, chase, verse 3 | `singer-front.png` via Quick Edit |
+| `singer-tactical.png` | the singer in tactical gear: warehouse, rooftop | `singer-front.png` via Quick Edit |
+| `rival-hood.png` | the rival in a black hoodie: harbour, chase, warehouse, rooftop | `rival-front.png` via Quick Edit |
+| `singer-gi.png` | the singer as an apprentice, training clothes | `singer-front.png` via Quick Edit |
+| `rival-gi.png` | the rival as an apprentice, training clothes | `rival-front.png` via Quick Edit |
+| `case.png` | the open case of glowing zunda mochi | text |
+| `hq.png` | the agency operations room at night, empty | text |
+| `harbour.png` | a container harbour at night, empty | text |
+| `warehouse.png` | inside the smugglers' warehouse, empty | text |
+| `highway.png` | an empty elevated highway at night | text |
+| `training-room.png` | a white virtual training room | text |
+| `rooftop.png` | a tower rooftop at night, a hologram billboard, empty | text |
+| `rooftop-dawn.png` | the same rooftop at dawn | `rooftop.png` via Quick Edit |
 
-A Q3 shot takes seven of these: each woman's front and face, the two blades, and one place.
+A Q3 shot takes seven: each person's costume front and face, then blades or the case, then one place. The face plates (`singer-face.png`, `rival-face.png`, `master-face.png`) go with every costume. The bridge and the stall use the original fronts.
 
 ## Midjourney
 
-Done: `singer-face.png`, `singer-front.png` (middle row, second from the left), `singer-back.png` (bottom row, second from the left), `rival-front.png` (Quick Edit on the middle row, far right), `rival-face.png` (second from the left), `rival-back.png` (second from the left), `blade-rival.png` (second roll, top left), `blade-singer.png` (second roll, bottom left), `bridge.png` (first roll, bottom left), `street.png` (second roll without Style Reference, top left), `tea-stall.png` (top left). Next: Vidu shots 1–12.
+Done: `singer-face.png`, `singer-front.png` (middle row, second from the left), `singer-back.png` (bottom row, second from the left), `rival-front.png` (Quick Edit on the middle row, far right), `rival-face.png` (second from the left), `rival-back.png` (second from the left), `blade-rival.png` (second roll, top left), `blade-singer.png` (second roll, bottom left), `bridge.png` (first roll, bottom left), `street.png` (second roll without Style Reference, top left), `tea-stall.png` (top left). Next: the master, the costumes, the case and the places, 8 onward below.
 
 Settings panel:
 
@@ -182,13 +196,123 @@ Pick one where the counter faces the camera with room in front of it for a woman
 
 ### 7. `street.png`
 
-Version **8.2**, no Style Reference. Aspect **16:9**. A street that runs straight away from the camera, for the rival's walk in shot 9. With `singer-front.png` as Style Reference the street came out black, white and red, the singer's palette, and the cyan and magenta neon was gone. Without it, `--sw 200` does nothing, so the prompt below drops it.
+Deleted: the harbour took its scene. Its lesson stays: with `singer-front.png` as Style Reference the street came out in the singer's black, white and red, and the cyan and magenta neon was gone. A place is rolled without Style Reference.
+
+### 8. `master-front.png` and `master-face.png`
+
+The master, their old teacher and the one behind the smuggling. Silver hair worn loose with a blunt fringe, so her silhouette reads apart from the singer's ponytail and the rival's tufts. A grey haori, between the singer's white and the rival's black. Calm on the plate: the red eyes and the aura go into the shots that want them, because Q4 copies a plate's face into every shot.
+
+Version **8.2**, aspect **2:3**, `singer-front.png` in **Style reference** only, the same as the rival. Kept: the fourth of the first roll.
 
 ```text
-glossy semi-realistic anime, anime key visual, soft airbrushed shading, vivid saturated colour, crisp high resolution, wide shot, eye level, a narrow street at night in a near-future city, running straight away from the camera to a vanishing point, wet black stone paving reflecting neon, shop fronts covered in neon signs and hologram billboards in cyan and magenta, red paper lanterns strung overhead, pink petals scattered on the wet stones, light rain, steam rising from a grate --no person, figure, crowd, car, letterbox, black bars, sepia, 3d render, photorealistic, text, watermark, signature, blue sky, sun, sunlight --ar 16:9 --v 8.2
+straight-on front view, the camera directly in front of her face, both shoulders square to the camera, both ears equally visible, symmetrical, eye level, full body from head to feet in frame, adult anime illustration, anime key visual, cinematic lighting, glossy detailed rendering, luminous skin, finely detailed eyes, soft airbrushed shading, vivid saturated colour, crisp high resolution, standing straight, arms relaxed at her sides, a tall elegant woman who looks about forty-five, a sharp beautiful face, narrow cold grey eyes, a calm stern face, long straight silver hair worn loose down to her waist with a blunt straight fringe, a thin glowing blue circuit line running down from under her left eye, a long matte grey wool haori coat worn open over a fitted matte dark grey knit bodysuit with the collar closed to the throat, black hakama trousers, black boots, plain light grey background --no chibi, child, teenager, three-quarter view, profile, turned head, ponytail, bun, twin tails, red eyes, aura, flat cel shading, mascot, letterbox, black bars, sepia, 3d render, photorealistic, text, watermark, signature, sword, weapon, leather, latex, armour, green, red --ar 2:3 --sw 200 --v 8.2
 ```
 
-Pick one with a long straight view down the street and one big neon sign the women can stand in front of later (shot 36). Reject cars, a curving street, or a dark shape that could be a person.
+A man first. Four rolls of an old or fifty-year-old swordmaster, from text at `--sw 200` and `--sw 400` and by Quick Edit on `rival-front.png`, all came back as a photorealistic face or a 3D game render, further from the women than any roll of a woman. On both kept plates the circuit line is under her right eye, whatever the prompt says.
+
+Face: open the kept front, Quick Edit, paste only this. Kept: the fourth.
+
+```text
+Head and shoulders close-up of this same woman, straight-on. Keep her face, her long straight silver hair with the blunt fringe, and the thin glowing blue line under her left eye.
+```
+
+### 9. The costumes
+
+Quick Edit on the original front plate each time, so the face and hair stay. Aspect **2:3**. Reject any roll where the face changes, the singer loses the undercut or the red cord, or the rival loses the two tufts.
+
+`singer-suit.png`, on `singer-front.png`. Kept: the third. The others hung a red strap at the hip, the old sash carried over.
+
+```text
+Full body from head to feet, straight-on. Keep this exact face, this undercut, and this ponytail with its red cord. Dress her in a slim matte black suit, a white shirt with the collar open and no tie, black ankle boots, and narrow black sunglasses. Arms relaxed, plain light grey background.
+```
+
+`singer-tactical.png`, on `singer-front.png`. Kept: the third. Two rolls had UI-like marks in the corners.
+
+```text
+Full body from head to feet, straight-on. Keep this exact face, this undercut, and this ponytail with its red cord. Dress her in fitted matte black tactical gear: a black combat suit, a black armoured vest, fingerless gloves, an empty holster on her thigh, black boots, a small earpiece. Arms relaxed, plain light grey background.
+```
+
+`rival-hood.png`, on `rival-front.png`. Kept: the first, the closest hair colour. Two rolls put lettering on the sleeve or in the frame.
+
+```text
+Full body from head to feet, straight-on. Keep this exact face, this short yellow-green hair and the two tied tufts. Dress her in an oversized matte black hoodie with the hood down and green drawstrings, slim black cargo trousers, and black sneakers. Arms relaxed, plain light grey background.
+```
+
+`singer-gi.png` and `rival-gi.png` are the past, so the hair is different too: the switch to the memories reads in one frame. The colour stays, so each is still recognisable. Both wore the same uniform as apprentices.
+
+`singer-gi.png`, on `singer-front.png`:
+
+```text
+Full body from head to feet, straight-on. Keep this exact face. Change her hair: no undercut, her black hair grown out long and loose past her shoulders, a thin red cord tied around her left wrist. Dress her in a plain indigo training jacket and indigo hakama trousers, barefoot. Arms relaxed, plain light grey background.
+```
+
+`rival-gi.png`, on `rival-front.png`:
+
+```text
+Full body from head to feet, straight-on. Keep this exact face and this yellow-green hair colour. Change her hair: no upright tufts, the hair longer, down to her shoulders, tied into two low loose pigtails. Dress her in a plain indigo training jacket and indigo hakama trousers, barefoot. Arms relaxed, plain light grey background.
+```
+
+Reject a roll where the face changes. Everywhere else the hair stays as on the plates: in fast cuts and changing costumes, the hair is how the viewer tells the two apart.
+
+### 10. `case.png`
+
+Version **8.2**, `singer-front.png` in Style reference, aspect **16:9**. The contraband: the deal, the raid's crates and the last frame.
+
+```text
+glossy semi-realistic anime, soft airbrushed shading, vivid saturated colour, crisp high resolution, a hard silver case lying open, seen from slightly above, neat rows of Japanese sweets inside on black foam like jewels, each one a soft round white rice cake covered in a thick smooth coat of bright pale green mashed edamame paste, the paste glossy with a faint green glow, a red circular crest stamped on the inside of the lid, plain light grey background --no brussels sprouts, cabbage, vegetable, leaves, lettuce, balls, person, hand, text, watermark, signature, 3d render, photorealistic, letters --ar 16:9 --sw 200 --v 8.2
+```
+
+`zunda mochi` alone means nothing to Midjourney: it drew Brussels sprouts, four out of four. Describe the thing: a white rice cake under green edamame paste.
+
+Reject a crest with readable letters, or mochi that look like green balls of plastic. Kept: the fourth of the second roll, where the white mochi shows under the paste.
+
+### 11. The places
+
+Version **8.2**, no Style Reference (it drained the neon on `street.png`), aspect **16:9**. Empty, so Vidu places the people. Reject any person or a dark shape that could be one, readable real words or logos, a 3D-render look, and a photograph. Night water and city lights pull V8.2 toward a photo, so every place prompt opens with `anime background art, hand-painted`. `hq.png` was rolled before that line was added. Kept: the fourth.
+
+`hq.png`, verse 1 and verse 3:
+
+```text
+anime background art, hand-painted anime key visual, glossy semi-realistic anime, soft airbrushed shading, vivid saturated colour, crisp high resolution, wide shot, eye level, a dark high-tech agency operations room at night in a near-future city, a huge curved wall of hologram screens glowing cyan, a long glass table lit from within, floor-to-ceiling windows streaked with rain, neon towers outside --no person, figure, crowd, letterbox, black bars, sepia, 3d render, photorealistic, photograph, photo, text, watermark, signature --ar 16:9 --v 8.2
+```
+
+`harbour.png`, verse 2. Kept: the second, of the roll with `anime background art`. Three rolls put a lone figure on the quay despite `--no person`.
+
+```text
+anime background art, hand-painted anime key visual, glossy semi-realistic anime, soft airbrushed shading, vivid saturated colour, crisp high resolution, wide shot, eye level, a container harbour at night in a near-future city, stacks of shipping containers, huge cranes against the sky, a wet concrete quay, orange sodium lights and cyan neon, the city's towers glowing across the black water, light rain --no person, figure, crowd, ship crew, letterbox, black bars, sepia, 3d render, photorealistic, photograph, photo, text, watermark, signature, sun, sunlight --ar 16:9 --v 8.2
+```
+
+`warehouse.png`, chorus 2. Kept: the first, the widest aisle.
+
+```text
+anime background art, hand-painted anime key visual, glossy semi-realistic anime, soft airbrushed shading, vivid saturated colour, crisp high resolution, wide shot, eye level, inside a huge dark warehouse at night, tall stacks of wooden crates and shipping containers with an aisle between them, red alarm lights, beams of cold light through high windows, a metal catwalk overhead, a wet concrete floor --no person, figure, crowd, letterbox, black bars, sepia, 3d render, photorealistic, photograph, photo, text, watermark, signature --ar 16:9 --v 8.2
+```
+
+`highway.png`, the chase and verse 3. Kept: the second.
+
+```text
+anime background art, hand-painted anime key visual, glossy semi-realistic anime, soft airbrushed shading, vivid saturated colour, crisp high resolution, wide shot, eye level, an empty elevated highway at night in a near-future city, the road closed and empty, wet asphalt reflecting neon, white lane lines running away from the camera, tall streetlights, towers with hologram billboards in cyan and magenta on both sides, heavy rain, a red and white glow of traffic far below --no person, figure, crowd, car, truck, vehicle, letterbox, black bars, sepia, 3d render, photorealistic, photograph, photo, text, watermark, signature, blue sky, sun, sunlight --ar 16:9 --v 8.2
+```
+
+`training-room.png`, the memories in verse 3. Kept: the first. The one place where a clean, game-like render is the point, so `3d render` stays out of `--no`:
+
+```text
+anime background art, hand-painted anime key visual, glossy semi-realistic anime, soft airbrushed shading, crisp high resolution, wide shot, eye level, a vast empty white virtual training room, a thin glowing cyan grid on the white floor, walls and ceiling, soft even light with no shadows, a few translucent holographic interface panels floating in the air, clean and minimal, a digital simulation --no person, figure, crowd, letterbox, black bars, sepia, text, watermark, signature, furniture --ar 16:9 --v 8.2
+```
+
+`rooftop.png`, the boss fight, and the start of shot 3's dive:
+
+```text
+anime background art, hand-painted anime key visual, glossy semi-realistic anime, soft airbrushed shading, vivid saturated colour, crisp high resolution, wide shot, eye level, the flat rooftop of a skyscraper at night in a near-future city, heavy rain, wet concrete shining with reflected neon, a painted helipad circle, air vents and a low parapet at the edge, a giant hologram billboard of a koi fish glowing cyan and magenta on the tower next to it, more towers covered in neon signs all around and far below, low clouds lit from beneath --no person, figure, crowd, helicopter, letterbox, black bars, sepia, 3d render, photorealistic, photograph, photo, text, watermark, signature, blue sky, sun, sunlight --ar 16:9 --v 8.2
+```
+
+Pick one with open floor in the middle for three people to fight on, and the koi big behind it. Kept: the fourth, the koi centred over the floor.
+
+`rooftop-dawn.png`, the last chorus and the outro. Open the kept `rooftop.png` and run Quick Edit, so the roof stays the same roof:
+
+```text
+Keep this exact rooftop and these towers. Make it dawn: the rain has stopped, the sky pale pink and gold, the hologram billboard faded and almost transparent, the neon signs switched off, puddles on the roof reflecting the sky.
+```
 
 ## What the Vidu tests showed
 
@@ -313,6 +437,228 @@ Shot 4: slow push-in on the singer's face, calm, rain falling, a red lantern swi
 
 Both women keep the faces, hair and outfits of their references in every shot. Each holds only her own katana. The rival keeps the two tied tufts of short yellow-green hair. Her hair stays above her shoulders. Glossy semi-realistic anime, as in the references.
 ```
+
+## Shots 1–12 · intro and verses
+
+Shots 2, 4 and 11 are made in the edit. Settings as in 13–24: Q3 Cinematic **8s**, Q4 **5s**, 1080p, 16:9, Off-Peak. Two or three rolls each.
+
+What 13–24 taught, applied here: Vidu does not move the lens, so the focus pull in 1 is built in the edit. Walking feet slide, so walks are framed above the feet. A face change in motion is kept to the eyes. A hand raised to the face lands in the hair, so hands stay down. Screens, scopes and files are added in the edit, not asked of Vidu.
+
+### 1 · Rain on the lens
+
+Made: `1.mp4`.
+
+Q4, 5s. On screen 0:00–0:06, slowed to 6s. The black, the rain on the lens and the focus pull are in the edit: a Gaussian Blur from full to zero over her eye, with a rain overlay on top. The clip only has to be her eye, sharp and still, in the rain.
+
+1. `singer-front.png`
+2. `singer-face.png`
+3. `bridge.png`
+
+```text
+@image1 and @image2 are the singer: front and face. @image3 is the place.
+
+Night, heavy rain, on the footbridge in @image3, red lanterns blurred far behind her. Extreme close-up of the singer's eyes and brows, filling the frame. Her eyes are open and look straight into the camera the whole time. Rain falls between her and the camera. She breathes slowly. The camera holds still.
+
+She keeps the face, hair and outfit of her references for the whole clip. Her eyes are dry and calm, not crying. Glossy semi-realistic anime, as in the references.
+```
+
+### 1b · The rival's eye
+
+Q4, 5s. Cut against 1 on the beat.
+
+1. `rival-hood.png`
+2. `rival-face.png`
+3. `harbour.png`
+
+```text
+@image1 and @image2 are the rival: outfit and face. @image3 is the place.
+
+Night, light rain, on the quay of the harbour in @image3, orange and cyan lights blurred far behind her. Extreme close-up of the rival's eyes and brows under the edge of her black hood, filling the frame, a strand of yellow-green hair across her forehead. Her amber eyes look straight into the camera the whole time. Rain falls between her and the camera. She breathes slowly. The camera holds still.
+
+She keeps the face of her references for the whole clip. Her eyes are dry and calm. Glossy semi-realistic anime, as in the references.
+```
+
+### 3 · The dive
+
+Q3 Cinematic, 8s. On screen 0:08–0:17, speed-ramped. Named in the motion, the koi on the billboard came off it and swam through the air. A swimming koi is fine to keep here; the line pinning it to the screen is for a roll without it.
+
+1. `rooftop.png`
+
+```text
+@image1 is the city.
+
+Night, heavy rain, the near-future city of @image1. The hologram on the tower is a flat picture on a billboard screen fixed to the wall. FPV drone shot: the camera starts above the wet rooftop, tips over its edge and dives straight down the face of the tower, neon signs rushing past, then levels out just above the wet street far below and races forward. One continuous fast camera move.
+
+Glossy semi-realistic anime, as in the reference.
+```
+
+### 5 · The agency
+
+Q3 Cinematic, 8s. On screen 0:26–0:31. The rival's file and the turning mochi go onto the screens in the edit (M4), from `rival-face.png` and `case.png`.
+
+1. `singer-suit.png`
+2. `singer-face.png`
+3. `hq.png`
+
+```text
+@image1 and @image2 are the singer: outfit and face. @image3 is the place.
+
+Night, the agency operations room in @image3, rain on the windows. Medium shot, the singer from the waist up in her black suit and sunglasses, standing with her back to the camera, facing the huge wall of cyan hologram screens. Then she turns around to face the camera. Her hands stay down. The camera slowly pushes in.
+
+She keeps the face, hair and outfit of her references for the whole clip. The singer keeps her undercut and her high black ponytail with its red cord. Glossy semi-realistic anime, as in the references.
+```
+
+### 5b · The sunglasses
+
+Q4, 5s.
+
+1. `singer-suit.png`
+2. `singer-face.png`
+3. `hq.png`
+
+```text
+@image1 and @image2 are the singer: outfit and face. @image3 is the place.
+
+Night, the agency operations room in @image3. Extreme close-up of the singer's face in her dark sunglasses, the cyan hologram screens reflected in the lenses, lines of data scrolling across the reflection. Her lips stay closed. She is still. The camera holds still.
+
+She keeps the face of her references. Glossy semi-realistic anime, as in the references.
+```
+
+### 6 · Two cups
+
+Q3 Cinematic, 8s. On screen 0:31–0:36, 5s.
+
+1. `tea-stall.png`
+
+```text
+@image1 is the place.
+
+Dawn, the tea stall in @image1. Close-up of the two ceramic tea cups side by side on the worn wooden counter, full of hot green tea, steam curling up from both into the cold morning air. Light rain drips from the edge of the awning behind them, soft and blurred. The camera holds still.
+
+Glossy semi-realistic anime, as in the reference.
+```
+
+### 7 · The pouring hand
+
+Q3 Cinematic, 8s. On screen 0:36–0:41. The first half of the match cut into 17, so it copies the flipped 17's frame: the black sleeve, buckled at the cuff, comes in from the top, centre right; the hand grips from above, right of centre; the hilt runs from lower left to upper right; the guard and the scabbard go off to the lower left; red lanterns glow on the right. The hilt becomes the straight side handle of a kyusu teapot, gripped the same way. If the roll comes out mirrored, flip it in the edit.
+
+1. `rival-front.png`
+2. `tea-stall.png`
+
+```text
+@image1 is the rival's outfit. @image2 is the place.
+
+Dawn, light rain, at the counter of the tea stall in @image2, pale blue morning light, a red paper lantern glowing on the right behind. Extreme close-up. The rival's right hand in the sleeve of her black coat comes in from the top of the frame and grips the long straight side handle of a small black kyusu teapot from above, the handle pointing up and to the right, the teapot at the lower left. She tilts it and pours hot green tea into a ceramic cup at the bottom left of the frame, steam rising. The camera holds still.
+
+Only her hand, her sleeve, the teapot and the cup are in frame. Glossy semi-realistic anime, as in the references.
+```
+
+### 8 · The message
+
+No generation. The singer and the rival are never in one frame here: the singer is at the agency (5, 5b), the rival alone at the stall (6, 6-2, 7, 8b), and the message, an old photo, lands as a hologram over her cup in the edit. Kept: `8b.mp4`, the rival's eyes on her tea, the first roll with the two tufts in frame.
+
+Dropped: the two of them at the counter, the photo slid across (8, 8a), and the singer turning to camera at the stall (8c). Every two-person roll was stiff, sat them face to face in some and side by side in others, and kept left and right in no fixed order.
+
+### 9 · The deal
+
+Q3 Cinematic, 8s. On screen 0:46–0:49. The two men are used once. Kept, from the roll with the men hooded: `9.mp4`, the rival with her hood up, from 3s on, after the case stops warping, and `9-2.mp4`, her hood down so the tufts show who it is. The handover itself is cut, not generated: every roll was stiff, and Vidu drew the closed case with a wrong shape and the handle in the wrong place, having only the open case to go on. Men with their faces showing came out photorealistic, the same as the master in Midjourney, so an extra keeps his hood up or his face in shadow.
+
+1. `rival-hood.png`
+2. `rival-face.png`
+3. `case.png`
+4. `harbour.png`
+
+```text
+@image1 and @image2 are the rival: outfit and face. @image3 is the case. @image4 is the place.
+
+Night, light rain, on the wet quay of the harbour in @image4, containers and cranes behind. Wide shot. The rival in her black hoodie, hood up, stands facing two men in dark hooded jackets, hoods up, their faces in shadow, and hands them the silver case from @image3. One of the men takes it. The camera slowly circles the three of them.
+
+The rival keeps her face and her yellow-green hair, showing under the hood. Glossy semi-realistic anime, as in the references.
+```
+
+### 9b · The case
+
+Q3 Cinematic, 8s. Two or three cuts out of it. The case is already open: in every roll where a gloved hand lifted the lid, the case's edges bent as it opened. A rigid box on a hinge is a motion Vidu cannot hold. The reveal comes from the edit, a flash on the cut and the push-in. Kept from the roll with the hand: `9b.mp4`, its last three seconds, after the lid stops and the edges hold still. The prompt below is for a reroll.
+
+1. `case.png`
+2. `harbour.png`
+
+```text
+@image1 is the case. @image2 is the place.
+
+Night, light rain, on the wet concrete of the quay in @image2. Close-up from above of the silver case from @image1, already lying wide open, the lid standing still. Inside, rows of soft white rice cakes under glossy green paste glow faintly, the glow slowly pulsing. Raindrops land on the lid and run down it. The camera slowly pushes in.
+
+Glossy semi-realistic anime, as in the references.
+```
+
+### 10 · The scope
+
+Q3 Cinematic, 8s. On screen 0:49–0:52, one side of the split screen. The other side is a crop of 9 behind a scope overlay, made in the edit. Kept: `10.mp4`, the close one, and `10-2.mp4`, the wide on the crane. All four rolls made the black suit shine like rubber. From here on, a dark costume in rain is written as matte wool or matte cotton, `no shine`.
+
+1. `singer-suit.png`
+2. `singer-face.png`
+3. `harbour.png`
+
+```text
+@image1 and @image2 are the singer: outfit and face. @image3 is the place.
+
+Night, light rain, high on a crane above the harbour in @image3, the lit quay far below. The singer in her matte black wool suit, no shine, lies flat along the crane's steel arm and looks through the scope of a long rifle, aiming down at the quay. She stays still, only her breath moving. The camera slowly moves along her side toward her face.
+
+She keeps the face, hair and outfit of her references for the whole clip. The singer keeps her undercut and her high black ponytail with its red cord. Glossy semi-realistic anime, as in the references.
+```
+
+### 12 · The rival looks up
+
+Q4, 5s. On screen 0:54–0:56. She has seen the scope. The last frame freezes and her intro card builds.
+
+1. `rival-hood.png`
+2. `rival-face.png`
+3. `harbour.png`
+
+```text
+@image1 and @image2 are the rival: outfit and face. @image3 is the place.
+
+Night, light rain, on the quay of the harbour in @image3, lights blurred behind her. The camera looks down at her from above. Close-up from the shoulders up, the rival in her black hood, her eyes lowered. She lifts her eyes and looks straight up into the camera, and holds the look. The camera holds still.
+
+She keeps the face of her references for the whole clip, yellow-green hair showing under the hood. Her eyes are dry and calm. Glossy semi-realistic anime, as in the references.
+```
+
+## Inserts i1–i3 · for the chorus 1 re-edit
+
+The old clothes, on the bridge. i1 and i2 cut into 20, i3 into the end of 21. Kept: `i1.mp4` (lanterns caught in her eyes), `i2.mp4` (the matching extreme close-up; big drops now and then, so two 15-frame stretches between them) and `i2-2.mp4` (the whole face), `i3.mp4` (crop in on the guard; the veins on the back of the hand stand out) and `i3-2.mp4`.
+
+### i1 and i2 · Eyes narrowing
+
+Q4, 5s, one each. i1 the singer: `singer-front.png`, `singer-face.png`, `bridge.png`. i2 the rival: `rival-front.png`, `rival-face.png`, `bridge.png`. Change `the singer` to `the rival` for i2.
+
+```text
+@image1 and @image2 are the singer: front and face. @image3 is the place.
+
+Night, heavy rain, on the footbridge in @image3, red lanterns blurred behind. Extreme close-up of the singer's eyes and brows. She narrows her eyes and stares hard into the camera. The camera holds still.
+
+She keeps the face of her references for the whole clip. Glossy semi-realistic anime, as in the references.
+```
+
+### i3 · The grip
+
+Q4, 5s.
+
+1. `rival-front.png`
+2. `rival-face.png`
+3. `blade-rival.png`
+4. `bridge.png`
+
+```text
+@image1 and @image2 are the rival: front and face. @image3 is her katana. @image4 is the place.
+
+Night, heavy rain, on the footbridge in @image4, red lanterns blurred behind. Extreme close-up of the rival's right hand on the green-wrapped hilt of her katana at her hip, the black coat sleeve at the edge of the frame, rain running off the hilt. Her hand tightens its grip. The camera holds still.
+
+She holds only her own katana, as in @image3. Glossy semi-realistic anime, as in the references.
+```
+
+### i4 · Feet on the planks
+
+Dropped. None of four rolls was a charge: an empty bridge, feet walking seen from the side, a full figure walking slowly. 22 is full without it.
 
 ## Shots 13–24 · pre-chorus to chorus 1
 
@@ -523,7 +869,7 @@ Four rolls of the first version failed. It had them run in down the length of an
 
 The clip holds the lock after the clash, so no separate lock clip is needed. Its first second is an empty bridge and is cut. The blades hit about a second before "light," and the hit stays there: moving it would need the empty second back or a slowed run. In the edit: an afterimage on the 8 frames before the hit (the clip duplicated, two frames later, Add blend, 40%), and the white flash from the hit frame.
 
-An earlier plan had a vanish and a back-to-back. No roll did the vanish, and a back-to-back after a flash broke the left-right order and did not lead into a smile. Both are dropped. From 21 to 24 the shots are now one exchange: she draws, they charge, the blades meet, they hold the lock, the rival smiles inside it, and the singer breaks it in 24.
+An earlier plan had a vanish and a back-to-back. No roll did the vanish, and a back-to-back after a flash broke the left-right order and did not lead into a smile. Both are dropped. From 21 to 24 the shots are now one exchange: she draws, they charge, the blades meet, they hold the lock, and the singer breaks it in 24. The rival's smile (`23.mp4`) is out of the cut: she is still the smuggler here.
 
 Full-body rolls turn the sandals into heels. Add `flat black sandals, no high heels` to the outfit line of any shot that shows their feet.
 
