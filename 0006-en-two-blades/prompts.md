@@ -442,13 +442,13 @@ Both women keep the faces, hair and outfits of their references in every shot. E
 
 Shots 2, 4 and 11 are made in the edit. Settings as in 13–24: Q3 Cinematic **8s**, Q4 **5s**, 1080p, 16:9, Off-Peak. Two or three rolls each.
 
-What 13–24 taught, applied here: Vidu does not move the lens, so the focus pull in 1 is built in the edit. Walking feet slide, so walks are framed above the feet. A face change in motion is kept to the eyes. A hand raised to the face lands in the hair, so hands stay down. Screens, scopes and files are added in the edit, not asked of Vidu.
+What 13–24 taught, applied here: Vidu does not move the lens, so lens effects are built in the edit. Walking feet slide, so walks are framed above the feet. A face change in motion is kept to the eyes. A hand raised to the face lands in the hair, so hands stay down. Screens, scopes and files are added in the edit, not asked of Vidu.
 
 ### 1 · Rain on the lens
 
 Made: `1.mp4`.
 
-Q4, 5s. On screen 0:00–0:06, slowed to 6s. The black, the rain on the lens and the focus pull are in the edit: a Gaussian Blur from full to zero over her eye, with a rain overlay on top. The clip only has to be her eye, sharp and still, in the rain.
+Q4, 5s. On screen 0:00–0:05:23, retimed to fit, with 1b cut against it. The clip only has to be her eye, sharp and still, in the rain. The focus pull is in the edit: Gaussian Blur 50 to 0 over its first 16 frames, sharp on the beat.
 
 1. `singer-front.png`
 2. `singer-face.png`
@@ -477,6 +477,10 @@ Night, light rain, on the quay of the harbour in @image3, orange and cyan lights
 
 She keeps the face of her references for the whole clip. Her eyes are dry and calm. Glossy semi-realistic anime, as in the references.
 ```
+
+### 1c, 1d · Blades, a glimpse ahead
+
+Not generated for this shot. Four frames each from rolls of the 13–24 batch that failed as a whole: close on the blades and the sparks, the bridge outfits, the singer on the left. A native close-up beats a 250% crop of a kept clip, and the intro doesn't show a frame chorus 1 shows again. `1d.mp4`, the better of the two, is the permanent one at 4:21. `1c.mp4` holds 5:08 until the master's red eye (36b) is made.
 
 ### 3 · The dive
 
@@ -625,7 +629,7 @@ She keeps the face of her references for the whole clip, yellow-green hair showi
 
 ## Inserts i1–i3 · for the chorus 1 re-edit
 
-The old clothes, on the bridge. i1 and i2 cut into 20, i3 into the end of 21. Kept: `i1.mp4` (lanterns caught in her eyes), `i2.mp4` (the matching extreme close-up; big drops now and then, so two 15-frame stretches between them) and `i2-2.mp4` (the whole face), `i3.mp4` (crop in on the guard; the veins on the back of the hand stand out) and `i3-2.mp4`.
+The old clothes, on the bridge. i1 and i2 cut into 20 and 23. i3 is not used: the arm hangs and the blade points down, which fits only a standoff with the blade out, and the bridge scene has none. Kept: `i1.mp4` (lanterns caught in her eyes), `i2.mp4` (the matching extreme close-up; big drops now and then, so two 15-frame stretches between them) and `i2-2.mp4` (the whole face), `i3.mp4` (crop in on the guard; the veins on the back of the hand stand out) and `i3-2.mp4`.
 
 ### i1 and i2 · Eyes narrowing
 
@@ -895,7 +899,7 @@ The second roll, with the prompt above, is the keeper, `23.mp4`. A small, sure s
 
 ### 24 · Then cut me down tonight
 
-Q3 Cinematic, 8s. On screen 1:26.13–1:32.1, 6s. Kept `24.mp4`, from 24a, the backflip: usable from start to end. Same seven images, same order as shot 20. Four versions were written, each one big move that ends on a hit; 24a worked on the first roll, so the other three were not needed. Vidu slows the clip down by itself after the blades cross. In the edit the hit goes on "tonight," with the run-up at 160% and the rest at 68% with Optical Flow, to fill the slot.
+Q3 Cinematic, 8s. On screen 1:26.13–1:32.1, 6s. To be regenerated from 24b–24d; the edit checklist for the new clip is in [`shotlist.md`](shotlist.md). Kept so far `24.mp4`, from 24a, the backflip: usable from start to end. Same seven images, same order as shot 20. Four versions were written, each one big move that ends on a hit; 24a worked on the first roll, so the other three were not needed. Vidu slows the clip down by itself after the blades cross. In the edit the hit goes on "tonight," with the run-up at 160% and the rest at 68% with Optical Flow, to fill the slot.
 
 #### 24a · Backflip
 
