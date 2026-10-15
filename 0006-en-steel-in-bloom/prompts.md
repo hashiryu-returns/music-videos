@@ -1161,8 +1161,8 @@ Reject her face turned toward the camera, the scabbard missing, the hilt on the 
 `rival-ride-drawn.png` and `rival-ride-drawn-back.png`: 25d and 25e start with the blade drawn, and a plate with the hilt in the scabbard makes Vidu draw a second hilt on her back. The scabbard stays, empty. Not Midjourney: Quick Edit asked to empty the scabbard repainted the whole figure, a near-photo face and a short thick tube for a scabbard, on all eight. Made from the kept plates by `_tools/image/erase_hilt.py`, which paints the hilt and guard out with the background and caps the scabbard with the oval of its open mouth:
 
 ```sh
-python _tools/image/erase_hilt.py 0006-en-two-blades/characters/rival-ride.png 0006-en-two-blades/characters/rival-ride-drawn.png --top 180 56 --guard 297 230 --side left --cut 16 --half-width 15 --radius 23 --guard-half 13 40
-python _tools/image/erase_hilt.py 0006-en-two-blades/characters/rival-ride-back.png 0006-en-two-blades/characters/rival-ride-drawn-back.png --top 657 52 --guard 547 234 --side right --cut 22 --half-width 16 --radius 23 --guard-half 13 40
+python _tools/image/erase_hilt.py 0006-en-steel-in-bloom/characters/rival-ride.png 0006-en-steel-in-bloom/characters/rival-ride-drawn.png --top 180 56 --guard 297 230 --side left --cut 16 --half-width 15 --radius 23 --guard-half 13 40
+python _tools/image/erase_hilt.py 0006-en-steel-in-bloom/characters/rival-ride-back.png 0006-en-steel-in-bloom/characters/rival-ride-drawn-back.png --top 657 52 --guard 547 234 --side right --cut 22 --half-width 16 --radius 23 --guard-half 13 40
 ```
 
 `rival-raid.png`, on `rival-front.png`: 29, the raid and the roof, one night. Not the hood: the hoodie was her cover at the harbour, and in the raid she is in charge. Kept the first, the green lining at the collar and both cuffs.

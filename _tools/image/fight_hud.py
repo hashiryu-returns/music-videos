@@ -3,7 +3,7 @@
 Each layer is full frame so it drops onto the timeline with no positioning.
 The VS screen (16): the neon `VS`, the white frame, the two names with their control-type badges, and the band of player cards and the stage name
 along the bottom, after Street Fighter 6; the player IDs, ranks and points are made up. Each card has the player's own
-background, from the plates in `0006-en-two-blades/characters`: her blade for the singer, the zunda mochi for the rival,
+background, from the plates in `0006-en-steel-in-bloom/characters`: her blade for the singer, the zunda mochi for the rival,
 the bridge for the stage. `ROUND 1`, in Street Fighter 6's brushed silver, goes over 17, the first shot of the fight.
 The fight HUD, after Street Fighter 6: every gauge is one parallelogram, leaning one way on the singer's side and mirrored
 on the rival's. `hud-fight.png` is the HUD at full life and 99. `hud-fight-chorus1.mov` (ProRes 4444 with alpha, not in git) is
@@ -189,7 +189,7 @@ CARD_L, CARD_R = 730, W - 730
 SLANT = 9
 STAGE_DROP = 8
 DARK = (8, 8, 14, 255)
-PLATES = Path(__file__).resolve().parent.parent.parent / "0006-en-two-blades" / "characters"
+PLATES = Path(__file__).resolve().parent.parent.parent / "0006-en-steel-in-bloom" / "characters"
 
 
 def bold(name, size, weight="Bold"):

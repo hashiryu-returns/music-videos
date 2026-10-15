@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 LW, LH, S = 320, 180, 6
 ROOT = Path(__file__).resolve().parents[2]
 FONT = ImageFont.truetype(str(ROOT / "_tools/fonts/PressStart2P-Regular.ttf"), 8)
-PLATES = ROOT / "0006-en-two-blades/characters"
+PLATES = ROOT / "0006-en-steel-in-bloom/characters"
 OUT = Path(sys.argv[1])
 
 WHITE, BLACK, GREY = (255, 255, 255), (0, 0, 0), (150, 150, 165)

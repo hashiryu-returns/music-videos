@@ -19,3 +19,6 @@ references/
 
 # Python bytecode.
 __pycache__/
+
+# Old folder name, kept as a link so the Final Cut Pro library finds its media.
+/0006-en-two-blades

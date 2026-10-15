@@ -25,12 +25,12 @@ Loud landmarks in the WAV:
 - **A roll is judged on the frames that go on screen.** A shot that is 8 frames long needs 8 good frames, not a good 8 seconds.
 - **One place per scene, used once.** The bridge is the only Japanese place in the present, and the only scene in the old clothes apart from the tea stall. The memories are in an old dojo. Everything else is the near-future city in modern clothes.
 - **A costume per scene, dressed for what she does in it.** Each scene has its own costume plate, so a scene's cuts match, and the clothes fit the action: the suit and sunglasses at the agency and on the crane, riding gear on the bike, tactical gear for the raid. A plate is not carried into a scene it doesn't fit to save a roll. The second half wears nothing from the first: new plates from the chase on (`singer-ride-helmet.png`, `rival-ride.png`, `singer-tactical.png`, `rival-raid.png`, `master-boss.png`), except the memories. The bikes are plates too (`bike-rival.png`, `bike-singer.png`), so each is the same bike in every cut. An extra that only one cut needs (a cap, an earpiece) goes in that cut's prompt. Everyone but the three leads is used once and thrown away. The hair never changes, except in the memories: with a new costume every scene, the hair is how the viewer tells the two apart.
-- **The fight-game layer.** The pixel select screen (the joke, 4), the VS screen (the real thing, 16), `ROUND 1` and `ROUND 2`, a boss health bar, arrow inputs and a combo counter, `K.O.` Built in Motion (M8).
+- **The fight-game layer.** The pixel select screen (the joke, 4), the VS screen (the real thing, 16), `ROUND 1` and `ROUND 2`, a boss health bar, arrow inputs and a combo counter, `K.O.` Drawn by `fight_hud.py` and `pixel_select.py` (M8).
 
 ## Who goes in each generation
 
-- **Q3C:** Vidu Q3 Cinematic, 8s, one action per clip. Full body, wide shots, the fighting, the city
-- **Q4:** Vidu Q4, 5s. Face and hand close-ups
+- **Q4:** Vidu Q4, 5s, or 8s where one clip carries two shots. Almost every shot, the fights and the chase included: it keeps the faces
+- **Q3C:** Vidu Q3 Cinematic, 8s, one action per clip. Only a run straight at the lens and the dojo, where Q4 goes flat 2D. The second-half rows below still say Q3C from the first plan; each is moved to Q4 when its prompt is written
 
 References, in this upload order: each person's costume front, then their face (`singer-face.png`, `rival-face.png`, `master-face.png`), then blades or props, then one place. Seven at most, Q3's limit. A shot with three people has no room for the blades: name them in the prompt. The blades, the bikes and the case have plates. Guns, the wooden swords, the flask and the photo don't: Vidu invents them. Each is on screen for a cut or two, so they don't have to match from shot to shot, and a plate for each would take a slot from a face.
 
