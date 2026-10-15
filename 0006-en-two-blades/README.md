@@ -2,22 +2,22 @@
 
 A spy story in a near-future city, with no message to it. The point is two cool characters and a video that never sits still. Excitement first, story second, the lyric only where it helps. The first ten seconds have to hold a viewer.
 
-This one is a study piece: can the edit make simple footage exciting? The shots stay simple, and the cutting, the speed, the type and the effects make it busy. A fight-game layer (a VS screen, rounds, a boss health bar, `K.O.`) ties the graphics together.
+This one is a study piece in making a fight look fast. The edit alone can't: cutting still footage faster reads busy, not dynamic. Each clip has to move on its own, the camera or the body, and the cutting, the speed, the type and the effects build on that. A fight-game layer (a pixel select screen, a VS screen, rounds, a boss health bar, `K.O.`) ties the graphics together.
 
 ## Story
 
 The two women trained under the same master and were friends. Now the singer is an agent who works international crime. The rival is mixed up in smuggling zunda mochi, banned by the Shogunate, and the singer tries to stop her: she sends her an old photo of the two of them with their master, then ambushes her on the bridge, chases her down the highway and raids the warehouse. In the warehouse the rival shows her badge: she is undercover on the same case. The one behind the smuggling is their old master. She wakes to the Surge of Murderous Intent: a red aura, red eyes, and she is strong, but the two of them beat her together. At dawn they drink tea on the roof and eat the evidence.
 
-The VS screen in the intro labels the rival `SMUGGLER`, and the reveal strikes it out for `UNDERCOVER`. In the memory of their training, the master's eye flashes red for one frame.
+The select screen in the intro labels the rival `SMUGGLER`, and the reveal strikes it out for `UNDERCOVER`. In the memory of their training, the master's eye flashes red for one frame.
 
 | Section | Story | Place | Fight |
 | --- | --- | --- | --- |
-| Intro | Flash-forwards, the title, the city, the VS screen | the towers | |
+| Intro | Flash-forwards, the title, the city, the select screen | the towers | |
 | Verse 1 | The case at the agency, cut against the rival alone at the tea stall, still pouring two cups. The singer's message, an old photo, lands over her tea | HQ, the stall | |
 | Verse 2 | The deal at the harbour, watched through a scope | harbour | |
 | Pre-chorus, chorus 1 | The ambush and the duel | the bridge, the old clothes | swords |
 | Instrumental | The chase | highway | gun against sword |
-| Verse 3 | Memories of the master, then the two alone | training room, now | |
+| Verse 3 | Memories of the master, then the two alone | old dojo, now | |
 | Chorus 2 | The raid, the reveal, back to back | warehouse | guns and swords |
 | Bridge, break | The master, two against one | rooftop | the boss |
 | Last chorus, outro | `K.O.`, tea at dawn, the evidence | rooftop at dawn | the last blow |
